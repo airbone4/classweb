@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>簡單的markdown編輯器 on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor.html</link>
+    <link>https://airbone4.github.io/javascript/part10app/mdeditor.html</link>
     <description>Recent content in 簡單的markdown編輯器 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part10app/mdeditor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>markdown</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/pre/firstmarkdown.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/mdeditor/pre/firstmarkdown.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/pre/firstmarkdown.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/mdeditor/pre/firstmarkdown.html</guid>
       <description>first markdown 目的:撰寫簡單的markdown 大綱:如何利用現有的 javascript library
 介紹 markdown 也是一種語言,目的是簡化html文件的編寫。也就是把一般的文字檔案,轉譯為html。 githut 上面的README.MD,也是markdown規格。
 html example 根據人名,動態的改變打招呼提示串:
@@ -20,10 +20,10 @@ html example 根據人名,動態的改變打招呼提示串:
     
     <item>
       <title>markdown 前測試</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</guid>
       <description>first markdown 目的:撰寫簡單的markdown 大綱:如何利用現有的 javascript library
 介紹 markdown 也是一種語言,目的是簡化html文件的編寫。也就是把一般的文字檔案,轉譯為html。 githut 上面的README.MD,也是markdown規格。
 html example 根據人名,動態的改變打招呼提示串:
@@ -32,10 +32,10 @@ html example 根據人名,動態的改變打招呼提示串:
     
     <item>
       <title>mdEditor 前測試</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</guid>
       <description>prerequest highlight test #檔案說明
 參考 xxindex.html js/xxapp.js
 最簡單版index_v1.html @import &amp;quot;index_v1.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
@@ -47,10 +47,10 @@ chrome apps 版 自己玩而已 程式碼修改:
     
     <item>
       <title>mdEditor_note</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_note.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/mdeditor/mdeditor_note.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/mdeditor/mdeditor_note.html</guid>
       <description>相關背景  highlight test  檔案說明 參考  xxindex.html js/xxapp.js  最簡單版index_v1.html .hframe  .infobar{position: absolute;top: .3em;right: .2em;transition: opacity 0.3s ease-in-out;opacity: 0; }.hframe  .infobar button,.hframe  .infobar a{color: #bbb;font-size: .8em;padding: 0 .5em;background: rgba(224, 224, 224, 0.2);box-shadow: 0 2px 0 0 rgb(0 0 0 / 20%);border-radius: .5em;}.hframe{padding-top: 1.5rem;position: relative;box-shadow: 6px 4px 6px #9baccb;border: 2px solid #9baccb; }.</description>
     </item>
     

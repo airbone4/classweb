@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>工具 on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools.html</link>
+    <link>https://airbone4.github.io/tools.html</link>
     <description>Recent content in 工具 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

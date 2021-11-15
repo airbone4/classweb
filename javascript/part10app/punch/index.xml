@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>打笑臉 on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch.html</link>
+    <link>https://airbone4.github.io/javascript/part10app/punch.html</link>
     <description>Recent content in 打笑臉 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part10app/punch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>相關語法和函數</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/intro.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/punch/intro.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/intro.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/punch/intro.html</guid>
       <description>大綱和目的 主要是介紹甚麼是變數範圍(當然就是會牽扯到函數)還有簡單的陣列,但是運用到DOM相關的元素存取、事件。
 節省時間
 陣列 ❌

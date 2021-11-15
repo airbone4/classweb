@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Part 9 JS程式庫 on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib.html</link>
+    <link>https://airbone4.github.io/javascript/part9lib.html</link>
     <description>Recent content in Part 9 JS程式庫 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part9lib/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>highlight打色</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/highlight.html</link>
+      <link>https://airbone4.github.io/javascript/part9lib/highlight.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/highlight.html</guid>
+      <guid>https://airbone4.github.io/javascript/part9lib/highlight.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>jszip</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/jszip/jszip.html</link>
+      <link>https://airbone4.github.io/javascript/part9lib/jszip/jszip.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/jszip/jszip.html</guid>
+      <guid>https://airbone4.github.io/javascript/part9lib/jszip/jszip.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>latex mathml</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/mathsymbol.html</link>
+      <link>https://airbone4.github.io/javascript/part9lib/mathsymbol.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part9lib/mathsymbol.html</guid>
+      <guid>https://airbone4.github.io/javascript/part9lib/mathsymbol.html</guid>
       <description>基本用法 example MathML 展開 原始碼(Equation_MathML.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34; async src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt; &amp;lt;math&amp;gt;&amp;lt;mrow&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;/mrow&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;math&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;(&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;mo&amp;gt;/&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;)&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;msup&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msup&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34; async src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt; &amp;lt;math&amp;gt;&amp;lt;mrow&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;/mrow&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;math&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;(&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;mo&amp;gt;/&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;)&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;msup&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msup&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 example latex 展開 原始碼(Equation_latex.</description>
     </item>
     

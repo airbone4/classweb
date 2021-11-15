@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>more selector on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/html_css/css/selector.html</link>
+    <link>https://airbone4.github.io/html_css/css/selector.html</link>
     <description>Recent content in more selector on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/html_css/css/selector/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/html_css/css/selector/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>練習</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/html_css/css/selector/assignment.html</link>
+      <link>https://airbone4.github.io/html_css/css/selector/assignment.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/html_css/css/selector/assignment.html</guid>
+      <guid>https://airbone4.github.io/html_css/css/selector/assignment.html</guid>
       <description>primer 除了段落可以重排之外,CSS還可以把標籤刷成不同的外表。這裡把DIV標籤刷成BUTTON。
 原來的 展開 原始碼(css_selector_hw1.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#39;en&amp;#39;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;#39;UTF-8&amp;#39;/&amp;gt;&amp;lt;title&amp;gt;CSS Selectors&amp;lt;/title&amp;gt;&amp;lt;link rel=&amp;#39;stylesheet&amp;#39; href=&amp;#39;css_selector_hw1.css&amp;#39;/&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div class=&amp;#39;page&amp;#39;&amp;gt; &amp;lt;h1&amp;gt;CSS &amp;lt;em&amp;gt;Selectors&amp;lt;/em&amp;gt;&amp;lt;/h1&amp;gt;&amp;lt;p class=&amp;#39;synopsis&amp;#39;&amp;gt;CSS selectors let you &amp;lt;em&amp;gt;select&amp;lt;/em&amp;gt; individual HTML elements in an HTMLdocument. This is &amp;lt;strong&amp;gt;super&amp;lt;/strong&amp;gt; useful.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Classes are ridiculously important, since they allow you to selectarbitrary boxes in your web pages.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We’ll also be talking about links in this example, so here’s&amp;lt;a href=&amp;#39;https://internetingishard.com&amp;#39;&amp;gt;Interneting Is Hard&amp;lt;/a&amp;gt; for us tostyle.</description>
     </item>

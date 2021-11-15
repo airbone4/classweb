@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>期末作業 on Learn Javascript</title>
-    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap.html</link>
+    <link>https://airbone4.github.io/javascript/part10app/phonegap.html</link>
     <description>Recent content in 期末作業 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part10app/phonegap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>計算機</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap/mycaculator_class.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/phonegap/mycaculator_class.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap/mycaculator_class.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/phonegap/mycaculator_class.html</guid>
       <description>預計 節省時間 展開 原始碼(preset.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;input type=&amp;#34;textarea&amp;#34; id=&amp;#34;scr&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;(&amp;#34; &amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;)&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;%&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;C&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;7&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;8&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;9&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;/&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;4&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;5&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;6&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;*&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;1&amp;#34; &amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;2&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;3&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;-&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;0&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;.</description>
     </item>
     
     <item>
       <title>計算機</title>
-      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap/mycaculator_note.html</link>
+      <link>https://airbone4.github.io/javascript/part10app/phonegap/mycaculator_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/phonegap/mycaculator_note.html</guid>
+      <guid>https://airbone4.github.io/javascript/part10app/phonegap/mycaculator_note.html</guid>
       <description>另一個計算機
 展開 原始碼(mycalculator.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;!--10vw 10％ of view port--&amp;gt;&amp;lt;style&amp;gt;.button{width:25%;height:15%;margin:0px;padding:0px;border:0px;float:left;font-size: 8vw; box-shadow: inset 0 0 12px black;}.special{width:25%;height:15%;margin:0px;padding:0px;border:0px;float:left;font-size:8vw; background-color: #92dc31;color: #e80c0c; box-shadow: inset 0 0 12px black;}input.screen{width: 100%;height: 25%;background-color: #9E9E9E;font-size: 10vw;font-weight: bold;text-align:right;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;function cc(e){var s=scr.value;if (s.length&amp;gt;0 &amp;amp;&amp;amp; ((s.lastIndexOf(&amp;#39;%&amp;#39;)&amp;#43;1)==s.length) &amp;amp;&amp;amp; Number.</description>
     </item>
