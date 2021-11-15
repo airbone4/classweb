@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Learning on Learn Javascript</title>
-    <link>https://airbone4.github.io/web.html</link>
+    <link>https://airbone4.github.io/classweb/web.html</link>
     <description>Recent content in Web Learning on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>textarea的應用</title>
-      <link>https://airbone4.github.io/web/jspanel.html</link>
+      <link>https://airbone4.github.io/classweb/web/jspanel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/web/jspanel.html</guid>
+      <guid>https://airbone4.github.io/classweb/web/jspanel.html</guid>
       <description>目的:在textarea中寫JS,然後用按鈕執行。 #pjs-input {overflow: auto;resize: both;border: 1px solid grey;outline: 1px;background-color: transparent;width: 100%;padding: 2px 4px;height: auto;min-height: 10rem;max-height: 20rem;}#pjs-log {overflow: auto;border: 1px solid grey;}value = &#34;HUGO 變數 執行碼: {{&amp;lt; HugoVarTest &amp;gt;}}\n\r執行結果live\r.Page.CurrentSection: Page(/pages/_index.md) used, which then provides data to the partial few issues come up then.\r.Name is not the name of the res ot; . }}\r{{ % r{{ end }}\r紀錄 log 2 如果需要docx ,那要還轉換成blob參考。\ }} \r嵌入檔案: 購物單.</description>
     </item>
     
     <item>
       <title>練習找中文</title>
-      <link>https://airbone4.github.io/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</link>
+      <link>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</guid>
+      <guid>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</guid>
       <description>javascript 正規表達式 各種中文匹配  官方   中文,英文範圍: ^[\u4e00-\u9fa5_a-zA-Z0-9]+$   console.log(&amp;quot;貓的中文很爛,連喵都不標準&amp;quot;.split(&amp;quot;&amp;quot;).filter(char =&amp;gt; /\p{Script=Han}/u.test(char)) //🏷.join(&amp;quot;&amp;quot;));  value = &amp;quot;HUGO 變數 執行碼: {{&amp;amp;lt; HugoVarTest &amp;amp;gt;}}\n\r執行結果live\r.Page.CurrentSection: Page(/pages/_index.md) used, which then provides data to the partial {{ partial &amp;amp;quot;partial.html&amp;amp;quot; . }}.\rA few issues come up then.\r.Name is not the name of the resource file, but of the calling index.md file\r.Resources.GetMatch &amp;amp;quot;*&amp;amp;quot; doesn&#39;t return a result\r$.Site.Resources or $.Resources d {{ range sort .</description>
     </item>
     

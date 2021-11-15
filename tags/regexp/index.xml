@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>regexp on Learn Javascript</title>
-    <link>https://airbone4.github.io/tags/regexp.html</link>
+    <link>https://airbone4.github.io/classweb/tags/regexp.html</link>
     <description>Recent content in regexp on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/tags/regexp/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/tags/regexp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>練習找中文</title>
-      <link>https://airbone4.github.io/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</link>
+      <link>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</guid>
+      <guid>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</guid>
       <description>javascript 正規表達式 各種中文匹配  官方   中文,英文範圍: ^[\u4e00-\u9fa5_a-zA-Z0-9]+$   console.log(&amp;quot;貓的中文很爛,連喵都不標準&amp;quot;.split(&amp;quot;&amp;quot;).filter(char =&amp;gt; /\p{Script=Han}/u.test(char)) //🏷.join(&amp;quot;&amp;quot;));  value = &amp;quot;HUGO 變數 執行碼: {{&amp;amp;lt; HugoVarTest &amp;amp;gt;}}\n\r執行結果live\r.Page.CurrentSection: Page(/pages/_index.md) used, which then provides data to the partial {{ partial &amp;amp;quot;partial.html&amp;amp;quot; . }}.\rA few issues come up then.\r.Name is not the name of the resource file, but of the calling index.md file\r.Resources.GetMatch &amp;amp;quot;*&amp;amp;quot; doesn&#39;t return a result\r$.Site.Resources or $.Resources d {{ range sort .</description>
     </item>
     

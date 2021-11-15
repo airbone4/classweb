@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Learn Javascript</title>
-    <link>https://airbone4.github.io/html_css/css.html</link>
+    <link>https://airbone4.github.io/classweb/html_css/css.html</link>
     <description>Recent content in CSS on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/html_css/css/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/html_css/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1.1 基本</title>
-      <link>https://airbone4.github.io/html_css/css/1_1_basic_demo.html</link>
+      <link>https://airbone4.github.io/classweb/html_css/css/1_1_basic_demo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/html_css/css/1_1_basic_demo.html</guid>
+      <guid>https://airbone4.github.io/classweb/html_css/css/1_1_basic_demo.html</guid>
       <description>CSS 放置的位置有三  inline CSS internal CSS external CSS  💯主要文件cssBeginer2.csscssBeginer2.htmlcssBeginer2.pptx 內嵌CSS - 利用HTML的標籤屬性(Tag attribute) &amp;lt;img src=&amp;quot;img.png&amp;quot; alt=&amp;quot;drawing&amp;quot;&amp;gt; 利用CSS重設寬度為:200px,💡加入屬性style，如下;
 ⭕
 &amp;lt;img src=&amp;quot;img.png&amp;quot; alt=&amp;quot;drawing&amp;quot; style=&amp;quot;width: 200px;&amp;quot;&amp;gt;  ❌
@@ -22,37 +22,37 @@ css style 的寫法是用:分開 鍵和值(沒有雙引號)。
     
     <item>
       <title>2.1 CSS selector</title>
-      <link>https://airbone4.github.io/html_css/css/2_1_selector.html</link>
+      <link>https://airbone4.github.io/classweb/html_css/css/2_1_selector.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/html_css/css/2_1_selector.html</guid>
+      <guid>https://airbone4.github.io/classweb/html_css/css/2_1_selector.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>4.2 軟片(snippet)動態</title>
-      <link>https://airbone4.github.io/html_css/css/4_2_snippet_dynamic.html</link>
+      <link>https://airbone4.github.io/classweb/html_css/css/4_2_snippet_dynamic.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/html_css/css/4_2_snippet_dynamic.html</guid>
+      <guid>https://airbone4.github.io/classweb/html_css/css/4_2_snippet_dynamic.html</guid>
       <description>滑鼠和超連結 展開 原始碼(css_alink.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;/* unvisited link */a:link {color: red;}/* visited link */a:visited {color: green;}/* mouse over link */a:hover {color: hotpink;}/* selected link */a:active {color: blue;}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;a href=&amp;#34;xxx&amp;#34;&amp;gt;測試這個連結&amp;lt;/a&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;/* unvisited link */a:link {color: red;}/* visited link */a:visited {color: green;}/* mouse over link */a:hover {color: hotpink;}/* selected link */a:active {color: blue;}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;a href=&amp;#34;xxx&amp;#34;&amp;gt;測試這個連結&amp;lt;/a&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 hover 小範例   :hover 的應用  &amp;lt;style&amp;gt;h2:hover .</description>
     </item>
     
     <item>
       <title>4_1_snippet</title>
-      <link>https://airbone4.github.io/html_css/css/4_1_snippet.html</link>
+      <link>https://airbone4.github.io/classweb/html_css/css/4_1_snippet.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/html_css/css/4_1_snippet.html</guid>
+      <guid>https://airbone4.github.io/classweb/html_css/css/4_1_snippet.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>5.1 軟片 bootstrap</title>
-      <link>https://airbone4.github.io/html_css/css/5_1_bootstrap.html</link>
+      <link>https://airbone4.github.io/classweb/html_css/css/5_1_bootstrap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/html_css/css/5_1_bootstrap.html</guid>
+      <guid>https://airbone4.github.io/classweb/html_css/css/5_1_bootstrap.html</guid>
       <description></description>
     </item>
     

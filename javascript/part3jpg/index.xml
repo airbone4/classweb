@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Part 3 JPG on Learn Javascript</title>
-    <link>https://airbone4.github.io/javascript/part3jpg.html</link>
+    <link>https://airbone4.github.io/classweb/javascript/part3jpg.html</link>
     <description>Recent content in Part 3 JPG on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part3jpg/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/part3jpg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>browser picture note</title>
-      <link>https://airbone4.github.io/javascript/part3jpg/browsepic_note.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part3jpg/browsepic_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part3jpg/browsepic_note.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/browsepic_note.html</guid>
       <description>大綱 迴圈和 non-blocking 問題 隨機顯示圖形
 最後成果,顯示短片 有兩個短片分別在子目錄kinemaster, 和 Reflexion by Planktoon
 迴圈的問題 browser_loop_problem @import &amp;quot;browser_loop_problem.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
@@ -27,10 +27,10 @@ document.onload DOM 準備好時候才觸發，可能影像和其他外部資源
     
     <item>
       <title>mermaid</title>
-      <link>https://airbone4.github.io/javascript/part3jpg/mpe_note.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part3jpg/mpe_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part3jpg/mpe_note.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/mpe_note.html</guid>
       <description>線上參考 import type
 note for markdown preview enhanced var x=3 memaid tip graph top down --&amp;gt; TD
 graph TD;A(how)--&amp;gt;B;A--&amp;gt;C;B--&amp;gt;D;C--&amp;gt;D; graph left right -&amp;gt; LR
@@ -39,10 +39,10 @@ graph LRA --&amp;gt; B;B --&amp;gt; C;C --&amp;gt; A; st=&amp;gt;start: Star
     
     <item>
       <title>overview</title>
-      <link>https://airbone4.github.io/javascript/part3jpg/overview.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part3jpg/overview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part3jpg/overview.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/overview.html</guid>
       <description>文字處理的方式變更HTML文件 play around 把資料夾裡面的圖形檔縮小,然後放到頁面。 分成兩種方法,獨立的js(不要 內嵌在html ) 和 配合html.
 獨立的js 瀏覽器碰到 &amp;lt;img&amp;gt;標籤時的工作流程:
 sequenceDiagramparticipant clientparticipant serverclient-&amp;gt;&amp;gt;server: img request by GETserver-&amp;gt;&amp;gt;client: response to GET with image data 這一段程式碼是從原來的(insert_pic_1.html)獨立出來
@@ -53,19 +53,19 @@ for (var i=0;i&amp;lt;25;i++){var s =&amp;quot;0000000&amp;quot;+i.toString();
     
     <item>
       <title>在畫布上加入文字</title>
-      <link>https://airbone4.github.io/javascript/part3jpg/addtext_node.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part3jpg/addtext_node.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part3jpg/addtext_node.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/addtext_node.html</guid>
       <description>參考  w3 canvas  starter 1 展開 原始碼(AddText_1.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form&amp;gt;&amp;lt;img id=&amp;#34;imgtarget&amp;#34; style=&amp;#34;display:none&amp;#34; src=&amp;#34;0007.jpg&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;inp&amp;#34;/&amp;gt;&amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Save&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;br&amp;gt;&amp;lt;canvas id=&amp;#34;canvasTarget&amp;#34; style=&amp;#34;width:600px&amp;#34;/&amp;gt;&amp;lt;script src=&amp;#34;AddText_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form&amp;gt;&amp;lt;img id=&amp;#34;imgtarget&amp;#34; style=&amp;#34;display:none&amp;#34; src=&amp;#34;0007.jpg&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;inp&amp;#34;/&amp;gt;&amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Save&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;br&amp;gt;&amp;lt;canvas id=&amp;#34;canvasTarget&amp;#34; style=&amp;#34;width:600px&amp;#34;/&amp;gt;&amp;lt;script src=&amp;#34;AddText_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 &amp;lt;img id=&amp;quot;imgtarget&amp;quot; style=&amp;quot;display:none&amp;quot; src=&amp;quot;0004.jpg&amp;quot; /&amp;gt; display:none 設定不出現</description>
     </item>
     
     <item>
       <title>物件FileReader</title>
-      <link>https://airbone4.github.io/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</guid>
       <description>KEY: 物件、事件、DataURL
  FileReader() : line 4, 物件建構元 F,R 大寫,這是物件建構元(constructor)
  真正的讀檔案函數為f.readAsDataURL() 事件:  onchange: e.files[0] 為HTML 標籤 &amp;lt;input type=&amp;quot;file&amp;quot; onchange=...&amp;gt; 這個事件中帶有【檔案名稱】。 onload: 上面兩個函數分別由兩個物件觸發,分別是 input、FileRead 兩個物件。    @import &amp;quot;file_reader_img.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}</description>

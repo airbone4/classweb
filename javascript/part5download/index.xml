@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Part 5 下載 on Learn Javascript</title>
-    <link>https://airbone4.github.io/javascript/part5download.html</link>
+    <link>https://airbone4.github.io/classweb/javascript/part5download.html</link>
     <description>Recent content in Part 5 下載 on Learn Javascript</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/javascript/part5download/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/part5download/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用JavaScript下載連結</title>
-      <link>https://airbone4.github.io/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</guid>
       <description>大綱 由於保全限制,因此,客戶端的js不允與直接下載檔案.因此網路上有各種各樣的方法，這裡介紹其中一種。
 相關 csv file 附件
 建立假連結 列出幾種下載檔案的javascript方法，並討論優缺點。 注意:本節最後列出最簡單的寫法。
@@ -27,10 +27,10 @@ window.downloadFile = function(sUrl) {window.open(sUrl, &#39;_self&#39;);} �
     
     <item>
       <title>get all link in page</title>
-      <link>https://airbone4.github.io/javascript/part5download/demo-1-getall-link-in-page.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part5download/demo-1-getall-link-in-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part5download/demo-1-getall-link-in-page.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part5download/demo-1-getall-link-in-page.html</guid>
       <description>參考 &amp;lt;找出所有link&amp;gt; &amp;lt;regexp&amp;gt;
 大綱 method documen.links可以得到所有的&amp;lt;a&amp;gt; 連結
 //method 1var allLinks = document.links;for (var i=0; i&amp;lt;allLinks.length; i++) {document.write(allLinks[i].href+&amp;quot;&amp;lt;BR/&amp;gt;&amp;quot;);} method 2 document.links 也可以用另外一個通用函數getElementByTagName()取代。
@@ -41,20 +41,20 @@ window.downloadFile = function(sUrl) {window.open(sUrl, &#39;_self&#39;);} �
     
     <item>
       <title>appDownload note</title>
-      <link>https://airbone4.github.io/javascript/part5download/app/appdownload_note.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part5download/app/appdownload_note.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part5download/app/appdownload_note.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part5download/app/appdownload_note.html</guid>
       <description>大綱 主程式分兩部分,擷取PDF成網頁(函數:getlink()) 然後下載(函數:dogetfile)。
 $(document).ready(function() {$(&#39;#datatable2&#39;).dataTable( { searching:false, ordering: false, order: [], paging: false,info:false,autowidth:false} );});資料夾下載連結大小 / byte:appDownload.js961 appDownload_2.js1010 appDownload_Note.files testDownload.html1426 testDownload.html1426 testDownload.js394  參考 多檔下載為zip</description>
     </item>
     
     <item>
       <title>讀取文字檔</title>
-      <link>https://airbone4.github.io/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</link>
+      <link>https://airbone4.github.io/classweb/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airbone4.github.io/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</guid>
+      <guid>https://airbone4.github.io/classweb/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</guid>
       <description></description>
     </item>
     
