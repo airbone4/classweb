@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 5 下載 on Learn Javascript</title>
+    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download.html</link>
+    <description>Recent content in Part 5 下載 on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用JavaScript下載連結</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</guid>
+      <description>大綱 由於保全限制,因此,客戶端的js不允與直接下載檔案.因此網路上有各種各樣的方法，這裡介紹其中一種。
+相關 csv file 附件
+建立假連結 列出幾種下載檔案的javascript方法，並討論優缺點。 注意:本節最後列出最簡單的寫法。
+一般有兩種方式：
+ window.open mouse click/tap on link  兩種方式都有一些問題，分別探討如下。
+###【方法1: window.open】
+window.downloadFile = function(sUrl) {window.open(sUrl);} 大部分的瀏覽器都支援window.open但是有缺點:
+ 會開啟一個空白視窗 如果MIME的內容會被瀏覽器載入，則不會下載。  改進： &amp;quot;_self&amp;quot; 可以避免上述第一個問題。例如，
+window.downloadFile = function(sUrl) {window.open(sUrl, &#39;_self&#39;);} 【方法2: 利用mouse click 事件】 但是仍然無法解決第2個問題。但是 利用HTML5 的屬性：&amp;quot;download&amp;quot;可以避免上述第2個問題(因為在attribute 中已經指出直接下載)。
+利用link而不是windows.open(),雖然不會因而產生新視窗，但是問題是,必須由使用者滑鼠觸動,因此,這裡順便利用了虛擬事件(dispatchevent)。:
+//Creating new link node.var link = document.createElement(&#39;a&#39;);link.href = sUrl;//Dispatching click event.if (document.</description>
+    </item>
+    
+    <item>
+      <title>get all link in page</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/demo-1-getall-link-in-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/demo-1-getall-link-in-page.html</guid>
+      <description>參考 &amp;lt;找出所有link&amp;gt; &amp;lt;regexp&amp;gt;
+大綱 method documen.links可以得到所有的&amp;lt;a&amp;gt; 連結
+//method 1var allLinks = document.links;for (var i=0; i&amp;lt;allLinks.length; i++) {document.write(allLinks[i].href+&amp;quot;&amp;lt;BR/&amp;gt;&amp;quot;);} method 2 document.links 也可以用另外一個通用函數getElementByTagName()取代。
+//method 2var links = document.getElementsByTagName(&#39;a&#39;);for(var i = 0; i&amp;lt; links.length; i++){alert(links[i].href);} 練習 下面程式碼會有甚麼結果,觀察href 在哪裡。
+//method 2 (error) only for object properties ?//例如，如果urls是一個物件，則url 是urls的一個欄位?var urls=document.links;for (url in urls){console.log(url.innerHTML);} example
+//demo// in google search r markdown pdfvar x=document.</description>
+    </item>
+    
+    <item>
+      <title>appDownload note</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/app/appdownload_note.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/app/appdownload_note.html</guid>
+      <description>大綱 主程式分兩部分,擷取PDF成網頁(函數:getlink()) 然後下載(函數:dogetfile)。
+$(document).ready(function() {$(&#39;#datatable2&#39;).dataTable( { searching:false, ordering: false, order: [], paging: false,info:false,autowidth:false} );});資料夾下載連結大小 / byte:appDownload.js961 appDownload_2.js1010 appDownload_Note.files testDownload.html1426 testDownload.html1426 testDownload.js394  參考 多檔下載為zip</description>
+    </item>
+    
+    <item>
+      <title>讀取文字檔</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

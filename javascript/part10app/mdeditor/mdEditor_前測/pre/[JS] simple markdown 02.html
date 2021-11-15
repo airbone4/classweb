@@ -1,0 +1,56 @@
+<html>
+<head>
+<Title> </Title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.0/showdown.min.js"></script>
+
+<script language="JavaScript">
+function clearSpace(inText)
+{
+  //inText.replace(
+  
+  var text=inText.replace(/\n\s*\n/g,"\n"); //空白行殺掉
+  var leadingws = text.match(/^(\s*)/)[1].length; //找之前的空白字元
+  var regex     =  new RegExp('\\s{' + leadingws + '}','g');
+  text=text.replace(regex,'\n');  
+  console.log(text);
+ return text;
+ 
+ 
+}
+function doMarkdown()
+{
+   var list =document.querySelectorAll('[block-markdown]');
+   
+   for(var i=0;i<list.length;i++){
+     var elem = list[i];
+     //elem.parentNode.removeChild(elem) ;//不要殺,取代就行
+     var x=elem.innerHTML; //for textarea, innerText
+	 var text = clearSpace(x);
+     var conv = new showdown.Converter();
+	 var html= conv.makeHtml(text)
+     elem.innerHTML = html;
+	 console.log(html);
+	 
+   }
+   console.log(document.outerHTML);
+}
+ 
+</script>
+</head>
+<body>
+
+
+ <session  block-markdown>
+  ## Who Am I?
+
+  * who
+  * [com](www.nkfust.edu.tw)
+
+  </session>
+
+  
+
+
+<script> doMarkdown();</script>
+</body>
+</html>

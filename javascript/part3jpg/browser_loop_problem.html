@@ -1,0 +1,15 @@
+<body>
+    <img id="here">
+    <script>
+        
+        function getPicPath(idx) {
+            var s = (("0000") + idx.toString()).slice(-4);
+            s = s + ".jpg";
+            return (s);
+        }
+        for (i = 1; i < 20; i++) {
+            console.log(getPicPath(i));
+            here.src=getPicPath(i);
+        }
+    </script>
+</body>

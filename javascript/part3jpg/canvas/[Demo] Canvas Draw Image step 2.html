@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ canvas{
+  border: solid red;
+
+ }
+ img{
+  border:solid green;
+ }
+</style>
+<script>
+
+function imgDetail(){
+  detail.innerHTML="寬度 " +img.naturalWidth + " 高度 " + img.naturalHeight;
+}
+ 
+ function draw3() { 
+   var context = canvas.getContext('2d');
+   canvas.width = 400;  //注意：利用css 分別Width,Height為400px,300px 會無法正確縮放。
+   canvas.height = 300; 
+   
+	context.drawImage(img,parseInt(cLeft.value),parseInt(cTop.value));
+}
+
+function draw5() { //autoscale to canvas size
+
+   var context = canvas.getContext('2d');
+   canvas.width = 400;  //注意：利用css 分別Width,Height為400px,300px 會無法正確縮放。
+   canvas.height = 300; 
+   
+	context.drawImage(img,parseInt(cLeft.value),parseInt(cTop.value),parseInt(cWidth.value),parseInt(cHeight.value));
+}
+function draw9() { 
+ 
+   var context = canvas.getContext('2d');
+   canvas.width = 400;  //注意：利用css 分別Width,Height為400px,300px 會無法正確縮放。
+   canvas.height = 300; 
+  
+	context.drawImage(img,parseInt(sLeft.value),parseInt(sTop.value),parseInt(sWidth.value),parseInt(sHeight.value),parseInt(cLeft.value),parseInt(cTop.value),parseInt(cWidth.value),parseInt(cHeight.value));
+	
+}
+</script>
+</head>
+<body>
+<input type="file" id="browse" > 
+<br>
+<img id="img" Width="200px" Height="100px" onload="imgDetail()">
+<div id="detail"></div>
+<hr>
+<br>
+<canvas id="canvas"></canvas>
+<br>
+ canvas Left<input type="text" id="cLeft" value="0"> 
+ <br>
+ canvas Top<input type="text" id="cTop" value="0">
+ <br>
+ canvas Width<input type="text" id="cWidth" value="400">
+ <br>
+ canvas Height<input type="text" id="cHeight" value="300">
+ <br>
+ Image Left<input type="text" id="sLeft" value="0"> 
+ <br>
+ Image Top<input type="text" id="sTop" value="0">
+ <br>
+ Image Width<input type="text" id="sWidth" value="200">
+ <br>
+ Image Height<input type="text" id="sHeight" value="200">
+ <br>
+ <input type="button" value="draw3" onclick="draw3()">
+ <input type="button" value="draw5" onclick="draw5()">
+ <input type="button" value="draw9" onclick="draw9()">
+ 
+<br>
+ 
+<br>
+
+ <script>
+ var reader = new FileReader();
+ reader.onload = function(e) {  
+  // e: progressEvent
+  // e.target: FileReader Object
+  // e.target.result就是圖片的base64位址資訊(result of readAsDataURL)
+  
+  img.src = e.target.result;
+  //draw2Canvas(); //放在這裡，由於非同步問題，有時候沒有圖形，另外放在按鈕(label:draw2Canvas)。
+};
+browse.addEventListener('change', function (event) {
+    reader.readAsDataURL(event.target.files[0]);
+});
+
+ </script>
+</body>
+
+</html>

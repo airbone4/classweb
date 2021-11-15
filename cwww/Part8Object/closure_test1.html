@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+</head>
+<body>
+<script>
+    
+
+function count(init){
+    var counter = init;
+  
+    return function(){
+      return ++counter;
+    }
+  }
+  
+  
+  var countFrom2 = count(2);
+  var countFrom1 = count(1);
+  
+  console.log( countFrom2() );   // 3
+  console.log( countFrom2() );   // 4
+    
+  console.log( countFrom1() );   // 2
+  console.log( countFrom1() );   // 3     
+    
+</script>    
+</body>
+</html>

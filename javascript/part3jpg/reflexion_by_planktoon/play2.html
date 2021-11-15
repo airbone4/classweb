@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+
+</head>
+<body>
+<input type="file" onchange="play(this)" multiple="true">
+<br/>
+
+   <img id='imgPlay'>
+   
+<script>
+var pics;
+idx=1;
+function mplay ()
+{
+    imgPlay.src= pics[idx].name ;
+    idx=(idx+1) % total ;
+}
+
+
+function play(e)
+{
+pics=e.files;
+total=e.files.length;
+setInterval(mplay,200);
+}
+</script>
+   
+   
+</body>
+</html>

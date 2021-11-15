@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUGO on Learn Javascript</title>
+    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo.html</link>
+    <description>Recent content in HUGO on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>短碼local_file_list.html</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</guid>
+      <description>背景 問題 ⁉到底怎樣讀取static 目錄中的檔案
+ 方法1 在HTML &amp;lt;head&amp;gt; 中,設定&amp;lt;base&amp;gt;,例如 &amp;lt;base href=&amp;quot;{{ .Site.BaseURL }}&amp;quot;&amp;gt; 然後,就可以使用md ) 方法2: 以下章節討論的方法    .Page.File.Dir =&amp;gt; theme path  local_file_list.html 檔案variant-learn/layouts/shortcodes/local_file_list.html:內容
+{{ $themePath := default .Page.File.Dir (.Get &amp;amp;#34;path&amp;amp;#34;) }} {{ $isdeep := default true (.Get &amp;amp;#34;isdeep&amp;amp;#34; )}} {{ $root := default &amp;amp;#34;content&amp;amp;#34; (.Get &amp;amp;#34;root&amp;amp;#34;) }} {{ $issearch := default false (.Get &amp;amp;#34;issearch&amp;amp;#34;) }} {{ define &amp;amp;#34;read-local-dir&amp;amp;#34; }} {{ $root := .root }} {{ $themePath := .</description>
+    </item>
+    
+    <item>
+      <title>短碼範例</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo/%E7%9F%AD%E7%A2%BC%E7%AF%84%E4%BE%8B.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/tools/hugo/%E7%9F%AD%E7%A2%BC%E7%AF%84%E4%BE%8B.html</guid>
+      <description>短碼codecaption.html
+&amp;lt;figure class=&amp;quot;code&amp;quot;&amp;gt;&amp;lt;figcaption&amp;gt;&amp;lt;span&amp;gt;{{ .Get &amp;quot;title&amp;quot; }}&amp;lt;/span&amp;gt;&amp;lt;/figcaption&amp;gt;&amp;lt;div class=&amp;quot;codewrapper&amp;quot;&amp;gt;{{ highlight (trim .Inner &amp;quot;\n\r&amp;quot;) (.Get &amp;quot;lang&amp;quot;) &amp;quot;linenos=true&amp;quot; }}&amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt; 使用範例(只是把codecaption.html的程式碼,再顯示一遍)
+{{&amp;lt; codecaption lang=&amp;quot;html&amp;quot; title=&amp;quot;Code caption shortcode&amp;quot; &amp;gt;}}&amp;lt;figure class=&amp;quot;code&amp;quot;&amp;gt;&amp;lt;figcaption&amp;gt;&amp;lt;span&amp;gt;{{ .Get &amp;quot;title&amp;quot; }}&amp;lt;/span&amp;gt;&amp;lt;/figcaption&amp;gt;&amp;lt;div class=&amp;quot;codewrapper&amp;quot;&amp;gt;{{ highlight .Inner (.Get &amp;quot;lang&amp;quot;) &amp;quot;linenos=true&amp;quot; }}&amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;{{&amp;lt; /codecaption &amp;gt;}}  結果 
+ 📝評論 沒什麼用,直接用短碼 {{&amp;lt; highlight &amp;gt;}} 就可以了</description>
+    </item>
+    
+  </channel>
+</rss>

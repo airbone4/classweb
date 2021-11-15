@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<script>
+
+
+
+function mTranspose(x) {
+var i=0;
+var j=0;
+var rowSize=x.length;
+var colSize = x[0].length;
+y=[];
+for (i=0;i<colSize;i=i+1)
+{ 
+  y[i]=[]; 
+}
+for (i=0;i<rowSize;i=i+1){
+
+  for (j=0;j<colSize;j=j+1) {
+    y[j][i]= x[i][j];
+  }
+}
+
+return y;
+}
+
+
+</script>
+

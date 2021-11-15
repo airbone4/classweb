@@ -1,0 +1,15 @@
+<head>
+<script>
+function loadImg(e){
+ console.log(e.files[0]);
+}
+</script>
+
+</head>
+<body>
+<input type="file" onchange="loadImg(this)" multiple="true">
+<img id="img">
+
+
+</body>
+</html>

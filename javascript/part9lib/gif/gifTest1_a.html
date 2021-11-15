@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+
+
+</head>
+
+<body>
+    
+    <p>canvas</p><br>
+    <canvas id="cv"></canvas>
+    
+    <p>上面是canvas id=cv</p><br>
+    <hr/> 
+
+    <script>
+        var Images;
+
+        Images = document.createElement("img");
+
+        Images.src = "0001.jpg";
+        Images.width = "100";
+        Images.height = "100";
+
+        document.body.appendChild(Images); //影像會被加到最後
+        Images.onload = function (e) {
+
+            cv.height = "100";
+            cv.width = "100";
+            ctxs = cv.getContext('2d')
+            ctxs.drawImage(e.target, 0, 0, 100, 100); //影像縮放
+            ctx.push(ctxs);
+
+        }
+    </script>
+
+</body>
+
+</html>

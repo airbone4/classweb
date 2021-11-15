@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>var 的問題</title>
+
+</head>
+
+<body>
+    <button id="first">First</button>
+    <button id="second">Second</button>
+    <button id="third">Third</button>
+    <script>
+      // 建立一個閉包把資料存在這個 function 當中
+      function saveButtonName(buttonName) {
+        // buttonName 被儲存在閉包當中
+        var buttonName = buttonName //有沒有這行無所謂
+        return function () {
+          console.log(buttonName)
+        }
+      }
+
+      var buttons = document.getElementsByTagName('button')
+      for (var i = 0; i < buttons.length; i++) {
+        var buttonName = buttons[i].innerHTML
+        buttons[i].addEventListener('click', saveButtonName(buttonName))
+      } 
+    </script>
+</body>
+
+</html>

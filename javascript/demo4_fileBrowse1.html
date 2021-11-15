@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+var _wait=true;
+function mtx_init() {
+ _browser=document.createElement('input');
+_browser.style.display='none';
+_browser.type='file';
+_browser.name='__browser';
+_browser.onchange=function(){_wait=false;};
+document.body.appendChild(_browser);
+
+}
+
+ 
+function fileBrowse(e) {
+  if(e==undefined){
+    _wait=true;
+    _browser.click();
+  }
+
+  
+  if(_wait){
+      window.setTimeout(fileBrowse, 300,1);
+	  
+  }
+  else {
+  //console.log(_browser.files[0].name)
+  return _browser.files[0];
+  }
+  
+}
+
+</script>
+</head>
+<body onload="mtx_init()">
+
+<a href="#" onclick="x=fileBrowse();console.log(x.name);">rr</a>
+
+</body >
+</html>

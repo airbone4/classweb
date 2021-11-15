@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Page Title</title>
+</head>
+<body>
+        <input type="text" id="username">
+<script>
+      
+    var result=[];
+    username.addEventListener("input", function(event) {
+        result.push({
+            event  : 'input',
+            value  : this.value,
+            keyCode : event.keyCode
+        });
+    })
+    //  註冊keydown事件
+    username.addEventListener("keydown", function(event) {
+        result.push({
+            event  : 'keydown',
+            value  : this.value,
+            keyCode : event.keyCode
+        });
+    });
+    //  註冊keyup事件
+    username.addEventListener("keyup", function(event) {
+        result.push({
+            event  : 'keyup',
+            value  : this.value,
+            keyCode : event.keyCode
+        });
+    });
+    //  註冊change事件
+    username.addEventListener("change", function(event) {
+        result.push({
+            event  : 'change',
+            value  : this.value,
+            keyCode : event.keyCode
+        });
+        //  輸出結果
+        console.table(result);
+    });
+    //  註冊blur事件
+    username.addEventListener("blur", function(event) {
+        result.push({
+            event  : 'blur',
+            value  : this.value,
+            keyCode : event.keyCode
+        });
+        //  輸出結果
+        console.table(result);
+    })
+    
+
+</script>    
+    
+</body>
+</html>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 1 basic concept on Learn Javascript</title>
+    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic.html</link>
+    <description>Recent content in Part 1 basic concept on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DOM basic</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t1_dom_basic.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t1_dom_basic.html</guid>
+      <description>DOM TREE   參考  📋 在console 中測試。
+onlive dom tree  中文參考 online local  💻 展開 原始碼(OnLineDOMTree.html)&amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Live DOM Viewer&amp;lt;/title&amp;gt;&amp;lt;style&amp;gt;h1 { margin: 0; }h2 { font-size: small; margin: 1em 0 0; }p, ul, pre { margin: 0; }p { border: inset thin; }textarea { width: 100%; -width: 99%; height: 8em; border: 0; }iframe { width: 100%; height: 12em; border: 0; }/* iframe.</description>
+    </item>
+    
+    <item>
+      <title>在主控台的測試</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t2_%E4%B8%BB%E6%8E%A7%E5%8F%B0%E6%B8%AC%E8%A9%A6.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t2_%E4%B8%BB%E6%8E%A7%E5%8F%B0%E6%B8%AC%E8%A9%A6.html</guid>
+      <description>主控台測試 document.open();document.write(&#39;content&#39;);document.close(); 將目前的顯示的網頁,覆蓋,內容為content。
+document.open();document.write(&#39;content&#39;);document.writeln(&#39;content&#39;);document.write(&#39;content&amp;lt;br&amp;gt;&#39;);document.write(&#39;content&amp;lt;br&amp;gt;&#39;);document.close(); writeln() 只是對應一般文字檔的換行,並不在網頁中換行,而是被視為一個空白。真的換行必須寫標籤&amp;lt;br&amp;gt;。 1 2 3 4 5 6 7 8  document.open() document.write(&amp;#34;&amp;lt;html&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;head&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;/head&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;body&amp;gt;&amp;#34;) document.write(&amp;#39;&amp;lt;img src=&amp;#34;0000.jpg&amp;#34; width=&amp;#34;30%&amp;#34; height=&amp;#34;30%&amp;#34;&amp;gt;&amp;#39;) document.write(&amp;#34;&amp;lt;/body&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;/html&amp;gt;&amp;#34;)  
+產生網路傳輸錯誤。因為&amp;lt;img&amp;gt;標籤,會產生HTTP request GET。</description>
+    </item>
+    
+    <item>
+      <title>DOM event</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t3_dom_mouse_event.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t3_dom_mouse_event.html</guid>
+      <description>empty 展開 原始碼(ex_mouse1.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1.0&amp;#34;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body style=&amp;#34;height:200px&amp;#34;&amp;gt;&amp;lt;p id=&amp;#34;position&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;document.addEventListener(&amp;#34;click&amp;#34;, function (event){var x=event.clientX;var y=event.clientY;position.innerHTML=&amp;#34;(X= &amp;#34;&amp;#43;x &amp;#43;&amp;#34;)(Y= &amp;#34;&amp;#43;y&amp;#43;&amp;#34;)&amp;#34;;});&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1.0&amp;#34;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body style=&amp;#34;height:200px&amp;#34;&amp;gt;&amp;lt;p id=&amp;#34;position&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;document.addEventListener(&amp;#34;click&amp;#34;, function (event){var x=event.clientX;var y=event.clientY;position.innerHTML=&amp;#34;(X= &amp;#34;&amp;#43;x &amp;#43;&amp;#34;)(Y= &amp;#34;&amp;#43;y&amp;#43;&amp;#34;)&amp;#34;;});&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 example 展開 原始碼(ex_mouse2.</description>
+    </item>
+    
+    <item>
+      <title>DOM Time event</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t4_dom_time_event.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t4_dom_time_event.html</guid>
+      <description>函數addEventListener() 展開 原始碼(ex_DOM_addEvent.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body &amp;gt;&amp;lt;p id=&amp;#34;element&amp;#34;&amp;gt;xx&amp;lt;/p&amp;gt;&amp;lt;p onclick=&amp;#34;f1(this)&amp;#34;&amp;gt;yy&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;function f1(e){console.log(e.target);console.log(event.name);}var element = document.getElementById(&amp;#39;element&amp;#39;);var user = {firstname: &amp;#39;Wilson&amp;#39;,greeting: function(){alert(&amp;#39;My name is &amp;#39; &amp;#43; this.firstname);}};element.addEventListener(&amp;#39;click&amp;#39;, user.greeting);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body &amp;gt;&amp;lt;p id=&amp;#34;element&amp;#34;&amp;gt;xx&amp;lt;/p&amp;gt;&amp;lt;p onclick=&amp;#34;f1(this)&amp;#34;&amp;gt;yy&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;function f1(e){console.log(e.target);console.log(event.name);}var element = document.getElementById(&amp;#39;element&amp;#39;);var user = {firstname: &amp;#39;Wilson&amp;#39;,greeting: function(){alert(&amp;#39;My name is &amp;#39; &amp;#43; this.</description>
+    </item>
+    
+    <item>
+      <title>variable and type</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t502_js_type.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t502_js_type.html</guid>
+      <description>&lt;p&gt;有DOCX文件&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>synax special type</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t503_operator_and_type.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t503_operator_and_type.html</guid>
+      <description>Data types A variable in JavaScript can contain any data. A variable can at one moment be a string and later receive a numeric value:
+// no errorlet message = &amp;quot;hello&amp;quot;;message = 123456; 在程式語言中,所謂的 “dynamically typed”, 指的是雖然有type 但是變數不會侷限於某個type .
+A number let n = 123;n = 12.345; 四則運算：加減乘除 特殊值: Infinity, -Infinity and NaN.
+  Infinity 也就是 ∞. 大於任意數字。 可以由除0得到。
+alert( 1 / 0 ); // Infinity   或者 javascriptalert( Infinity ); // Infinity</description>
+    </item>
+    
+    <item>
+      <title>synax operator</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t510_operator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t510_operator.html</guid>
+      <description>附件01_operator.pdf Introduction 這個文件配合operator.docx,用來說明甚麼是互動式html。 也可以說是一個大綱,例如:
+ 物件:document 是一個文件物件模型(DOM)上的一個物件. 其他物件還有:console 也提到了和使用者互動的函數,例如  視窗互動  prompt,confirm,alert(), 和使用者互動的,   還有主控台函數console.log(),console.error()    問題: 如果 var a=5 那麼,下面兩個運算式出現的結果是甚麼?
+a++==5
+++a==5
+&amp;lt;script&amp;gt;var ap=document.getElementsByClassName(&#39;hi&#39;)var name = prompt(&amp;quot;you name?&amp;quot;)ap[0].innerText=ap[0].innerText +&amp;quot; &amp;quot;+ name;&amp;lt;/script&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>比較</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t511_compare.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t511_compare.html</guid>
+      <description>比較  Bitwise operators 位元範圍的邏輯運算,用來在2進位 32-bit 的整數中運算。大部分程式語言都有這種設計。
+ AND ( &amp;amp; ) OR ( | ) XOR ( ^ ) NOT ( ~ ) LEFT SHIFT ( &amp;lt;&amp;lt; ) RIGHT SHIFT ( &amp;gt;&amp;gt; ) ZERO-FILL RIGHT SHIFT ( &amp;gt;&amp;gt;&amp;gt; )  這些運算元不常見。
+特殊字元的==比較 和特殊值如 null 或 undefined 的比較:
+=== 包括比對兩個不是一樣的type
+console.log( null === undefined ) // false 而 == (a non-strict check)
+這裡有特殊規則,比較元==之下,下面的比較為真:
+console.log( null == undefined ) // true 💡在比較元 = 的相關運算中， null/undefined 會被轉換:</description>
+    </item>
+    
+    <item>
+      <title>flowchart</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t520_js_condition.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t520_js_condition.html</guid>
+      <description>附件[JS] 02 IfElse.docx[JS] 02 Loop variable.pptx[JS] 02 Loop.docx[JS] 02 Loop.pptx </description>
+    </item>
+    
+    <item>
+      <title>flowchart demo</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/js-demo-basic-flowcontrol.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/js-demo-basic-flowcontrol.html</guid>
+      <description>搜尋節點找出文件中的heading 找出文件中的heading 1節點 x=document.getElementsByTagName(&amp;quot;h1&amp;quot;) for (i=0;i&amp;lt;x.length;i++){ console.log(x[i].outerHTML) }
+找出文件中的連結(例如 ): 可以利用兩種for 迴圈的一種
+方法1: y=document.getElementsByTagName(&amp;quot;a&amp;quot;)for (var i=0;i&amp;lt;y.length;i++){console.log(y[i].href)} 方法2: y=document.getElementsByTagName(&amp;quot;a&amp;quot;)//for (itemIdx=0;itemIdx&amp;lt;y.length;itemIdx++)for (itemIdx in y){console.log(y[itemIdx].href)} 範例補充:
+var x=[4,2,3,1]for ( item in x){console.log(x[item])} ** other modern language**
+for (item in y){console.log(item.href)} 搜尋節點,並過濾 找出網頁中所有鏈結中,有PDF的連結:
+y=document.getElementsByTagName(&amp;quot;a&amp;quot;)for (item in y){if (y[item].href.endsWith(&amp;quot;.pdf&amp;quot;)){console.log(y[item].href)}} </description>
+    </item>
+    
+    <item>
+      <title>js 操作 css &amp; html</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t10_css_js.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/t10_css_js.html</guid>
+      <description>藉由snippet 了解之前的DOM和順便練習js
+練習加入表格 template參考
+附件[JS, side] innerTextHtml.pptx[JS] 03 利用js 建立HTML標籤.docx[JS] 03 利用js 建立HTML標籤.pptx[JS] 03 利用js 操作標籤.docx 教案 利用js 建立HTML標籤 展開 原始碼(利用js 建立HTML標籤.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;Title&amp;gt; &amp;lt;/Title&amp;gt;&amp;lt;script language=&amp;#34;JavaScript&amp;#34;&amp;gt;function simpleMarkup(form){TestVar = form.inputbox.value;alert(&amp;#34;you typed: &amp;#34; &amp;#43; TestVar);}&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form name=&amp;#34;myform&amp;#34; action=&amp;#34;&amp;#34; method=&amp;#34;get&amp;#34;&amp;gt;enter something in the box: &amp;lt;br/&amp;gt;&amp;lt;input type=&amp;#34;&amp;#34; name=&amp;#34;inputbox&amp;#34; value=&amp;#34;&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; name=&amp;#34;button1&amp;#34; value=&amp;#34;read&amp;#34; onclick=&amp;#34;readText(this.</description>
+    </item>
+    
+    <item>
+      <title>規則運算</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/%E8%A6%8F%E5%89%87%E9%81%8B%E7%AE%97.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part1basic/%E8%A6%8F%E5%89%87%E9%81%8B%E7%AE%97.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

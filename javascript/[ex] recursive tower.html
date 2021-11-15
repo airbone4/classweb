@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script>
+var ns= prompt('Towers of Hanoi: How many disks?'); 
+n=parseInt(ns); //inputdlg傳回細胞陣列
+towers(n,'a','b','c');
+
+ 
+function  towers(n,from,buffer,to) {
+if (n == 1) { //只剩下1個，直接搬到to。
+    console.log('\t 移動盤子#1，從柱子 %s 到柱子 %s \n',from,to);
+}
+else { //其他的搬到緩衝區
+    towers(n-1,from,to,buffer);
+    console.log('\t 移動盤子#%d，從柱子 %s 到柱子 %s \n',  n,from,to);
+    towers(n-1,buffer,from,to);
+}
+}
+
+function hanoiCount(n){
+ if (n==1) 
+    return 1;
+else
+  return 2*hanoiCount(n-1)+1
+}
+console.log(hanoiCount(3));
+  </script>
+</head>
+
+<body>
+  
+</body>
+</html>

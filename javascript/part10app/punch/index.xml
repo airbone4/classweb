@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>打笑臉 on Learn Javascript</title>
+    <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch.html</link>
+    <description>Recent content in 打笑臉 on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>相關語法和函數</title>
+      <link>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/intro.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www2.nkust.edu.tw/~linchao/Javascript/2021/javascript/part10app/punch/intro.html</guid>
+      <description>大綱和目的 主要是介紹甚麼是變數範圍(當然就是會牽扯到函數)還有簡單的陣列,但是運用到DOM相關的元素存取、事件。
+節省時間
+陣列 ❌
+x[1]=3 //🏷 ⭕
+x=[] //var x=[]x[1]=3 每隔幾秒執行某個函數:setInterval() var ahandle = setInterval( () =&amp;gt; console.log(&amp;quot;Hello!&amp;quot;) , 1000);clearInterval(ahandle); //🏷 開發順序 基本1 每隔一段時間顯示圖: 展開 原始碼(ex_punk.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;img{width:50px;height:50px;background-color:black;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;var headImgs=[];headImgs[0]=&amp;#34;black.png&amp;#34;;headImgs[1]=&amp;#34;smile.png&amp;#34;;function changeImg(){if(Math.random()&amp;gt;0.5)img1.src=headImgs[0];elseimg1.src=headImgs[1];}setInterval(changeImg,100)&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;img id=&amp;#34;img1&amp;#34;&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;img{width:50px;height:50px;background-color:black;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;var headImgs=[];headImgs[0]=&amp;#34;black.</description>
+    </item>
+    
+  </channel>
+</rss>

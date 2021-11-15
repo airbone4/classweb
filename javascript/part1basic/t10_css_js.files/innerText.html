@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+</head>
+<body>
+
+<h2>innerhtml << textformat </h2>
+<pre id=txtin_html></pre>
+<h2>innerhtml << htmlformat </h2>
+<pre id=htmlin_html></pre>
+<h2>innerText << txtformat </h2>
+<pre id=txtin_txt></pre>
+<h2>innerText << htmlformat </h2>
+<pre id=htmlin_txt></pre>  
+<script type="text/javascript">
+
+  var commenthtml = '<ul><li style="color:red;">This is a comment</ul>';
+  var commenttext = '&lt;ul&gt;&lt;li style=&quot;color:red;&quot;&gt;This is a comment&lt;/ul&gt;';
+
+  var span1=document.createElement("span");
+
+  span1.innerHTML=commenttext;
+
+  // displays: This is a comment
+  console.log( 'span1.textContent: ' + span1.textContent );
+  
+  //displays: "<ul><li style="color:red;">This is a comment</li></ul>"
+  console.log( 'span1.innerHTML:' + span1.innerHTML ); 
+
+  //displays: "<ul><li style="color:red;">This is a comment</li></ul>"
+  //span1.innerHTML.replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  document.getElementById('txtin_html').innerHTML = commenttext;
+  document.getElementById('htmlin_html').innerHTML = commenthtml;
+  document.getElementById('txtin_txt').innerText = commenttext;
+  document.getElementById('htmlin_txt').innerText = commenthtml;
+  //文字進innerHTML，再分別利用innerHTML,innerText讀出
+  console.log(document.getElementById('txtin_html').innerHTML);
+  console.log(document.getElementById('txtin_html').innerText);
+  //標籤進innerHTML，再分別利用innerHTML,innerText讀出
+  console.log(document.getElementById('htmlin_html').innerHTML);
+  console.log(document.getElementById('htmlin_html').innerText);
+  //文字進innerText，再分別利用innerHTML,innerText讀出
+  console.log(document.getElementById('txtin_txt').innerHTML);
+  console.log(document.getElementById('txtin_txt').innerText);
+  //標籤進innerText，再分別利用innerHTML,innerText讀出
+  console.log(document.getElementById('htmlin_txt').innerHTML);
+  console.log(document.getElementById('htmlin_txt').innerText);
+  //textcontent?
+  console.log(document.getElementById('txtin_html').textContent);
+  console.log(document.getElementById('htmlin_txt').textContent);
+</script>
+</body>
+</html>

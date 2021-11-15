@@ -1,0 +1,53 @@
+
+<script>
+function removeElement() {
+    document.getElementById("imgbox1").style.display = "none";
+}
+
+function changeVisibility() {
+    document.getElementById("imgbox2").style.visibility = "hidden";
+}
+
+function resetElement() {
+    document.getElementById("imgbox1").style.display = "block";
+    document.getElementById("imgbox2").style.visibility = "visible";
+}
+</script>
+<div  style="margin:20 ">  <!-- ¸Õ¸Õ0 -16px ¬Ý¬Ý  -->
+  <div style="display:inline"> this is a div 1.</div>
+  <div style="display:inline"> this is a div 2.</div>
+</div>
+
+
+ 
+<div   id="imgbox4" style="width: 30%;display:inline">
+  <img src="img_fjords.jpg" width="200px" alt="Klematis">
+</div>
+<div style="width: 30%;display:inline; " id="imgbox5">
+  <img src="img_forest.jpg"  width="200px" alt="Klematis">
+</div>
+<div  style="width:30%;;display:inline;"> 
+  <img src="img_lights.jpg" width="200px"  alt="Klematis">
+</div>
+ 
+ 
+
+<hr>
+
+ 
+<div   id="imgbox1" style="display:inline">
+  <p >display:none</p>
+  <img src="img_fjords.jpg" width="200px" alt="Klematis">
+  <p><button  onclick="removeElement()">Remove</button></p>
+</div>
+<div style=" display:inline;visibility: visible" id="imgbox2">
+  <p > visibility:hidden </p>
+  <img src="img_forest.jpg"  width="200px" alt="Klematis">
+  <p><button  onclick="changeVisibility()">Hide</button></p>
+</div>
+<div  style="display:inline"> 
+  <p>reset</p>
+  <img src="img_lights.jpg" width="200px"  alt="Klematis">
+  <p><button  onclick="resetElement()">Reset All</button></p>
+</div>
+ 

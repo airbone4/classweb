@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<script>
+ var x;
+function loadImg(e){
+var f1=new FileReader();
+var f2=new FileReader();
+var f3=new FileReader();
+var str;
+f1.onload=function(){
+  img.src=f1.result;
+  str=f1.result;
+  textbox1.innerHTML=btoa(str);
+
+}
+
+f1.readAsBinaryString(e.files[0]);
+
+//part2 
+f2.onload=function(){
+  
+  str=f2.result;
+  str=str.split(",")[1];//讀取data part
+  textbox2.innerHTML=str;
+}
+f2.readAsDataURL(e.files[0]);
+//part 3
+f3.onload=function(){
+
+  x= new Uint8Array(f3.result);  //hollow.jpg 前幾個hex(利用notepad): ff d8 ff e0 20 10 4a  
+  //驗證結果：x就是檔案內容。
+}
+f3.readAsArrayBuffer(e.files[0]);
+
+
+}
+</script>
+
+
+<input type="file" onchange="loadImg(this)">
+<img id="img"> 
+<br>
+readAsBinaryString <br>
+<textarea id="textbox1" style="width:100%"></textarea>
+readAdDataURL <br>
+<textarea id="textbox2" style="width:100%"></textarea>
+

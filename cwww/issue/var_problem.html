@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>var 的問題</title>
+
+</head>
+
+<body>
+    <button id="first">First</button>
+    <button id="second">Second</button>
+    <button id="third">Third</button>
+    <script>
+        var buttons = document.getElementsByTagName('button')
+
+        for (var i = 0; i < buttons.length; i++) {
+            // buttonName 暴露於 global environment       
+            var buttonName = buttons[i].innerHTML
+            buttons[i].addEventListener('click', function () {
+                console.log(buttonName)
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+
+
+<html>
+<head>
+<script>
+
+
+function Monkey () {
+    this.name="";
+    this.sex="";
+	this.img="";
+	this.weight=0;
+	this.avgWeight=80;
+	this.needDiet=function(){
+	  //當超出平均重量的60% 需要減肥計畫
+	  if (this.weight > this.avgWeight*1.6)  
+	    console.log("need diet")
+	  else 
+	    console.log("health"); 
+ 
+	}
+	
+}
+var index=0;
+var m1= new Monkey();
+m1.name="小花"
+m1.sex="f"
+m1.weight=130;
+var m2=new Monkey();
+m2.name="小白"
+m2.sex="m"
+m2.weight=40;
+
+var m3=new Monkey();
+m3.name="小黑"
+m3.sex="m"
+m3.weight=190;
+
+var cadge=[];
+cadge.push(m1);
+cadge[1]=m2;
+cadge[2]=m3;
+cadge[3]= new Monkey();
+cadge[3].name="小灰";
+cadge[3].sex="f";
+cadge[3].weight=10;
+ 
+var c=new Cadge();
+c.newMonkey(m1);
+c.newMonkey(m2);
+c.newMonkey(m3);
+
+function showMonkey(){
+   
+ index=(index+1)%c.amount();
+ c.display(index);
+ 
+}
+function showFirst(){
+  
+ mName.value=cadge[0].name;
+ mSex.value=cadge[0].sex;
+ mWeight.value=cadge[0].weight;
+ 
+ mNo.innerHTML= "0";
+ 
+}
+
+ 
+ 
+function Cadge () {
+    
+	this.index=0;
+	this.arr=[];
+    this.newMonkey = function(e){
+      this.arr.push(e);
+    }	
+    this.amount=function(){
+	  return this.arr.length;
+	};
+	this.display=function(idx){
+      
+      mName.value=this.arr[idx].name;
+      mSex.value=this.arr[idx].sex;
+      mWeight.value=this.arr[idx].weight;
+      mNo.innerHTML= (idx).toString();
+ 
+ 
+	}
+	this.doAverage=function(){
+	  var i;
+	  var total=0;
+	  for (i=0;i<this.arr.length;i=i+1){ 
+	    total= total+ this.arr[i].weight;
+	  }
+       
+	   for (i=0;i<this.arr.length;i=i+1){ 
+	     this.arr[i].avgWeight= total/this.arr.length;
+	  }
+	  
+	  
+	
+	}
+}
+
+function readMonkey(){
+ x=localStorage.getItem("monkeys");
+ console.log(x);
+
+}
+function writeMonkey(){
+
+ localStorage.setItem("monkeys",JSON.stringify(m1));
+
+}
+
+
+</script>
+</head>
+<body onload="showFirst()">
+問題：我們有一堆猴子，想要利用網際網路管理我們的猴子。要怎樣設計需要的物件。
+<hr>
+<br>
+<p id="mNo"></p>
+ 
+<input type="textarea" id="mName">
+<br>
+<input type="textarea" id="mSex">
+<br>
+<input type="textarea" id="mWeight">
+<br>
+
+<hr>
+
+<input type="button" value="下一筆" onclick="showMonkey()"> 
+<input type="button" value="讀檔" onclick="readMonkey()"> 
+<input type="button" value="寫檔" onclick="writeMonkey()"> 
+
+
+<script>
+for (var i=0;i<c.amount();i++){
+  c.arr[i].needDiet();   
+}
+</script>
+
+</body>
+</html>
+

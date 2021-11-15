@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Canvas塗鴉板</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.4.js">
+    </script>
+    <style>
+        body,input { font-size: 9pt; }
+        #dCanvas,#dLine { clear: both; }
+        .option
+        {
+            float: left; width: 20px; height: 20px; border: 2px solid #cccccc;
+            margin-right: 4px; margin-bottom: 4px;
+        }
+        .active { border: 2px solid black; }
+        .lw { text-align: center; vertical-align: middle; }
+        img.output { border: 1px solid green; }
+        #cSketchPad { cursor: arrow; }
+    </style>
+ 
+</head>
+<body>
+<div id="dPallete"></div>
+<div id="dLine"></div>
+<div id="dCanvas">
+<canvas id="aPad" width="300" height="300" style="border: 2px solid gray" />
+</div>
+<input type="button" id="bGenImage" value="Generate Image" />
+<div id="dOutput"></div>
+
+   <script>
+            var aPad = document.getElementById("aPad");
+            var ctx = aPad.getContext("2d");
+            ctx.lineCap = "round";
+            ctx.fillStyle = "white"; //白底
+            ctx.fillRect(0, 0, aPad.width, aPad.height);
+            var drawMode = false;
+            //canvas點選、移動、放開按鍵事件時進行繪圖動作
+            aPad.onmousedown=function (e) {
+                ctx.beginPath();
+                ctx.strokeStyle = "red";//p_color;
+                ctx.lineWidth = 2;//p_width;
+                //ctx.moveTo(e.pageX - aPad.position().left, e.pageY - aPad.position().top);
+				offset = aPad.getBoundingClientRect();
+				ctx.moveTo(e.pageX-offset.left,e.pageY-offset.top);
+                drawMode = true;
+				 
+            }
+            aPad.onmousemove=function (e) {
+                if (drawMode) {
+                    //ctx.lineTo(e.pageX - aPad.position().left, e.pageY - aPad.position().top);
+					offset = aPad.getBoundingClientRect();
+				    ctx.lineTo(e.pageX-offset.left,e.pageY-offset.top);
+                    ctx.stroke();
+					 
+                }
+            }
+            aPad.onmouseup=function (e) {
+                drawMode = false;
+            }
+    </script>
+
+</body>
+</html>

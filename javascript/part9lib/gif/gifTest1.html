@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <script src="../lib/jsgif/b64.js"></script>
+
+    <script src="../lib/jsgif/LZWEncoder.js"></script>
+    <script src="../lib/jsgif/NeuQuant.js"></script>
+    <script src="../lib/jsgif/GIFEncoder.js"></script>
+    <script src="../lib/gif.js/dist/gif.js"></script>
+</head>
+
+<body>
+    <button onclick="doit(this)">doit</button><br />
+    <canvas id="idCanvas"></canvas>
+    <br />
+    <img id="rst">
+
+    <script>
+        var Images = [];
+        var ctxs = [];
+        var imgFile = ["0001.jpg", "0002.jpg", "0003.jpg", "0004.jpg"];
+
+
+        for (i = 0; i < imgFile.length; i++) {
+            Images[i] = document.createElement("img");
+            Images[i].src = imgFile[i];
+            Images[i].width = "100";
+            Images[i].height = "100";
+            Images[i].crossOrigin = "Anonymous";
+            //document.body.appendChild(Images[i]);//不顯示
+            Images[i].onload = function (e) {
+                cv = document.createElement("canvas");
+                cv.height = "100";
+                cv.width = "100";
+                document.body.appendChild(cv);
+                ctx = cv.getContext('2d')
+
+                ctx.drawImage(e.target, 0, 0, 100, 100); //image on load
+                ctxs.push(ctx);
+
+            }
+
+        }
+
+
+
+        function doit() {
+            var encoder = new GIFEncoder();
+            encoder.setRepeat(0); //0 -> loop forever //1+ -> loop n times then stop encoder.setDelay(500); //go to next frame every n milliseconds 
+            encoder.setDelay(500);
+            encoder.start();
+
+            for (i = 0; i < Images.length; i++) {
+                encoder.addFrame(ctxs[i]);
+            }
+
+            encoder.finish();
+            rst.src = 'data:image/gif;base64,' + encode64(encoder.stream().getData());
+
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script>
+  function eventFire(el, etype){
+
+    var evObj = document.createEvent('MouseEvents');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+
+}
+function simulateClick(control)
+{
+    if (document.all)
+    {
+        control.click();
+    }
+    else
+    {
+        var evObj = document.createEvent('MouseEvents');
+        evObj.initMouseEvent('click', true, true, window, 1, 12, 345, 7, 220, false, false, true, false, 0, null );
+		//evObj.initMouseEvent('click', true, false);
+        control.dispatchEvent(evObj);
+    }
+}
+  </script>
+
+</head>
+<body >
+<!-- <input type="file" id="inp"> -->
+<a href="#" onclick="console.log('xx')" id="lk1">xx</a>
+<input id="xx" type="button" onclick="console.log('xx1')">
+<input  type="button" onclick="doit()">
+<iframe id="content"></iframe>
+<div class="note"> 
+<ul>
+<li/>只要filename:
+<li/>透過按鈕doit 會出現browser
+<li/>正確解答：除非透過setTimeout ()  否則在onload的時候，不會觸發click事件，也就是說，瀏覽器能夠分辨什麼是使用者click或程式觸發的click。
+</ul>
+</div>
+  <script>
+ 
+ function browser(){
+  
+  this.aFileObject=undefined;
+  var _inp=document.createElement("input");
+  _inp.setAttribute("type","file");
+  _inp.style.display="none"
+  document.body.appendChild(_inp);
+  _inp.onchange=function(e){
+    aFileObject=_inp.files[0];
+
+  }
+
+  this.execute=function() {
+     aFileObject=undefined;
+	 _inp.click();  //<--就是不執行     
+	 //simulateClick(_inp);
+     //eventFire(_inp,"click")
+     return new Promise(function(resolve) {
+	   
+	   if (aFileObject==undefined){
+
+ 		 
+	     setTimeout(function ask(){
+		  if (aFileObject==undefined)
+		    setTimeout(ask,1000)
+		  else{
+		    //_inp.parentNode.removeChild(_inp);
+			document.body.removeChild(_inp);
+	        resolve(aFileObject);
+		  }	
+		 },1000);
+	  }	 
+	 }); 
+
+  }
+}
+async function doit(){
+ //_inp.click();
+ 
+ var x=new browser();
+ var aFile= await x.execute();
+ console.log(aFile.name);
+ url = window.URL.createObjectURL(aFile)
+ content.src=url;
+}  
+
+lk1.click();//觸發OK
+xx.click(); //觸發OK
+doit();
+  </script>
+</body>
+</html>

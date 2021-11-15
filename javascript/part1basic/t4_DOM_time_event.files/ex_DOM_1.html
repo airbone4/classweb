@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+function click1(e){
+ alert("my name click1")
+}
+function click2() {
+ alert("my name click2") 
+} 
+function changeit(){
+  document.getElementById("btn1").onclick=click2
+}
+</script>
+</head>
+<body>
+
+<input id="btn1" name="k1" type="button" value="cc" onclick="click1(1,2)">
+<script>
+  setTimeout(changeit,3000) ;//note: !!! changeit沒有刮號,雖然是函數，這是錯的==> setTimeout(changeit(),300) 
+
+</script>
+
+</body>
+</html>
