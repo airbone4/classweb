@@ -342,6 +342,15 @@ y=document.getElementsByTagName(&amp;quot;a&amp;quot;)for (item in y){if (y[it
     </item>
     
     <item>
+      <title>4. flex</title>
+      <link>https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>4.2 軟片(snippet)動態</title>
       <link>https://airbone4.github.io/classweb/html_css/css/4_2_snippet_dynamic.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
