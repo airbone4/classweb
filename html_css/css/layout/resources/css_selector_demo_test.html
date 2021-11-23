@@ -1,112 +1,0 @@
-<!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
-  <head>    <title>Basic Demo :: Learn Javascript</title>    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }    </style>  </head>
-  <body class="" >
-    <nav id="sidebar" class="">  <div id="header-wrapper">
-    <div id="header">
-      <a id="logo" href="https://airbon5.github.io/xx/">
-  <img src="../../../images/rmi.png">
-</a>    </div>  </div>    <section id="homelinks">
-      <ul>
-        <li>
-            <a class="padding" href='../../../'><i class='fas fa-home'></i> Home</a>
-        </li>
-      </ul>
-    </section>    <div class="highlightable">
-    <ul class="topics">    <li data-nav-id="/web.html" title="Web Learning" class="dd-item
-        parent        ">
-      <a href="../../../web.html">
-          Web Learning      </a>        <ul>    <li data-nav-id="/web/html_css.html" title="html and css" class="dd-item
-        parent        ">
-      <a href="../../../web/html_css.html">
-          html and css      </a>        <ul>    <li data-nav-id="/web/html_css/css.html" title="CSS" class="dd-item
-        parent        ">
-      <a href="../../../web/html_css/css.html">
-          CSS      </a>        <ul>      <li data-nav-id="/web/html_css/css/css_selector.html" title="Basic" class="dd-item ">
-        <a href="../../../web/html_css/css/css_selector.html">
-        Basic        </a>
-    </li>      <li data-nav-id="/web/html_css/css/css_basic_demo.html" title="Basic Demo" class="dd-item active">
-        <a href="../../../web/html_css/css/css_basic_demo.html">
-        Basic Demo        </a>
-    </li>      <li data-nav-id="/web/html_css/css/css_float.html" title="float block demo" class="dd-item ">
-        <a href="../../../web/html_css/css/css_float.html">
-        float block demo        </a>
-    </li>        </ul>    </li>    <li data-nav-id="/web/html_css/tag.html" title="Html" class="dd-item        ">
-      <a href="../../../web/html_css/tag.html">
-          Html      </a>        <ul>      <li data-nav-id="/web/html_css/tag/basic_1.html" title="Basic 1" class="dd-item ">
-        <a href="../../../web/html_css/tag/basic_1.html">
-        Basic 1        </a>
-    </li>      <li data-nav-id="/web/html_css/tag/hw_layout.html" title="作業layout" class="dd-item ">
-        <a href="../../../web/html_css/tag/hw_layout.html">
-        作業layout        </a>
-    </li>      <li data-nav-id="/web/html_css/tag/demo_form.html" title="Form Demo" class="dd-item ">
-        <a href="../../../web/html_css/tag/demo_form.html">
-        Form Demo        </a>
-    </li>        </ul>    </li>        </ul>    </li>    <li data-nav-id="/web/javascript.html" title="Javascript" class="dd-item        ">
-      <a href="../../../web/javascript.html">
-          <b>* </b>Javascript      </a>        <ul>      <li data-nav-id="/web/javascript/overview.html" title="概要" class="dd-item ">
-        <a href="../../../web/javascript/overview.html">
-        概要        </a>
-    </li>      <li data-nav-id="/web/javascript/list1999.html" title="列表-directory_index_recurse" class="dd-item ">
-        <a href="../../../web/javascript/list1999.html">
-        列表-directory_index_recurse        </a>
-    </li>        </ul>    </li>        </ul>    </li>    <li data-nav-id="/git.html" title="GIT檔案列表" class="dd-item        ">
-      <a href="../../../git.html">
-          GIT檔案列表      </a>    </li>    <li data-nav-id="/post.html" title="Posts" class="dd-item        ">
-      <a href="../../../post.html">
-          Posts      </a>        <ul>      <li data-nav-id="/post/blogdown.html" title="blogdown install" class="dd-item ">
-        <a href="../../../post/blogdown.html">
-        blogdown install        </a>
-    </li>      <li data-nav-id="/post/embedtest.html" title="內嵌測試" class="dd-item ">
-        <a href="../../../post/embedtest.html">
-        內嵌測試        </a>
-    </li>      <li data-nav-id="/post/list_shortlist.html" title="列表 shortlist" class="dd-item ">
-        <a href="../../../post/list_shortlist.html">
-        列表 shortlist        </a>
-    </li>      <li data-nav-id="/post/list_test.html" title="列表 test" class="dd-item ">
-        <a href="../../../post/list_test.html">
-        列表 test        </a>
-    </li>        </ul>    </li>    <li data-nav-id="/tools.html" title="工具" class="dd-item        ">
-      <a href="../../../tools.html">
-          工具      </a>        <ul>    <li data-nav-id="/tools/hugo.html" title="HUGO" class="dd-item        ">
-      <a href="../../../tools/hugo.html">
-          HUGO      </a>        <ul>      <li data-nav-id="/tools/hugo/grid.html" title="Grid" class="dd-item ">
-        <a href="../../../tools/hugo/grid.html">
-        Grid        </a>
-    </li>      <li data-nav-id="/tools/hugo/hugonote.html" title="hugo 快速" class="dd-item ">
-        <a href="../../../tools/hugo/hugonote.html">
-        hugo 快速        </a>
-    </li>        </ul>    </li>        </ul>    </li>    </ul>    <section id="footer">
-      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>    </section>
-  </div>
-</nav>        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">              <div>
-                <div id="top-bar">                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>                  <span class="links">            <a href='../../../'>首頁</a> > <a href='../../../web.html'>Web Learning</a> > <a href='../../../web/html_css.html'>html and css</a> > <a href='../../../web/html_css/css.html'>CSS</a> > Basic Demo                    </span>
-                </div>                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#文字對齊">文字對齊</a></li>
-<li><a href="#hyperlink-動態操作">hyperlink 動態操作</a></li>
-</ul></li>
-</ul>
-</nav>
-    </div>
-</div>              </div>
-            </div>        <div id="head-tags">        </div>        <div id="body-inner">            <h1>              Basic Demo
-            </h1><h2 id="文字對齊">文字對齊</h2><h2 id="hyperlink-動態操作">hyperlink 動態操作</h2><p>滑鼠和超連結</p><footer class=" footline" >	    <i class='fa fa-user'></i> <a href="mailto:linchao@nkust.edu.tw">linchao@nkust.edu.tw</a> 
-	    </div></footer>        </div>       </div>    </div>    </section>    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>  </body>
-</html>

@@ -1,53 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Html on Learn Javascript</title>
-    <link>https://airbone4.github.io/classweb/html_css/html.html</link>
-    <description>Recent content in Html on Learn Javascript</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/html_css/html/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>表單(Form)</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/demo_form.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/demo_form.html</guid>
-      <description>easy 展開 原始碼(b11_form_email.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Form&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;content&amp;gt;&amp;lt;form action=&amp;#34;mailto:xxx@nkust.edu.tw&amp;#34; method=&amp;#34;POST&amp;#34; enctype=&amp;#34;multipart/form-data&amp;#34; name=&amp;#34;EmailTestForm&amp;#34;&amp;gt;Name:&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;#34;text&amp;#34; size=&amp;#34;24″ name=&amp;#34;VisitorName&amp;#34; placeholder=&amp;#34;貴號&amp;#34;&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Message:&amp;lt;br /&amp;gt;&amp;lt;textarea name=&amp;#34;VisitorComment&amp;#34; rows=&amp;#34;4″ cols=&amp;#34; 20″ placeholder=&amp;#34;不要寄出去&amp;#34;&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;Submit&amp;#34; /&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;/content&amp;gt;&amp;lt;hr /&amp;gt;信件內容為：&amp;lt;br /&amp;gt;&amp;lt;pre class=&amp;#34;demo&amp;#34;&amp;gt;xxx下午1:18 (0 分鐘前)寄給 我VisitorComment=teddd&amp;lt;/pre&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Form&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;content&amp;gt;&amp;lt;form action=&amp;#34;mailto:xxx@nkust.</description>
-    </item>
-    
-    <item>
-      <title>基本</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/basic_1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/basic_1.html</guid>
-      <description>基本 html 架構 超文本hypertext markup language
-&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;標題&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;內文&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; 標籤(tag)分為
- 成對標籤,和 單體標籤。  前者有頭有尾,後者只有一個。參考上面範例。單體標籤的例子:&amp;lt;br/&amp;gt;,&amp;lt;hr/&amp;gt;。 示範存檔和開檔。
-超連結 - &amp;lt;a&amp;gt; &amp;lt;a href=&amp;quot;http://www.yahoo.com.tw&amp;quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt; 🏷&amp;lt;a href=&amp;quot;http://www.yahoo.com.tw&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt; 🏷 在標籤中的屬性,寫法利用=分隔,可以簡單理解為鍵值對(key value pair)。左邊是鍵(HTML編譯要識別的部分),右邊是值。值要用雙引用括起來。  href=&amp;quot;http://www.yahoo.com.tw&amp;quot;：連接的網址 target=&amp;quot;開啟方式&amp;quot;，其中開啟方式可以是下面三種一種  &amp;quot;_blank&amp;quot;:新視窗 &amp;quot;_self&amp;quot;:自己 &amp;quot;_top&amp;quot;:最頂端框架&amp;quot;_parent&amp;quot;:父框架    寄信也是這個&amp;lt;a&amp;gt;標籤
-&amp;lt;a href=&amp;quot;mailto:me@gmail.com&amp;quot;&amp;gt;聯繫&amp;lt;/a&amp;gt; 除了移動到某個網頁,也可以移動到本頁的某個地方,但是需要錨點
-p 定位：
-&amp;lt;a name=&amp;quot;hello&amp;quot;&amp;gt;xxxxxxx&amp;lt;/a&amp;gt;&amp;lt;a id=&amp;quot;hello&amp;quot;&amp;gt;xxxxxx&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;#hello&amp;quot;&amp;gt;移到hello處&amp;lt;/a&amp;gt; &amp;lt;!-- 移動--&amp;gt; 🏷 文字排版 - &amp;lt;b&amp;gt;、&amp;lt;i&amp;gt;、&amp;lt;br/&amp;gt;、&amp;lt;hr/&amp;gt; 基本上 HTML 也提供了版面設計,但是比較現代的方式都使用大量 CSS。</description>
-    </item>
-    
-    <item>
-      <title>網路</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/%E7%B6%B2%E8%B7%AF.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/%E7%B6%B2%E8%B7%AF.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>進度 layout</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/task1_layout.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/task1_layout.html</guid>
-      <description>範本 目標:這是傳統用table標籤配置版面,利用比較新的方法,重新製作。
-展開 原始碼(table_layout.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;HTML lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;HEAD&amp;gt;&amp;lt;TITLE&amp;gt; What you will be able to create by now &amp;lt;/TITLE&amp;gt;&amp;lt;META charset=&amp;#34;utf-8&amp;#34; /&amp;gt;&amp;lt;META name=&amp;#34;keywords&amp;#34; content=&amp;#34;white dogs, black dogs, angry dogs&amp;#34; /&amp;gt;&amp;lt;META name=&amp;#34;description&amp;#34; content=&amp;#34;a website about dogs&amp;#34; /&amp;gt;&amp;lt;/HEAD&amp;gt;&amp;lt;BODY&amp;gt;&amp;lt;table border=&amp;#34;1&amp;#34; style=&amp;#34;margin: auto;&amp;#34;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td colspan=&amp;#34;2&amp;#34; style=&amp;#34;width:800px; height: 100px;&amp;#34;&amp;gt;&amp;lt;h1&amp;gt;My dog website heading&amp;lt;/h1&amp;gt; &amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td style=&amp;#34;width:220px; height: 800px;&amp;#34; &amp;gt;&amp;lt;h3&amp;gt;Menu&amp;lt;/h3&amp;gt;&amp;lt;hr/&amp;gt;&amp;lt;p&amp;gt;This is the menu bar:&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;page2.</description>
-    </item>
-    
-  </channel>
-</rss>

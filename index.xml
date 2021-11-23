@@ -1,828 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>頁首 on Learn Javascript</title>
-    <link>https://airbone4.github.io/classweb/</link>
-    <description>Recent content in 頁首 on Learn Javascript</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>01 Git Note</title>
-      <link>https://airbone4.github.io/classweb/git/gitnote.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/git/gitnote.html</guid>
-      <description>git 常用指令 git update-git-for-windows Creating a new repository on the command line
-git initgit add README.mdgit commit -m &amp;quot;first commit&amp;quot;git remote add origin http://github.com/userid/xxx.gitgit push -u origin master Pushing an existing repository from the command line
-git remote add origin http://github.com/userid/xxx.gitgit push -u origin master 利用Rstudio 的時候,常用的三個指令
-git init .git config user.name &amp;quot;myname&amp;quot;git config user.email &amp;quot;myemail&amp;quot; 密碼問題
- 直接打通關 git push https://userid:password@github.</description>
-    </item>
-    
-    <item>
-      <title>1.1 基本</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/1_1_basic_demo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/1_1_basic_demo.html</guid>
-      <description>CSS 放置的位置有三  inline CSS internal CSS external CSS  💯主要文件cssBeginer2.csscssBeginer2.htmlcssBeginer2.pptx 內嵌CSS - 利用HTML的標籤屬性(Tag attribute) &amp;lt;img src=&amp;quot;img.png&amp;quot; alt=&amp;quot;drawing&amp;quot;&amp;gt; 利用CSS重設寬度為:200px,💡加入屬性style，如下;
-⭕
-&amp;lt;img src=&amp;quot;img.png&amp;quot; alt=&amp;quot;drawing&amp;quot; style=&amp;quot;width: 200px;&amp;quot;&amp;gt;  ❌
-&amp;lt;img src=&amp;quot;img.png&amp;quot; alt=&amp;quot;drawing&amp;quot; width=&amp;quot;200px&amp;quot;&amp;gt; html attribue的寫法是 用=分開 鍵和值(雙引號)。
-css style 的寫法是用:分開 鍵和值(沒有雙引號)。
- internal 文字對齊 展開 原始碼(css_align_internal.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;h1 {text-align: center;}p {text-align: center;}div {text-align: center;}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt;This is a heading&amp;lt;/h1&amp;gt;&amp;lt;p&amp;gt;This is a paragraph.</description>
-    </item>
-    
-    <item>
-      <title>1999 檔案列表</title>
-      <link>https://airbone4.github.io/classweb/javascript/list1999.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/list1999.html</guid>
-      <description>$(document).ready(function() {$(&#39;#datatable2&#39;).dataTable( { searching: true,ordering: false, order: [], paging: false,info:false,autowidth:false} );});資料夾下載連結大小 / byte:Part5File blobXhr_1.html161 blobXhr_1.js2985 Part8Object ApplyVsCall.html30837 [JS] 06 Object stack queue.docx25941 [JS] 06 Object tree.</description>
-    </item>
-    
-    <item>
-      <title>DOM basic</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t1_dom_basic.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t1_dom_basic.html</guid>
-      <description>DOM TREE   參考  📋 在console 中測試。
-onlive dom tree  中文參考 online local  💻 展開 原始碼(OnLineDOMTree.html)&amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Live DOM Viewer&amp;lt;/title&amp;gt;&amp;lt;style&amp;gt;h1 { margin: 0; }h2 { font-size: small; margin: 1em 0 0; }p, ul, pre { margin: 0; }p { border: inset thin; }textarea { width: 100%; -width: 99%; height: 8em; border: 0; }iframe { width: 100%; height: 12em; border: 0; }/* iframe.</description>
-    </item>
-    
-    <item>
-      <title>利用JavaScript下載連結</title>
-      <link>https://airbone4.github.io/classweb/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part5download/demo-1-%E5%88%A9%E7%94%A8js%E4%B8%8B%E8%BC%89%E9%80%A3%E7%B5%90.html</guid>
-      <description>大綱 由於保全限制,因此,客戶端的js不允與直接下載檔案.因此網路上有各種各樣的方法，這裡介紹其中一種。
-相關 csv file 附件
-建立假連結 列出幾種下載檔案的javascript方法，並討論優缺點。 注意:本節最後列出最簡單的寫法。
-一般有兩種方式：
- window.open mouse click/tap on link  兩種方式都有一些問題，分別探討如下。
-###【方法1: window.open】
-window.downloadFile = function(sUrl) {window.open(sUrl);} 大部分的瀏覽器都支援window.open但是有缺點:
- 會開啟一個空白視窗 如果MIME的內容會被瀏覽器載入，則不會下載。  改進： &amp;quot;_self&amp;quot; 可以避免上述第一個問題。例如，
-window.downloadFile = function(sUrl) {window.open(sUrl, &#39;_self&#39;);} 【方法2: 利用mouse click 事件】 但是仍然無法解決第2個問題。但是 利用HTML5 的屬性：&amp;quot;download&amp;quot;可以避免上述第2個問題(因為在attribute 中已經指出直接下載)。
-利用link而不是windows.open(),雖然不會因而產生新視窗，但是問題是,必須由使用者滑鼠觸動,因此,這裡順便利用了虛擬事件(dispatchevent)。:
-//Creating new link node.var link = document.createElement(&#39;a&#39;);link.href = sUrl;//Dispatching click event.if (document.</description>
-    </item>
-    
-    <item>
-      <title>概要</title>
-      <link>https://airbone4.github.io/classweb/javascript/overview.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/overview.html</guid>
-      <description>&lt;h1 id=&#34;大綱&#34;&gt;大綱&lt;/h1&gt;
-&lt;p&gt;HTML + CSS + Javascript&lt;/p&gt;
-&lt;p&gt;=&amp;gt;static web&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>get all link in page</title>
-      <link>https://airbone4.github.io/classweb/javascript/part5download/demo-1-getall-link-in-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part5download/demo-1-getall-link-in-page.html</guid>
-      <description>參考 &amp;lt;找出所有link&amp;gt; &amp;lt;regexp&amp;gt;
-大綱 method documen.links可以得到所有的&amp;lt;a&amp;gt; 連結
-//method 1var allLinks = document.links;for (var i=0; i&amp;lt;allLinks.length; i++) {document.write(allLinks[i].href+&amp;quot;&amp;lt;BR/&amp;gt;&amp;quot;);} method 2 document.links 也可以用另外一個通用函數getElementByTagName()取代。
-//method 2var links = document.getElementsByTagName(&#39;a&#39;);for(var i = 0; i&amp;lt; links.length; i++){alert(links[i].href);} 練習 下面程式碼會有甚麼結果,觀察href 在哪裡。
-//method 2 (error) only for object properties ?//例如，如果urls是一個物件，則url 是urls的一個欄位?var urls=document.links;for (url in urls){console.log(url.innerHTML);} example
-//demo// in google search r markdown pdfvar x=document.</description>
-    </item>
-    
-    <item>
-      <title>在主控台的測試</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t2_%E4%B8%BB%E6%8E%A7%E5%8F%B0%E6%B8%AC%E8%A9%A6.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t2_%E4%B8%BB%E6%8E%A7%E5%8F%B0%E6%B8%AC%E8%A9%A6.html</guid>
-      <description>主控台測試 document.open();document.write(&#39;content&#39;);document.close(); 將目前的顯示的網頁,覆蓋,內容為content。
-document.open();document.write(&#39;content&#39;);document.writeln(&#39;content&#39;);document.write(&#39;content&amp;lt;br&amp;gt;&#39;);document.write(&#39;content&amp;lt;br&amp;gt;&#39;);document.close(); writeln() 只是對應一般文字檔的換行,並不在網頁中換行,而是被視為一個空白。真的換行必須寫標籤&amp;lt;br&amp;gt;。 1 2 3 4 5 6 7 8  document.open() document.write(&amp;#34;&amp;lt;html&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;head&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;/head&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;body&amp;gt;&amp;#34;) document.write(&amp;#39;&amp;lt;img src=&amp;#34;0000.jpg&amp;#34; width=&amp;#34;30%&amp;#34; height=&amp;#34;30%&amp;#34;&amp;gt;&amp;#39;) document.write(&amp;#34;&amp;lt;/body&amp;gt;&amp;#34;) document.write(&amp;#34;&amp;lt;/html&amp;gt;&amp;#34;)  
-產生網路傳輸錯誤。因為&amp;lt;img&amp;gt;標籤,會產生HTTP request GET。</description>
-    </item>
-    
-    <item>
-      <title>相關語法和函數</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/punch/intro.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/punch/intro.html</guid>
-      <description>大綱和目的 主要是介紹甚麼是變數範圍(當然就是會牽扯到函數)還有簡單的陣列,但是運用到DOM相關的元素存取、事件。
-節省時間
-陣列 ❌
-x[1]=3 //🏷 ⭕
-x=[] //var x=[]x[1]=3 每隔幾秒執行某個函數:setInterval() var ahandle = setInterval( () =&amp;gt; console.log(&amp;quot;Hello!&amp;quot;) , 1000);clearInterval(ahandle); //🏷 開發順序 基本1 每隔一段時間顯示圖: 展開 原始碼(ex_punk.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;img{width:50px;height:50px;background-color:black;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;var headImgs=[];headImgs[0]=&amp;#34;black.png&amp;#34;;headImgs[1]=&amp;#34;smile.png&amp;#34;;function changeImg(){if(Math.random()&amp;gt;0.5)img1.src=headImgs[0];elseimg1.src=headImgs[1];}setInterval(changeImg,100)&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;img id=&amp;#34;img1&amp;#34;&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;img{width:50px;height:50px;background-color:black;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;var headImgs=[];headImgs[0]=&amp;#34;black.</description>
-    </item>
-    
-    <item>
-      <title>appDownload note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part5download/app/appdownload_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part5download/app/appdownload_note.html</guid>
-      <description>大綱 主程式分兩部分,擷取PDF成網頁(函數:getlink()) 然後下載(函數:dogetfile)。
-$(document).ready(function() {$(&#39;#datatable2&#39;).dataTable( { searching:false, ordering: false, order: [], paging: false,info:false,autowidth:false} );});資料夾下載連結大小 / byte:appDownload.js961 appDownload_2.js1010 appDownload_Note.files testDownload.html1426 testDownload.html1426 testDownload.js394  參考 多檔下載為zip</description>
-    </item>
-    
-    <item>
-      <title>DOM event</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t3_dom_mouse_event.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t3_dom_mouse_event.html</guid>
-      <description>empty 展開 原始碼(ex_mouse1.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1.0&amp;#34;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body style=&amp;#34;height:200px&amp;#34;&amp;gt;&amp;lt;p id=&amp;#34;position&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;document.addEventListener(&amp;#34;click&amp;#34;, function (event){var x=event.clientX;var y=event.clientY;position.innerHTML=&amp;#34;(X= &amp;#34;&amp;#43;x &amp;#43;&amp;#34;)(Y= &amp;#34;&amp;#43;y&amp;#43;&amp;#34;)&amp;#34;;});&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width,initial-scale=1.0&amp;#34;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body style=&amp;#34;height:200px&amp;#34;&amp;gt;&amp;lt;p id=&amp;#34;position&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;document.addEventListener(&amp;#34;click&amp;#34;, function (event){var x=event.clientX;var y=event.clientY;position.innerHTML=&amp;#34;(X= &amp;#34;&amp;#43;x &amp;#43;&amp;#34;)(Y= &amp;#34;&amp;#43;y&amp;#43;&amp;#34;)&amp;#34;;});&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 example 展開 原始碼(ex_mouse2.</description>
-    </item>
-    
-    <item>
-      <title>DOM Time event</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t4_dom_time_event.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t4_dom_time_event.html</guid>
-      <description>函數addEventListener() 展開 原始碼(ex_DOM_addEvent.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body &amp;gt;&amp;lt;p id=&amp;#34;element&amp;#34;&amp;gt;xx&amp;lt;/p&amp;gt;&amp;lt;p onclick=&amp;#34;f1(this)&amp;#34;&amp;gt;yy&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;function f1(e){console.log(e.target);console.log(event.name);}var element = document.getElementById(&amp;#39;element&amp;#39;);var user = {firstname: &amp;#39;Wilson&amp;#39;,greeting: function(){alert(&amp;#39;My name is &amp;#39; &amp;#43; this.firstname);}};element.addEventListener(&amp;#39;click&amp;#39;, user.greeting);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body &amp;gt;&amp;lt;p id=&amp;#34;element&amp;#34;&amp;gt;xx&amp;lt;/p&amp;gt;&amp;lt;p onclick=&amp;#34;f1(this)&amp;#34;&amp;gt;yy&amp;lt;/p&amp;gt;&amp;lt;script&amp;gt;function f1(e){console.log(e.target);console.log(event.name);}var element = document.getElementById(&amp;#39;element&amp;#39;);var user = {firstname: &amp;#39;Wilson&amp;#39;,greeting: function(){alert(&amp;#39;My name is &amp;#39; &amp;#43; this.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial Note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part9lib/gif/gif_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part9lib/gif/gif_note.html</guid>
-      <description>大綱 參考  w3 rain canvas 中 blog ImgData  註解 分解說明 函數 canvas 函數說明
-createLinearGradient(x0,y0,x1,y1)
-指定畫布上的開始位置,
-Parameter	Description
- x0	The x-coordinate of the start point of the gradient y0	The y-coordinate of the start point of the gradient x1	The x-coordinate of the end point of the gradient y1	The y-coordinate of the end point of the gradient  fillRect(x,y,width,height)
-   參數 說明     x 左上   y 右下   width 寬, in pixels   height 高, in pixels    drawImage()</description>
-    </item>
-    
-    <item>
-      <title>表單(Form)</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/demo_form.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/demo_form.html</guid>
-      <description>easy 展開 原始碼(b11_form_email.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Form&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;content&amp;gt;&amp;lt;form action=&amp;#34;mailto:xxx@nkust.edu.tw&amp;#34; method=&amp;#34;POST&amp;#34; enctype=&amp;#34;multipart/form-data&amp;#34; name=&amp;#34;EmailTestForm&amp;#34;&amp;gt;Name:&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;#34;text&amp;#34; size=&amp;#34;24″ name=&amp;#34;VisitorName&amp;#34; placeholder=&amp;#34;貴號&amp;#34;&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Message:&amp;lt;br /&amp;gt;&amp;lt;textarea name=&amp;#34;VisitorComment&amp;#34; rows=&amp;#34;4″ cols=&amp;#34; 20″ placeholder=&amp;#34;不要寄出去&amp;#34;&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;Submit&amp;#34; /&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;/content&amp;gt;&amp;lt;hr /&amp;gt;信件內容為：&amp;lt;br /&amp;gt;&amp;lt;pre class=&amp;#34;demo&amp;#34;&amp;gt;xxx下午1:18 (0 分鐘前)寄給 我VisitorComment=teddd&amp;lt;/pre&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Form&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;content&amp;gt;&amp;lt;form action=&amp;#34;mailto:xxx@nkust.</description>
-    </item>
-    
-    <item>
-      <title>what is blob</title>
-      <link>https://airbone4.github.io/classweb/javascript/part6file/what_is_blob.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part6file/what_is_blob.html</guid>
-      <description>介紹甚麼是 JavaScript Blobs and File Interface
- 主要參考 Advanced JavaScript APIs post series.  兩點記住甚麼是Blob 第一：可以用來儲存二進位資料，但是,這樣做甚麼?難道不能用檔案來儲存? 答案是,這是一個URL,也就是,可以再讓其他遠端拿取。這是和File不一樣的地方了。 第二:File繼承自Blob.
-graph TD;A(Blob)--B(File) 使用方式 blob的使用方式和File一樣。但是,到底是在記憶體中還是硬碟中,要看瀏覽器和大小而定。因此實際上,他並不是一個檔案。
-blob的內容可以讀取成 ArrayBuffer 因此用來放2進位資料很方便。
-建立Blob 第一個參數,必須是[]第二個參數則是MIME型態。
-var myBlob = new Blob([&amp;quot;This is my blob content&amp;quot;], {type : &amp;quot;text/plain&amp;quot;}); 因為Blob的兩個特徵,因此使用方法也是大概分兩類,當成檔案讀取,當成URL讀取:
-當成檔案讀取: //first arguement must be an regular array. The array can be of any javascript objects. Array can contain array to make it multi dimensional //second parameter must be a BlogPropertyBag object containing MIME propertyvar myBlob = new Blob([&amp;quot;This is my blob content&amp;quot;], {type : &amp;quot;text/plain&amp;quot;});var myReader = new FileReader();//handler executed once reading(blob content referenced to a variable) from blob is finished.</description>
-    </item>
-    
-    <item>
-      <title>blob</title>
-      <link>https://airbone4.github.io/classweb/javascript/part6file/blob_xhr_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part6file/blob_xhr_note.html</guid>
-      <description>先看blob介紹
-附件 demo 原始碼:html  js 展開 ​ HTMLJS&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt;Create an image/png blob, then fetch it with XHR&amp;lt;/h1&amp;gt;&amp;lt;pre id=&amp;#34;display&amp;#34;&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;script src=&amp;#34;blob_xhr_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;(function () {&amp;#39;use strict&amp;#39;;// From http://stackoverflow.com/questions/14967647/ (continues on next line)// encode-decode-image-with-base64-breaks-image (2013-04-21)function fixBinary(bin) {var length = bin.length;var buf = new ArrayBuffer(length);var arr = new Uint8Array(buf);for (var i = 0; i &amp;lt; length; i&amp;#43;&amp;#43;) {arr[i] = bin.</description>
-    </item>
-    
-    <item>
-      <title>題型參考</title>
-      <link>https://airbone4.github.io/classweb/javascript/partask/p1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/partask/p1.html</guid>
-      <description>題型參考 🔢
-var x=9/100*9console.log(x) ❓ 結果是甚麼?為甚麼?怎樣修正? 💯 利用: precision (9/100*9).toPrecision(15) excel 的設定是15 🔢
-function x1(){this.d=true;}function x2(){d: true;}x3={d:true}var o1=new x1; ❓ 問： typeof x1 typeof x2 typeof x3 typeof o1
-分別給出什麼答案？
-🉑提示 typeof x1 ==&amp;gt; &amp;quot;function&amp;quot; typeof x2 ==&amp;gt; &amp;quot;function&amp;quot; typeof x3 = &amp;quot;object&amp;quot; typeof o1 ==&amp;gt; &amp;quot;object&amp;quot;
-❓ 問：x2的 的錯誤在哪裡,如何更正使用方式有什麼問題？ 🔑 關鍵字： object 👍 👍 這個問題的精神是 在Javascript中,物件是怎麼定義。
- 🔢
-What will the following code output and why?</description>
-    </item>
-    
-    <item>
-      <title>variable and type</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t502_js_type.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t502_js_type.html</guid>
-      <description>&lt;p&gt;有DOCX文件&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>synax special type</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t503_operator_and_type.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t503_operator_and_type.html</guid>
-      <description>Data types A variable in JavaScript can contain any data. A variable can at one moment be a string and later receive a numeric value:
-// no errorlet message = &amp;quot;hello&amp;quot;;message = 123456; 在程式語言中,所謂的 “dynamically typed”, 指的是雖然有type 但是變數不會侷限於某個type .
-A number let n = 123;n = 12.345; 四則運算：加減乘除 特殊值: Infinity, -Infinity and NaN.
-  Infinity 也就是 ∞. 大於任意數字。 可以由除0得到。
-alert( 1 / 0 ); // Infinity   或者 javascriptalert( Infinity ); // Infinity</description>
-    </item>
-    
-    <item>
-      <title>synax operator</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t510_operator.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t510_operator.html</guid>
-      <description>附件01_operator.pdf Introduction 這個文件配合operator.docx,用來說明甚麼是互動式html。 也可以說是一個大綱,例如:
- 物件:document 是一個文件物件模型(DOM)上的一個物件. 其他物件還有:console 也提到了和使用者互動的函數,例如  視窗互動  prompt,confirm,alert(), 和使用者互動的,   還有主控台函數console.log(),console.error()    問題: 如果 var a=5 那麼,下面兩個運算式出現的結果是甚麼?
-a++==5
-++a==5
-&amp;lt;script&amp;gt;var ap=document.getElementsByClassName(&#39;hi&#39;)var name = prompt(&amp;quot;you name?&amp;quot;)ap[0].innerText=ap[0].innerText +&amp;quot; &amp;quot;+ name;&amp;lt;/script&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>比較</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t511_compare.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t511_compare.html</guid>
-      <description>比較  Bitwise operators 位元範圍的邏輯運算,用來在2進位 32-bit 的整數中運算。大部分程式語言都有這種設計。
- AND ( &amp;amp; ) OR ( | ) XOR ( ^ ) NOT ( ~ ) LEFT SHIFT ( &amp;lt;&amp;lt; ) RIGHT SHIFT ( &amp;gt;&amp;gt; ) ZERO-FILL RIGHT SHIFT ( &amp;gt;&amp;gt;&amp;gt; )  這些運算元不常見。
-特殊字元的==比較 和特殊值如 null 或 undefined 的比較:
-=== 包括比對兩個不是一樣的type
-console.log( null === undefined ) // false 而 == (a non-strict check)
-這裡有特殊規則,比較元==之下,下面的比較為真:
-console.log( null == undefined ) // true 💡在比較元 = 的相關運算中， null/undefined 會被轉換:</description>
-    </item>
-    
-    <item>
-      <title>flowchart</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t520_js_condition.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t520_js_condition.html</guid>
-      <description>附件[JS] 02 IfElse.docx[JS] 02 Loop variable.pptx[JS] 02 Loop.docx[JS] 02 Loop.pptx </description>
-    </item>
-    
-    <item>
-      <title>flowchart demo</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/js-demo-basic-flowcontrol.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/js-demo-basic-flowcontrol.html</guid>
-      <description>搜尋節點找出文件中的heading 找出文件中的heading 1節點 x=document.getElementsByTagName(&amp;quot;h1&amp;quot;) for (i=0;i&amp;lt;x.length;i++){ console.log(x[i].outerHTML) }
-找出文件中的連結(例如 ): 可以利用兩種for 迴圈的一種
-方法1: y=document.getElementsByTagName(&amp;quot;a&amp;quot;)for (var i=0;i&amp;lt;y.length;i++){console.log(y[i].href)} 方法2: y=document.getElementsByTagName(&amp;quot;a&amp;quot;)//for (itemIdx=0;itemIdx&amp;lt;y.length;itemIdx++)for (itemIdx in y){console.log(y[itemIdx].href)} 範例補充:
-var x=[4,2,3,1]for ( item in x){console.log(x[item])} ** other modern language**
-for (item in y){console.log(item.href)} 搜尋節點,並過濾 找出網頁中所有鏈結中,有PDF的連結:
-y=document.getElementsByTagName(&amp;quot;a&amp;quot;)for (item in y){if (y[item].href.endsWith(&amp;quot;.pdf&amp;quot;)){console.log(y[item].href)}} </description>
-    </item>
-    
-    <item>
-      <title>js 操作 css &amp; html</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/t10_css_js.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/t10_css_js.html</guid>
-      <description>藉由snippet 了解之前的DOM和順便練習js
-練習加入表格 template參考
-附件[JS, side] innerTextHtml.pptx[JS] 03 利用js 建立HTML標籤.docx[JS] 03 利用js 建立HTML標籤.pptx[JS] 03 利用js 操作標籤.docx 教案 利用js 建立HTML標籤 展開 原始碼(利用js 建立HTML標籤.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;Title&amp;gt; &amp;lt;/Title&amp;gt;&amp;lt;script language=&amp;#34;JavaScript&amp;#34;&amp;gt;function simpleMarkup(form){TestVar = form.inputbox.value;alert(&amp;#34;you typed: &amp;#34; &amp;#43; TestVar);}&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form name=&amp;#34;myform&amp;#34; action=&amp;#34;&amp;#34; method=&amp;#34;get&amp;#34;&amp;gt;enter something in the box: &amp;lt;br/&amp;gt;&amp;lt;input type=&amp;#34;&amp;#34; name=&amp;#34;inputbox&amp;#34; value=&amp;#34;&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; name=&amp;#34;button1&amp;#34; value=&amp;#34;read&amp;#34; onclick=&amp;#34;readText(this.</description>
-    </item>
-    
-    <item>
-      <title>02 moregit</title>
-      <link>https://airbone4.github.io/classweb/git/moregit.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/git/moregit.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>1. inline vs float</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/layout/1_div_inline_float.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/layout/1_div_inline_float.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2. overflow</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/layout/2_overflow.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/layout/2_overflow.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2.1 CSS selector</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/2_1_selector.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/2_1_selector.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3_position</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/layout/3_position.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/layout/3_position.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4. flex</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4.2 軟片(snippet)動態</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/4_2_snippet_dynamic.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/4_2_snippet_dynamic.html</guid>
-      <description>滑鼠和超連結 展開 原始碼(css_alink.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;/* unvisited link */a:link {color: red;}/* visited link */a:visited {color: green;}/* mouse over link */a:hover {color: hotpink;}/* selected link */a:active {color: blue;}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;a href=&amp;#34;xxx&amp;#34;&amp;gt;測試這個連結&amp;lt;/a&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;/* unvisited link */a:link {color: red;}/* visited link */a:visited {color: green;}/* mouse over link */a:hover {color: hotpink;}/* selected link */a:active {color: blue;}&amp;lt;/style&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;a href=&amp;#34;xxx&amp;#34;&amp;gt;測試這個連結&amp;lt;/a&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 hover 小範例   :hover 的應用  &amp;lt;style&amp;gt;h2:hover .</description>
-    </item>
-    
-    <item>
-      <title>4_1_snippet</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/4_1_snippet.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/4_1_snippet.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>5.1 軟片 bootstrap</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/5_1_bootstrap.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/5_1_bootstrap.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>9.0 transform</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/layout/9_transform.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/layout/9_transform.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ApplyVsCall</title>
-      <link>https://airbone4.github.io/classweb/javascript/part8object/applyvscall.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part8object/applyvscall.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asynchronous JavaScript and XML(AJAX)</title>
-      <link>https://airbone4.github.io/classweb/javascript/part6file/ajax.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part6file/ajax.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>https://airbone4.github.io/classweb/tools/blogdown/blogdown.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/blogdown/blogdown.html</guid>
-      <description>安裝 devtools::install_github(&#39;rstudio/blogdown&#39;) 參考 hugo  ebook beginer&#39;s book:creating a static website with hugo  blogdown  note on setting github,libjohn實作 Some Tricks for Blogdown &amp;amp; Hugo (Working Draft) 加入R/build.R 快速編譯RMD blog 改流程,page-boundle rmd-&amp;gt;md  範例 加入HTML knitr::raw_html() knitr::raw_html(&#39;&amp;lt;div class = &amp;quot;row&amp;quot;, id = &amp;quot;abc&amp;quot;&amp;gt;::before&amp;lt;div class = &amp;quot;col-md-4&amp;quot;&amp;gt;&#39;) { style=&amp;quot;height: 70px&amp;quot;}
-knitr::raw_html(&#39;&amp;lt;/div&amp;gt;::after&amp;lt;/div&amp;gt;&#39;)  </description>
-    </item>
-    
-    <item>
-      <title>browser picture note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/browsepic_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/browsepic_note.html</guid>
-      <description>大綱 迴圈和 non-blocking 問題 隨機顯示圖形
-最後成果,顯示短片 有兩個短片分別在子目錄kinemaster, 和 Reflexion by Planktoon
-迴圈的問題 browser_loop_problem @import &amp;quot;browser_loop_problem.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
-keyword: non-blocking language
-timer 事件 setInterval() setTimeout() 問題  兩個函數有甚麼不一樣?  onload 事件 window.onload 預設是當整個網頁都載入的時候( (images, css, scripts, etc.)才觸發事件,但是看瀏覽器而定。
-document.onload DOM 準備好時候才觸發，可能影像和其他外部資源還沒載入。
-亂數播放 browsepic1.html @import &amp;quot;browsepic1.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;} browsepic1.js] @import &amp;quot;browsepic1.js&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
-問題:
- 如何停止? hint: clearInterval(?handler) ,在這個範例中，handler 是誰?  練習: 讓他跑一段時間以後停止。
-@import &amp;quot;browsepic2.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;} @import &amp;quot;browsepic2.js&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
-討論: window.addEventListener(&amp;quot;onload&amp;quot;,function(e){...})</description>
-    </item>
-    
-    <item>
-      <title>Canvas Draw</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/canvas/demo-canvas-draw-image.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/canvas/demo-canvas-draw-image.html</guid>
-      <description>展開 原始碼([Demo] Canvas Draw Image.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;browse&amp;#34; &amp;gt; &amp;lt;img id=&amp;#34;img&amp;#34;&amp;gt;&amp;lt;script&amp;gt;var reader = new FileReader();reader.onload = function(e) { // e: progressEvent// e.target: FileReader Object// e.target.result就是圖片的base64位址資訊(result of readAsDataURL)img.src = e.target.result;};browse.addEventListener(&amp;#39;change&amp;#39;, function (event) {reader.readAsDataURL(event.target.files[0]);});&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;browse&amp;#34; &amp;gt; &amp;lt;img id=&amp;#34;img&amp;#34;&amp;gt;&amp;lt;script&amp;gt;var reader = new FileReader();reader.</description>
-    </item>
-    
-    <item>
-      <title>closure_Note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part8object/closure_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part8object/closure_note.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>demo1</title>
-      <link>https://airbone4.github.io/classweb/javascript/part8json/demo1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part8json/demo1.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dos瀏覽檔案</title>
-      <link>https://airbone4.github.io/classweb/tools/snippet/dos/dos%E7%80%8F%E8%A6%BD%E6%AA%94%E6%A1%88.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/snippet/dos/dos%E7%80%8F%E8%A6%BD%E6%AA%94%E6%A1%88.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>formElement</title>
-      <link>https://airbone4.github.io/classweb/javascript/part2interactive/formelement.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/formelement.html</guid>
-      <description>.hframe  .infobar{position: absolute;top: .3em;right: .2em;transition: opacity 0.3s ease-in-out;opacity: 0; }.hframe  .infobar button,.hframe  .infobar a{color: #bbb;font-size: .8em;padding: 0 .5em;background: rgba(224, 224, 224, 0.2);box-shadow: 0 2px 0 0 rgb(0 0 0 / 20%);border-radius: .5em;}.hframe{padding-top: 1.5rem;position: relative;box-shadow: 6px 4px 6px #9baccb;border: 2px solid #9baccb; }.hframe:hover  .infobar{opacity: 1;}.</description>
-    </item>
-    
-    <item>
-      <title>highlight打色</title>
-      <link>https://airbone4.github.io/classweb/javascript/part9lib/highlight.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part9lib/highlight.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jszip</title>
-      <link>https://airbone4.github.io/classweb/javascript/part9lib/jszip/jszip.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part9lib/jszip/jszip.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>key event</title>
-      <link>https://airbone4.github.io/classweb/javascript/part2interactive/event_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/event_note.html</guid>
-      <description>KeyEvent_1.html @import &amp;quot;Event_Key_1.html&amp;quot; {code_block=true,class=&amp;quot;line-numbers&amp;quot;} 從圖中可以看出如下結論：
-  keydown事件發生時，輸入值並沒有發生變化，所以keydown可用於阻止某些輸入字符的顯示。
-  input事件發生時，無法獲取到keyCode值，並且緊隨在keydown事件之後。
-  keyup事件最後發生，一次鍵盤敲入事件徹底完成。
-  change事件只會發生在輸入完成後，也就是輸入框失去焦點之前。
-  輸入完成後觀察 當用戶完成所有的輸入時，這時候必定會發生blur事件，只有這時才會觸發change，所以可用blur與change監聽用戶輸入是否完成，輸入框的驗證多半發生在此時。
-  輸入事件流 輸入框發生的事件流程依次為focus、keydown、input、keyup、change與blur，見下圖所示。
-  </description>
-    </item>
-    
-    <item>
-      <title>key event example</title>
-      <link>https://airbone4.github.io/classweb/javascript/part2interactive/events_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/events_note.html</guid>
-      <description>modern
-&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;function dome(e){console.log(e.target.tagName)}&amp;lt;button onclick=&amp;quot;dome(this);&amp;quot;&amp;gt;click&amp;lt;/button&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; &amp;lt;button id=&amp;quot;elem&amp;quot; onclick=&amp;quot;alert(&#39;Click!&#39;);&amp;quot;&amp;gt;Autoclick&amp;lt;/button&amp;gt;&amp;lt;script&amp;gt;let event = new Event(&amp;quot;click&amp;quot;);elem.dispatchEvent(event);&amp;lt;/script&amp;gt; &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;button id=&amp;quot;elem&amp;quot; onclick=&amp;quot;alert(&#39;Click!&#39;);&amp;quot;&amp;gt;Autoclick&amp;lt;/button&amp;gt;&amp;lt;script&amp;gt;function xx(){let event = new Event(&amp;quot;click&amp;quot;);elem.dispatchEvent(event);}setTimeout(xx,1000)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; where you click?
-&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;document.onclick=function(e){console.log(e.clientX)}&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>latex mathml</title>
-      <link>https://airbone4.github.io/classweb/javascript/part9lib/mathsymbol.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part9lib/mathsymbol.html</guid>
-      <description>基本用法 example MathML 展開 原始碼(Equation_MathML.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34; async src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt; &amp;lt;math&amp;gt;&amp;lt;mrow&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;/mrow&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;math&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;(&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;mo&amp;gt;/&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;)&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;msup&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msup&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34; async src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt; &amp;lt;math&amp;gt;&amp;lt;mrow&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;/mrow&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;math&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;msub&amp;gt;&amp;lt;mi&amp;gt;v&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;/msub&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;#43;&amp;lt;/mo&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;(&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;1&amp;lt;/mn&amp;gt;&amp;lt;mo&amp;gt;/&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;mo stretchy=&amp;#39;false&amp;#39;&amp;gt;)&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;a&amp;lt;/mi&amp;gt;&amp;lt;msup&amp;gt;&amp;lt;mi&amp;gt;t&amp;lt;/mi&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;/msup&amp;gt;&amp;lt;/math&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 example latex 展開 原始碼(Equation_latex.</description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/pre/firstmarkdown.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/pre/firstmarkdown.html</guid>
-      <description>first markdown 目的:撰寫簡單的markdown 大綱:如何利用現有的 javascript library
-介紹 markdown 也是一種語言,目的是簡化html文件的編寫。也就是把一般的文字檔案,轉譯為html。 githut 上面的README.MD,也是markdown規格。
-html example 根據人名,動態的改變打招呼提示串:
-方法1: &amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;var s1 = prompt(&amp;quot;your name&amp;quot;)var helloStr = `hello, ${s1}. how is totay?`;alert(helloStr)// var x=prompt(&amp;quot;your name&amp;quot;)// alert(&amp;quot;hello &amp;quot; + x)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; 方法2 &amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;var x=prompt(&amp;quot;your name&amp;quot;)alert(&amp;quot;hello &amp;quot; + x)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; javascript example var x=5x=x+1 JavaScript for loop for (i=0;i&amp;lt;5;i++){console.</description>
-    </item>
-    
-    <item>
-      <title>markdown primer</title>
-      <link>https://airbone4.github.io/classweb/tools/blogdown/markdown.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/blogdown/markdown.html</guid>
-      <description>簡要 段落。 繼續段落(沒有空一行)。
-第二段落。
-不管空幾行,都一樣是段落。
-Top Level H1 H2 #Just a tag Also a # tag.
-Alternate H1 Alternate H2 H3 H6  This is a list element   This is also a list element   This is also a list element This is a sublist element   Also a sublist element  Sublist level 2   Numbered sublist Next item 3. Next indent level     Numbered sublist Next item  Next indent level(前面空5格)  Sublist non numbered(空3格)     Back  Horizontal Lines:</description>
-    </item>
-    
-    <item>
-      <title>markdown 前測試</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/pre/firstmarkdown.html</guid>
-      <description>first markdown 目的:撰寫簡單的markdown 大綱:如何利用現有的 javascript library
-介紹 markdown 也是一種語言,目的是簡化html文件的編寫。也就是把一般的文字檔案,轉譯為html。 githut 上面的README.MD,也是markdown規格。
-html example 根據人名,動態的改變打招呼提示串:
-方法1: &amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;var s1 = prompt(&amp;quot;your name&amp;quot;)var helloStr = `hello, ${s1}. how is totay?`;alert(helloStr)// var x=prompt(&amp;quot;your name&amp;quot;)// alert(&amp;quot;hello &amp;quot; + x)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; 方法2 &amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;var x=prompt(&amp;quot;your name&amp;quot;)alert(&amp;quot;hello &amp;quot; + x)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; javascript example var x=5x=x+1 JavaScript for loop for (i=0;i&amp;lt;5;i++){console.</description>
-    </item>
-    
-    <item>
-      <title>mdEditor 前測試</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_%E5%89%8D%E6%B8%AC/mdeditor_note.html</guid>
-      <description>prerequest highlight test #檔案說明
-參考 xxindex.html js/xxapp.js
-最簡單版index_v1.html @import &amp;quot;index_v1.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}
-online 版 library 來自cdnjs index_online.html js/main_online.js
-chrome apps 版 自己玩而已 程式碼修改:
- background.js manifest.json index.htmls js/main.js  storeage -&amp;gt; chrome.local.storage
-   </description>
-    </item>
-    
-    <item>
-      <title>mdEditor_note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/mdeditor_note.html</guid>
-      <description>相關背景  highlight test  檔案說明 參考  xxindex.html js/xxapp.js  最簡單版index_v1.html .hframe  .infobar{position: absolute;top: .3em;right: .2em;transition: opacity 0.3s ease-in-out;opacity: 0; }.hframe  .infobar button,.hframe  .infobar a{color: #bbb;font-size: .8em;padding: 0 .5em;background: rgba(224, 224, 224, 0.2);box-shadow: 0 2px 0 0 rgb(0 0 0 / 20%);border-radius: .5em;}.hframe{padding-top: 1.5rem;position: relative;box-shadow: 6px 4px 6px #9baccb;border: 2px solid #9baccb; }.</description>
-    </item>
-    
-    <item>
-      <title>mermaid</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/mpe_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/mpe_note.html</guid>
-      <description>線上參考 import type
-note for markdown preview enhanced var x=3 memaid tip graph top down --&amp;gt; TD
-graph TD;A(how)--&amp;gt;B;A--&amp;gt;C;B--&amp;gt;D;C--&amp;gt;D; graph left right -&amp;gt; LR
-graph LRA --&amp;gt; B;B --&amp;gt; C;C --&amp;gt; A; st=&amp;gt;start: Start:&amp;gt;http://www.google.com[blank]e=&amp;gt;end:&amp;gt;http://www.google.comop1=&amp;gt;operation: My Operationsub1=&amp;gt;subroutine: My Subroutinecond=&amp;gt;condition: Yesor No?:&amp;gt;http://www.google.comio=&amp;gt;inputoutput: catch something...para=&amp;gt;parallel: parallel tasksst-&amp;gt;op1-&amp;gt;condcond(yes)-&amp;gt;io-&amp;gt;econd(no)-&amp;gt;parapara(path1, bottom)-&amp;gt;sub1(right)-&amp;gt;op1para(path2, top)-&amp;gt;op1 vscode extension  vscode icons css peak guide : where it end rainbow bracket beautify a.</description>
-    </item>
-    
-    <item>
-      <title>object_Note</title>
-      <link>https://airbone4.github.io/classweb/javascript/part8object/object_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part8object/object_note.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>overview</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/overview.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/overview.html</guid>
-      <description>文字處理的方式變更HTML文件 play around 把資料夾裡面的圖形檔縮小,然後放到頁面。 分成兩種方法,獨立的js(不要 內嵌在html ) 和 配合html.
-獨立的js 瀏覽器碰到 &amp;lt;img&amp;gt;標籤時的工作流程:
-sequenceDiagramparticipant clientparticipant serverclient-&amp;gt;&amp;gt;server: img request by GETserver-&amp;gt;&amp;gt;client: response to GET with image data 這一段程式碼是從原來的(insert_pic_1.html)獨立出來
- 做法:在 DEV TAB上的SOURCE-FileSystem-單獨存放(例如,along.js. 目的是解釋 HTML 標籤&amp;lt;img&amp;gt; 會產生HTML request GET ，此時，並沒有http server 可以回應,因此,雖然js 的執行沒有產生錯誤,但是，參看主控台，會產生GET的網路錯誤。  修正方法1 兩個步驟
- 設定HTTP 伺服器 - 安裝web server for chrome 修改程式碼，向主機要檔案,http://localhost:8887  原來的程式碼:
-for (var i=0;i&amp;lt;25;i++){var s =&amp;quot;0000000&amp;quot;+i.toString(); //兩個字串相加s=s.slice(-4); //slice切字串 ，只保留最後4個,s 是影像圖形的檔案名稱，沒有副檔名s= &#39;&amp;lt;img src=&amp;quot;&#39; +s +&#39;.</description>
-    </item>
-    
-    <item>
-      <title>testinner</title>
-      <link>https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80/testinner.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80/testinner.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>textarea的應用</title>
-      <link>https://airbone4.github.io/classweb/web/jspanel.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/web/jspanel.html</guid>
-      <description>目的:在textarea中寫JS,然後用按鈕執行。 #pjs-input {overflow: auto;resize: both;border: 1px solid grey;outline: 1px;background-color: transparent;width: 100%;padding: 2px 4px;height: auto;min-height: 10rem;max-height: 20rem;}#pjs-log {overflow: auto;border: 1px solid grey;}value = &#34;HUGO 變數 執行碼: {{&amp;lt; HugoVarTest &amp;gt;}}\n\r執行結果live\r.Page.CurrentSection: Page(/pages/_index.md) used, which then provides data to the partial few issues come up then.\r.Name is not the name of the res ot; . }}\r{{ % r{{ end }}\r紀錄 log 2 如果需要docx ,那要還轉換成blob參考。\ }} \r嵌入檔案: 購物單.</description>
-    </item>
-    
-    <item>
-      <title>to do</title>
-      <link>https://airbone4.github.io/classweb/tools/blogdown/todo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/blogdown/todo.html</guid>
-      <description>hugo  內嵌google docs 如何使用shortcode Template engines and JavaScript How can another file be Included in a Hugo/Markdown page? HUGO: Insert JS in between markdown Content Create Custom Shortcodes To Embed Content In Hugo Posts And Pages short code example hugo json api  gitea  Gitea 的自動發布,an example with Jekyll 影像 也是影像,但是講了甚麼是page boundle 💡看了一陣子 💯甚麼是dot leaf branch boundle  js engine  javascript engine  codepen  內嵌  tree  我想要顯示樹狀結構  plugin   How to print the total number of pages from a specific Hugo section?</description>
-    </item>
-    
-    <item>
-      <title>台灣氣象局</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/%E5%8F%B0%E7%81%A3%E6%B0%A3%E8%B1%A1%E5%B1%80.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/%E5%8F%B0%E7%81%A3%E6%B0%A3%E8%B1%A1%E5%B1%80.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>在畫布上加入文字</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/addtext_node.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/addtext_node.html</guid>
-      <description>參考  w3 canvas  starter 1 展開 原始碼(AddText_1.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form&amp;gt;&amp;lt;img id=&amp;#34;imgtarget&amp;#34; style=&amp;#34;display:none&amp;#34; src=&amp;#34;0007.jpg&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;inp&amp;#34;/&amp;gt;&amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Save&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;br&amp;gt;&amp;lt;canvas id=&amp;#34;canvasTarget&amp;#34; style=&amp;#34;width:600px&amp;#34;/&amp;gt;&amp;lt;script src=&amp;#34;AddText_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;編輯 &amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;form&amp;gt;&amp;lt;img id=&amp;#34;imgtarget&amp;#34; style=&amp;#34;display:none&amp;#34; src=&amp;#34;0007.jpg&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;inp&amp;#34;/&amp;gt;&amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Save&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;&amp;lt;br&amp;gt;&amp;lt;canvas id=&amp;#34;canvasTarget&amp;#34; style=&amp;#34;width:600px&amp;#34;/&amp;gt;&amp;lt;script src=&amp;#34;AddText_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;執行 &amp;lt;img id=&amp;quot;imgtarget&amp;quot; style=&amp;quot;display:none&amp;quot; src=&amp;quot;0004.jpg&amp;quot; /&amp;gt; display:none 設定不出現</description>
-    </item>
-    
-    <item>
-      <title>基本</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/basic_1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/basic_1.html</guid>
-      <description>基本 html 架構 超文本hypertext markup language
-&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;標題&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;內文&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; 標籤(tag)分為
- 成對標籤,和 單體標籤。  前者有頭有尾,後者只有一個。參考上面範例。單體標籤的例子:&amp;lt;br/&amp;gt;,&amp;lt;hr/&amp;gt;。 示範存檔和開檔。
-超連結 - &amp;lt;a&amp;gt; &amp;lt;a href=&amp;quot;http://www.yahoo.com.tw&amp;quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt; 🏷&amp;lt;a href=&amp;quot;http://www.yahoo.com.tw&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt; 🏷 在標籤中的屬性,寫法利用=分隔,可以簡單理解為鍵值對(key value pair)。左邊是鍵(HTML編譯要識別的部分),右邊是值。值要用雙引用括起來。  href=&amp;quot;http://www.yahoo.com.tw&amp;quot;：連接的網址 target=&amp;quot;開啟方式&amp;quot;，其中開啟方式可以是下面三種一種  &amp;quot;_blank&amp;quot;:新視窗 &amp;quot;_self&amp;quot;:自己 &amp;quot;_top&amp;quot;:最頂端框架&amp;quot;_parent&amp;quot;:父框架    寄信也是這個&amp;lt;a&amp;gt;標籤
-&amp;lt;a href=&amp;quot;mailto:me@gmail.com&amp;quot;&amp;gt;聯繫&amp;lt;/a&amp;gt; 除了移動到某個網頁,也可以移動到本頁的某個地方,但是需要錨點
-p 定位：
-&amp;lt;a name=&amp;quot;hello&amp;quot;&amp;gt;xxxxxxx&amp;lt;/a&amp;gt;&amp;lt;a id=&amp;quot;hello&amp;quot;&amp;gt;xxxxxx&amp;lt;/a&amp;gt;&amp;lt;a href=&amp;quot;#hello&amp;quot;&amp;gt;移到hello處&amp;lt;/a&amp;gt; &amp;lt;!-- 移動--&amp;gt; 🏷 文字排版 - &amp;lt;b&amp;gt;、&amp;lt;i&amp;gt;、&amp;lt;br/&amp;gt;、&amp;lt;hr/&amp;gt; 基本上 HTML 也提供了版面設計,但是比較現代的方式都使用大量 CSS。</description>
-    </item>
-    
-    <item>
-      <title>常用JS</title>
-      <link>https://airbone4.github.io/classweb/javascript/%E5%B8%B8%E7%94%A8js.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/%E5%B8%B8%E7%94%A8js.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>物件FileReader</title>
-      <link>https://airbone4.github.io/classweb/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part3jpg/%E7%89%A9%E4%BB%B6filereader.html</guid>
-      <description>KEY: 物件、事件、DataURL
- FileReader() : line 4, 物件建構元 F,R 大寫,這是物件建構元(constructor)
- 真正的讀檔案函數為f.readAsDataURL() 事件:  onchange: e.files[0] 為HTML 標籤 &amp;lt;input type=&amp;quot;file&amp;quot; onchange=...&amp;gt; 這個事件中帶有【檔案名稱】。 onload: 上面兩個函數分別由兩個物件觸發,分別是 input、FileRead 兩個物件。    @import &amp;quot;file_reader_img.html&amp;quot; {code_block=true class=&amp;quot;line-numbers&amp;quot;}</description>
-    </item>
-    
-    <item>
-      <title>用來給markdown editor 測試的</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/test/t1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/mdeditor/test/t1.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>短碼local_file_list.html</title>
-      <link>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</guid>
-      <description>背景 問題 ⁉到底怎樣讀取static 目錄中的檔案
- 方法1 在HTML &amp;lt;head&amp;gt; 中,設定&amp;lt;base&amp;gt;,例如 &amp;lt;base href=&amp;quot;{{ .Site.BaseURL }}&amp;quot;&amp;gt; 然後,就可以使用md ) 方法2: 以下章節討論的方法    .Page.File.Dir =&amp;gt; theme path  local_file_list.html 檔案variant-learn/layouts/shortcodes/local_file_list.html:內容
-{{ $themePath := default .Page.File.Dir (.Get &amp;amp;#34;path&amp;amp;#34;) }} {{ $isdeep := default true (.Get &amp;amp;#34;isdeep&amp;amp;#34; )}} {{ $root := default &amp;amp;#34;content&amp;amp;#34; (.Get &amp;amp;#34;root&amp;amp;#34;) }} {{ $issearch := default false (.Get &amp;amp;#34;issearch&amp;amp;#34;) }} {{ define &amp;amp;#34;read-local-dir&amp;amp;#34; }} {{ $root := .root }} {{ $themePath := .</description>
-    </item>
-    
-    <item>
-      <title>短碼範例</title>
-      <link>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BC%E7%AF%84%E4%BE%8B.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BC%E7%AF%84%E4%BE%8B.html</guid>
-      <description>短碼codecaption.html
-&amp;lt;figure class=&amp;quot;code&amp;quot;&amp;gt;&amp;lt;figcaption&amp;gt;&amp;lt;span&amp;gt;{{ .Get &amp;quot;title&amp;quot; }}&amp;lt;/span&amp;gt;&amp;lt;/figcaption&amp;gt;&amp;lt;div class=&amp;quot;codewrapper&amp;quot;&amp;gt;{{ highlight (trim .Inner &amp;quot;\n\r&amp;quot;) (.Get &amp;quot;lang&amp;quot;) &amp;quot;linenos=true&amp;quot; }}&amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt; 使用範例(只是把codecaption.html的程式碼,再顯示一遍)
-{{&amp;lt; codecaption lang=&amp;quot;html&amp;quot; title=&amp;quot;Code caption shortcode&amp;quot; &amp;gt;}}&amp;lt;figure class=&amp;quot;code&amp;quot;&amp;gt;&amp;lt;figcaption&amp;gt;&amp;lt;span&amp;gt;{{ .Get &amp;quot;title&amp;quot; }}&amp;lt;/span&amp;gt;&amp;lt;/figcaption&amp;gt;&amp;lt;div class=&amp;quot;codewrapper&amp;quot;&amp;gt;{{ highlight .Inner (.Get &amp;quot;lang&amp;quot;) &amp;quot;linenos=true&amp;quot; }}&amp;lt;/div&amp;gt;&amp;lt;/figure&amp;gt;{{&amp;lt; /codecaption &amp;gt;}}  結果 
- 📝評論 沒什麼用,直接用短碼 {{&amp;lt; highlight &amp;gt;}} 就可以了</description>
-    </item>
-    
-    <item>
-      <title>網路</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/%E7%B6%B2%E8%B7%AF.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/%E7%B6%B2%E8%B7%AF.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>練習</title>
-      <link>https://airbone4.github.io/classweb/html_css/css/selector/assignment.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/css/selector/assignment.html</guid>
-      <description>primer 除了段落可以重排之外,CSS還可以把標籤刷成不同的外表。這裡把DIV標籤刷成BUTTON。
-原來的 展開 原始碼(css_selector_hw1.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;#39;en&amp;#39;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;#39;UTF-8&amp;#39;/&amp;gt;&amp;lt;title&amp;gt;CSS Selectors&amp;lt;/title&amp;gt;&amp;lt;link rel=&amp;#39;stylesheet&amp;#39; href=&amp;#39;css_selector_hw1.css&amp;#39;/&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div class=&amp;#39;page&amp;#39;&amp;gt; &amp;lt;h1&amp;gt;CSS &amp;lt;em&amp;gt;Selectors&amp;lt;/em&amp;gt;&amp;lt;/h1&amp;gt;&amp;lt;p class=&amp;#39;synopsis&amp;#39;&amp;gt;CSS selectors let you &amp;lt;em&amp;gt;select&amp;lt;/em&amp;gt; individual HTML elements in an HTMLdocument. This is &amp;lt;strong&amp;gt;super&amp;lt;/strong&amp;gt; useful.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Classes are ridiculously important, since they allow you to selectarbitrary boxes in your web pages.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;We’ll also be talking about links in this example, so here’s&amp;lt;a href=&amp;#39;https://internetingishard.com&amp;#39;&amp;gt;Interneting Is Hard&amp;lt;/a&amp;gt; for us tostyle.</description>
-    </item>
-    
-    <item>
-      <title>練習找中文</title>
-      <link>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/web/%E6%89%BE%E4%B8%AD%E6%96%87.html</guid>
-      <description>javascript 正規表達式 各種中文匹配  官方   中文,英文範圍: ^[\u4e00-\u9fa5_a-zA-Z0-9]+$   console.log(&amp;quot;貓的中文很爛,連喵都不標準&amp;quot;.split(&amp;quot;&amp;quot;).filter(char =&amp;gt; /\p{Script=Han}/u.test(char)) //🏷.join(&amp;quot;&amp;quot;));  value = &amp;quot;HUGO 變數 執行碼: {{&amp;amp;lt; HugoVarTest &amp;amp;gt;}}\n\r執行結果live\r.Page.CurrentSection: Page(/pages/_index.md) used, which then provides data to the partial {{ partial &amp;amp;quot;partial.html&amp;amp;quot; . }}.\rA few issues come up then.\r.Name is not the name of the resource file, but of the calling index.md file\r.Resources.GetMatch &amp;amp;quot;*&amp;amp;quot; doesn&#39;t return a result\r$.Site.Resources or $.Resources d {{ range sort .</description>
-    </item>
-    
-    <item>
-      <title>規則運算</title>
-      <link>https://airbone4.github.io/classweb/javascript/part1basic/%E8%A6%8F%E5%89%87%E9%81%8B%E7%AE%97.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part1basic/%E8%A6%8F%E5%89%87%E9%81%8B%E7%AE%97.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>計算機</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/phonegap/mycaculator_class.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/phonegap/mycaculator_class.html</guid>
-      <description>預計 節省時間 展開 原始碼(preset.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;input type=&amp;#34;textarea&amp;#34; id=&amp;#34;scr&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;(&amp;#34; &amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;)&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;%&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;C&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;7&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;8&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;9&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;/&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;4&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;5&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;6&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;*&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;1&amp;#34; &amp;gt;&amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;2&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;3&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;-&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;0&amp;#34; &amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; value=&amp;#34;.</description>
-    </item>
-    
-    <item>
-      <title>計算機</title>
-      <link>https://airbone4.github.io/classweb/javascript/part10app/phonegap/mycaculator_note.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part10app/phonegap/mycaculator_note.html</guid>
-      <description>另一個計算機
-展開 原始碼(mycalculator.html)&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;!--10vw 10％ of view port--&amp;gt;&amp;lt;style&amp;gt;.button{width:25%;height:15%;margin:0px;padding:0px;border:0px;float:left;font-size: 8vw; box-shadow: inset 0 0 12px black;}.special{width:25%;height:15%;margin:0px;padding:0px;border:0px;float:left;font-size:8vw; background-color: #92dc31;color: #e80c0c; box-shadow: inset 0 0 12px black;}input.screen{width: 100%;height: 25%;background-color: #9E9E9E;font-size: 10vw;font-weight: bold;text-align:right;}&amp;lt;/style&amp;gt;&amp;lt;script&amp;gt;function cc(e){var s=scr.value;if (s.length&amp;gt;0 &amp;amp;&amp;amp; ((s.lastIndexOf(&amp;#39;%&amp;#39;)&amp;#43;1)==s.length) &amp;amp;&amp;amp; Number.</description>
-    </item>
-    
-    <item>
-      <title>讀取文字檔</title>
-      <link>https://airbone4.github.io/classweb/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/part5download/%E8%AE%80%E5%8F%96%E6%96%87%E5%AD%97%E6%AA%94.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>進度 layout</title>
-      <link>https://airbone4.github.io/classweb/html_css/html/task1_layout.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/html_css/html/task1_layout.html</guid>
-      <description>範本 目標:這是傳統用table標籤配置版面,利用比較新的方法,重新製作。
-展開 原始碼(table_layout.html)&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;HTML lang=&amp;#34;en-US&amp;#34;&amp;gt;&amp;lt;HEAD&amp;gt;&amp;lt;TITLE&amp;gt; What you will be able to create by now &amp;lt;/TITLE&amp;gt;&amp;lt;META charset=&amp;#34;utf-8&amp;#34; /&amp;gt;&amp;lt;META name=&amp;#34;keywords&amp;#34; content=&amp;#34;white dogs, black dogs, angry dogs&amp;#34; /&amp;gt;&amp;lt;META name=&amp;#34;description&amp;#34; content=&amp;#34;a website about dogs&amp;#34; /&amp;gt;&amp;lt;/HEAD&amp;gt;&amp;lt;BODY&amp;gt;&amp;lt;table border=&amp;#34;1&amp;#34; style=&amp;#34;margin: auto;&amp;#34;&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td colspan=&amp;#34;2&amp;#34; style=&amp;#34;width:800px; height: 100px;&amp;#34;&amp;gt;&amp;lt;h1&amp;gt;My dog website heading&amp;lt;/h1&amp;gt; &amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td style=&amp;#34;width:220px; height: 800px;&amp;#34; &amp;gt;&amp;lt;h3&amp;gt;Menu&amp;lt;/h3&amp;gt;&amp;lt;hr/&amp;gt;&amp;lt;p&amp;gt;This is the menu bar:&amp;lt;br/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;page2.</description>
-    </item>
-    
-    <item>
-      <title>顯示程式碼</title>
-      <link>https://airbone4.github.io/classweb/javascript/dom%E7%89%A9%E4%BB%B6%E5%88%B0canvas.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/dom%E7%89%A9%E4%BB%B6%E5%88%B0canvas.html</guid>
-      <description>function packHtml(ahtml){var doc = document.implementation.createHTMLDocument(&#39;&#39;);doc.write(ahtml);// You must manually set the xmlns if you intend to immediately serialize // the HTML document to a string as opposed to appending it to a //  in the DOMdoc.documentElement.setAttribute(&#39;xmlns&#39;, doc.documentElement.namespaceURI);// Get well-formed markupahtml = (new XMLSerializer()).serializeToString(doc);return ahtml;}function doClassStuff(){document.addEventListener(&#39;click&#39;, function(e) {e = e || window.event;var target = e.target || e.</description>
-    </item>
-    
-  </channel>
-</rss>
