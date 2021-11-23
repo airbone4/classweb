@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script>
+  
+function parseCSV(t) {
+    var foo = t.split('\n');
+    var j,k;
+    var ret = [];
+    var pat = /(([^'",]*)|('[^']*')|("[^"]*")),/g;
+    var patnum = /^\s*(([+-]?[0-9]+(\.[0-9]*)?(e[+-]?[0-9]+)?)|([+-]?[0-9]*(\.[0-9]+)?(e[+-]?[0-9]+)?))\s*$/;
+    var stripper = function(n) { return n.substr(0,n.length-1); }
+    var count = 0;
+    for(k=0;k<foo.length;k++) {
+      var bar = (foo[k]+",").match(pat),baz;
+      if(bar.length>0) {
+          ret[count] = [];
+          for(j=0;j<bar.length;j++) {
+              baz = stripper(bar[j]);
+              if(patnum.test(baz)) { ret[count][j] = parseFloat(baz); }
+              else ret[count][j] = baz;
+          }
+          count++;
+      }
+    }
+    return ret;
+}
+function readCSV(){
+  var inp=document.createElement("input");
+  inp.setAttribute("type","file");
+  document.body.appendChild(inp);
+  inp.onchange=function(e){
+       var reader = new FileReader();
+       reader.onload = function() {
+//	            document.body.removeChild(inp);
+                return reader.result;
+            }
+	   if (inp.files[0]) 	
+       reader.readAsText(inp.files[0]);    
+  
+
+  }
+  inp.click();
+}
+
+
+
+  </script>
+
+</head>
+<body>
+
+
+  <script>
+
+  
+var task = new Promise(function(resolve, reject) {
+
+    // 執行一個非同步的工作，完成後呼叫帶入的 callback
+  
+  var xinp=document.createElement("input");
+  xinp.setAttribute("type","file");
+  xinp.setAttribute("id","inp");
+  document.body.appendChild(xinp);
+  xinp.onchange=function(e){
+       var reader = new FileReader();
+       reader.onload = function() {
+//	            document.body.removeChild(inp);
+                resolve( reader.result);
+            }
+	   if (xinp.files[0]) 	
+       reader.readAsText(xinp.files[0]);    
+  
+
+  }
+  inp.click();      
+ 
+});
+async function myAsyncFunc() {
+    var val = await task;
+    console.log(val);
+}
+
+myAsyncFunc();   
+    
+  </script>
+</body>
+</html>

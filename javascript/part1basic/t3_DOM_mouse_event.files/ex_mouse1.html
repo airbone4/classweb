@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body  style="height:200px">
+ <p id="position"></p>
+ <script>
+ document.addEventListener("click", function (event){
+   var x=event.clientX;
+   var y=event.clientY;
+   position.innerHTML="(X= "+x +")(Y= "+y+")";
+ });
+ </script>
+</body>
+</html>

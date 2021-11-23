@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>var 的問題</title>
+
+</head>
+
+<body>
+    <button id="first">First</button>
+    <button id="second">Second</button>
+    <button id="third">Third</button>
+    <script>
+      var buttons = document.getElementsByTagName('button')
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].removeEventListener("click",buttons[i].onclick);//清除之前的事件處理
+        buttons[i].onclick = function (e) {  //note : not click
+          console.log(e.target.innerHTML)// e的類別是MouseEvent, target送紹哪個控制項
+        }
+      }
+    </script>
+</body>
+
+</html>

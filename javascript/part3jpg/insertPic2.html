@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+from:<br>
+<input name="from" id="idxfrom" type="text"><br/>
+to: <br>
+<input name="to" id="idxto" type="text">
+
+<br>
+<script>
+
+var intFrom=parseInt(idxfrom.value)
+var intTo=parseInt(idxto.value)
+if (typeof(intFrom)=="number" && typeof(intTo)=="number"){
+   for (var i=intFrom;i<=intTo;i++){
+      document.write('<img src="'+ ("00000"+String(i)).slice(-4) +'.jpg" width="30%" height="30%">');
+   }
+
+}
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/categories/git.html</link>
+    <description>Recent content in git on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Git Note</title>
+      <link>https://airbone4.github.io/classweb/git/gitnote.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/git/gitnote.html</guid>
+      <description>git 常用指令 git update-git-for-windows Creating a new repository on the command line
+git initgit add README.mdgit commit -m &amp;quot;first commit&amp;quot;git remote add origin http://github.com/userid/xxx.gitgit push -u origin master Pushing an existing repository from the command line
+git remote add origin http://github.com/userid/xxx.gitgit push -u origin master 利用Rstudio 的時候,常用的三個指令
+git init .git config user.name &amp;quot;myname&amp;quot;git config user.email &amp;quot;myemail&amp;quot; 密碼問題 舊版直接打通關❌ 🏷 ```bash?preclass=.w-75git push https://userid:password@github.</description>
+    </item>
+    
+  </channel>
+</rss>

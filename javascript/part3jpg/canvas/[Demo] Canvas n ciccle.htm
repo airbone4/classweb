@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="500" height="600" style="border:1px solid blue;background: black;"></canvas>
+	<script>
+	var x= 50, y= 70;
+
+   		var myFunction = function(cordinates) {
+			var ctx = document.getElementById("canvas").getContext("2d");
+			ctx.fillStyle = "#FFFFFF"; 
+			for(var i = 0; i < cordinates.length; i++){
+				ctx.beginPath();
+				ctx.arc(cordinates[i][0], cordinates[i][1], 15, 0, Math.PI * 2, true);
+				ctx.fill();
+			}
+		}
+		document.getElementById("canvas").onclick = function(){
+		x=x+25; y=y+30;
+		var cordinates = [ [x,y] ];
+		myFunction(cordinates);
+		
+		}
+	
+	</script>
+  </body>
+</html> 
+
+<!-- ?ϥ?JQuery ??????<https://www.quora.com/How-can-I-dynamically-draw-N-numbers-of-circles-in-HTML5-canvas-using-javascript>
+<html>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="500" height="600" style="border:1px solid blue;background: black;"></canvas>
+	<script>
+	var x= 50, y= 70;
+	var myFunction = function(cordinates) {
+			var ctx = $('#canvas')[0].getContext("2d");
+			ctx.fillStyle = "#FFFFFF"; 
+			for(var i = 0; i < cordinates.length; i++){
+				ctx.beginPath();
+				ctx.arc(cordinates[i][0], cordinates[i][1], 15, 0, Math.PI * 2, true);
+				ctx.fill();
+			}
+		}
+	$("#canvas").click(function(){
+		x=x+25; y=y+30;
+		var cordinates = [ [x,y] ];
+		myFunction(cordinates);
+	});
+	</script>
+  </body>
+</html> -->

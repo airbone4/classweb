@@ -1,0 +1,19 @@
+<head>
+<script>
+function loadImg(e){
+ for (var i=0;i<e.files.length;i++)
+ {
+  
+document.write('<img src="'+ e.files[i].name + '" width="30%" height="30%">');  
+ }
+}
+</script>
+
+</head>
+<body>
+<input type="file" onchange="loadImg(this)" multiple="true">
+<img id="img">
+
+
+</body>
+</html>

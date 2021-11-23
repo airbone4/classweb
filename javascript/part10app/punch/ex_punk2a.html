@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<style>
+img{
+  width:50px;
+  height:50px;
+  background-color:black;
+}
+</style>
+<script>
+ 
+ var headImgs=[];
+ headImgs[0]="black.png";
+ headImgs[1]="smile.png";
+ var newIdx;
+ function changeImg(){
+   function imgIdx(){//產生隨機image tag 的號碼
+     return Math.trunc(Math.random()*document.images.length)
+   }
+   
+ 
+   newIdx=imgIdx();   
+  // console.log(newIdx)   ;
+   if(Math.random()>0.5)
+     document.images[newIdx].src=headImgs[0];
+   else
+     document.images[newIdx].src=headImgs[1];
+     
+ }
+
+ setInterval(changeImg,500)
+</script>
+</head>
+<body>
+<img id="img1"><img>
+<br>
+<p>問題:這裡會同時出現兩個笑臉</p>
+<p>提出解決辦法:</p>
+</body>
+
+</html>

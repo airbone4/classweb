@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script>
+function getN(e){
+  var p=parseFloat(principle.value);
+  var r=parseFloat(interest.value);
+  var f=parseFloat(fv.value);
+  var n = (Math.log(f)-Math.log(p))/Math.log(1+r);
+  period.value = n;
+  //period.value = (Math.log(f)-Math.log(p))/Math.log(1+r);
+}
+</script>
+</head>
+<body>
+本金: <input type="textarea" id="principle">
+<br>
+利率: <input type="textarea" id="interest">
+<br>
+終值:<input type="textarea" id="fv">
+<br>
+
+<input type="button" value="計算" onclick="getN(this)">
+<hr>
+
+期數: <input type="textarea" id="period">
+
+</body>
+
+</html>
+

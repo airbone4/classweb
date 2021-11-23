@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script>
+function getFV(e){
+  var p=parseFloat(principle.value);
+  var r=parseFloat(interest.value);
+  var n=parseFloat(period.value);
+  fv.value   = p* Math.pow(1+r,n);
+  
+}
+</script>
+</head>
+<body>
+本金: <input type="textarea" id="principle">
+<br>
+利率: <input type="textarea" id="interest">
+<br>
+期數: <input type="textarea" id="period">
+<br>
+
+<input type="button" value="計算" onclick="getFV(this)">
+<hr>
+終值:<input type="textarea" id="fv">
+
+
+</body>
+
+</html>

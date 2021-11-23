@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+      <title>Show Local Folder File List</title>
+   </head>
+   <body>
+      <div>
+         <script type="text/JScript"> 
+            // note this is JScript, not javascript. 
+            // Thus the 'type="text/JScript"' in the script tags 
+            
+            function ShowFolderFileList(folderspec){ 
+            var fso, f, fc, s; 
+            fso = new ActiveXObject("Scripting.FileSystemObject"); 
+            f = fso.GetFolder(folderspec); 
+            fc = new Enumerator(f.files); 
+            s = ""; 
+            for (; !fc.atEnd(); fc.moveNext()) { 
+            s += fc.item(); 
+            s += "<br>"; 
+            } 
+            return s; 
+            } 
+            
+            // note folder/file paths should use the local windows 
+            // style backslash and be escaped '\\' : 
+            var fileList = ShowFolderFileList('C:\\temp'); 
+            document.write(fileList); 
+            /* require node js ??
+			function listFile(){
+			  var fs = require('fs');
+              var files = fs.readdirSync('.');
+			  for (i=0;i<files.length;i++){
+			   document.write(files[i])
+			  }
+			}
+			listFile();
+			*/
+         </script> 
+      </div>
+   </body>
+</html>

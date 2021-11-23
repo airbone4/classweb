@@ -1,0 +1,95 @@
+---
+title: "內嵌測試"
+output: 
+#  SmdAid::smd_html: 
+  html_document: 
+    toc: yes
+    toc_float:
+      collapsed: false
+    number_sections: true
+    highlight: tango 
+    keep_md: true
+# knit: SmdAid::myknit
+description: 測試R CHUNK逃脫
+hidden: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(SmdAid)
+```
+ 
+## shortcode test
+
+ 
+     `r htmltools::HTML('{{< fileindex dir="/cwww"  >}}')`
+
+
+ 
+# embed test
+
+## 列出程式碼
+````md
+`r ''````{r,listSrc="./resources/Empty.html"}
+
+```
+````
+**結果**: 
+
+```{r,listSrc="./resources/Empty.html"}
+```
+
+測試中的程式碼
+ 
+
+```r
+paste("```html  ",paste(readLines('./resources/Empty.html'),collapse="\n"), "```", collapse="\\n")
+
+```
+
+
+## method 1
+
+````md
+`r ''````{r, echo=FALSE}
+htmltools::tags$iframe(title = "Empty document", src = "../resources/Empty.html",width="100%")
+
+```
+````
+結果:
+
+```{r, echo=FALSE}
+htmltools::tags$iframe(title = "Empty document", src = "./resources/Empty.html",width="100%")
+```
+
+## method 2
+
+````md
+`r ''````{r,echo=F}
+htmltools::includeHTML("./resources/Empty.html")
+```
+````
+
+結果:
+***
+```{r,echo=F}
+htmltools::includeHTML("./resources/Empty.html")
+```
+`r emo::ji("100") `結論:includeHTML,沒有把整份文件載入,而是只有BODY的部分。  
+ 
+***
+```{css}
+iframe {
+border: 2px red solid;
+}
+```
+
+# 練習
+::: quiz
+分別測試下面的 font-weight, color, font-style 
+`<p style="font-weight: bold;">有很多版本。目前是HTML5.</p>`  
+`<p style="color: red">有很多版本。目前是HTML5.</p>`  
+`<p style="font-style: italic;">有很多版本。目前是HTML5.</p>`  
+:::
+

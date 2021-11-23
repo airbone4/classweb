@@ -1,0 +1,8 @@
+document.open()
+document.write("<html>")
+document.write("<head>")
+document.write("</head>")
+document.write("<body>")
+document.write('<img src="0000.jpg" width="30%" height="30%">')
+document.write("</body>")
+document.write("</html>")

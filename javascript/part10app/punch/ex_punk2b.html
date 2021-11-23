@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<style>
+img{
+  width:50px;
+  height:50px;
+  background-color:black;
+}
+</style>
+<script>
+ 
+ var headImgs=[];
+ headImgs[0]="black.png";
+ headImgs[1]="smile.png";
+ var oldIdx,newIdx;
+ function changeImg(){
+   function imgIdx(){//產生隨機image tag 的號碼
+     return Math.trunc(Math.random()*document.images.length)
+   }
+   //2個中只要出現一個笑臉;沒有這行,會同時出現笑臉
+   if (oldIdx!=undefined)
+      document.images[oldIdx].src=headImgs[0];
+   newIdx=imgIdx();   
+  // console.log(newIdx)   ;
+   if(Math.random()>0.5)
+     document.images[newIdx].src=headImgs[0];
+   else
+     document.images[newIdx].src=headImgs[1];
+   oldIdx=newIdx;      
+ }
+
+ setInterval(changeImg,500)
+</script>
+</head>
+<body>
+<img id="img1"><img>
+</body>
+
+</html>

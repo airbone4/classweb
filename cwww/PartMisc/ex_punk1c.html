@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<style>
+img.hit{
+ background-color:red;
+ border:red 5px solid;
+}
+img{
+  width:50px;
+  height:50px;
+  background-color:black;
+}
+</style>
+<script>
+ 
+ var headImgs=[];
+ headImgs[0]="black.png";
+ headImgs[1]="smile.png";
+ function changeImg(){
+   if(Math.random()>0.5)
+     img1.src=headImgs[0];
+   else
+     img1.src=headImgs[1];
+   img1.className=""; 
+ }
+var id;
+var total;
+var hnum;
+ function hitCount(e){
+   total=total+1;
+   if (e.src.indexOf(headImgs[1])>=0){
+      hnum=hnum+1;//hnum++;
+	  e.className="hit"; //加邊框
+	  //e.classList.toggle("hit");
+   }else
+   e.className="";   //清除邊框
+ }
+ 
+function over(){
+  clearInterval(id)  
+  report.innerHTML="total hit" +total + "; hit on smile: "+hnum;
+  
+} 
+function game(){
+ total=0;
+hnum=0; 
+ id=setTimeout(over,4000)
+ id=setInterval(changeImg,400)
+ }
+ 
+</script>
+</head>
+設定時間內,打擊笑臉次數<br>
+
+<body>
+<img id="img1" onclick="hitCount(this)">
+<input type="button" onclick="game()" value="game">
+<textarea" id="report"></textarea">
+</body>
+
+</html>

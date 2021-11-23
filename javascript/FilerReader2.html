@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+<script>
+function loadTxt(e){
+var f=new FileReader();
+f.onload=function(){
+  box.innerText=f.result;
+}
+f.readAsText(e.files[0]);
+}
+</script>
+
+</head>
+<body>
+ 
+
+<input type="file" onchange="loadTxt(this)">
+<br>
+<textarea id="box"></textarea>
+
+</body>
+</html>

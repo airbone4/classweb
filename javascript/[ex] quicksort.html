@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function getRandomArray(num) {
+      var x = [];
+      for (var i = 0; i < num; i++) {
+        x.push(Math.floor(Math.random() * 100));
+      }
+      return x;
+    }
+
+    function qs(arr) {
+      if (arr.length < 2)
+        return arr;
+
+      var left = 0;
+      var right = arr.length - 1;
+      var tmp;
+      //tmp= Math.floor(Math.random()*arr.length);
+      //var pidx= Math.floor(arr.length/2);
+      var pidx = Math.floor(Math.random() * arr.length);
+      var pivot = arr[pidx];
+      while (true) {
+        while (arr[left] < pivot)
+          left++;
+        while (arr[right] > pivot)
+          right--;
+        if (left < right) {
+          tmp = arr[left];
+          arr[left] = arr[right];
+          arr[right] = tmp;
+          left = left + 1;
+          right = right - 1;
+        } else {
+          break;
+        }
+
+
+      }
+
+      var t1 = qs(arr.slice(0, left));
+      var t2 = qs(arr.slice(left));
+      return t1.concat(t2);
+      //return qs(arr.slice(0,left)).concat(qs(arr.slice(left)))
+
+    }
+    //選一個pivot,然後arr中，凡是元素 < pivot，都丟到left陣列，然後>=pivot的，都丟到right 陣列
+    //最後整合left +[pivot]+right;
+    //停止條件：只有一個元素的陣列
+    var quickSort = function(arr) {　　
+      if (arr.length < 2) {
+        return arr;
+      }　　
+      var pivotIndex = Math.floor(arr.length / 2);
+      var pivot = arr.splice(pivotIndex, 1)[0];
+      var left = [];
+      var right = [];
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] < pivot) {
+          left.push(arr[i]);
+        } else {
+          right.push(arr[i]);
+        }
+      }
+      return quickSort(left).concat([pivot], quickSort(right));
+    };
+
+    var list = [24, 53, 3, 5, 14, 23, 19, 43, 2];
+    console.log(quickSort(list));
+
+    function doit() {
+      console.log('無序數列');
+      console.log(x = getRandomArray(20));
+      console.log('排序數列');
+      console.time('qs');
+      console.log(qs(x));
+      console.timeEnd('qs');
+      console.log('比較數列');
+      console.time('quicksort');
+      console.log(quickSort(x));
+      console.timeEnd('quicksort');
+    }
+  </script>
+</head>
+
+<body>
+  <input type="button" value="test" onclick="doit()">
+</body>
+
+</html>

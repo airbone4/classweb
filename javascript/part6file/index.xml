@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 6 blob &amp; file on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/javascript/part6file.html</link>
+    <description>Recent content in Part 6 blob &amp; file on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/part6file/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>what is blob</title>
+      <link>https://airbone4.github.io/classweb/javascript/part6file/what_is_blob.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part6file/what_is_blob.html</guid>
+      <description>介紹甚麼是 JavaScript Blobs and File Interface
+ 主要參考 Advanced JavaScript APIs post series.  兩點記住甚麼是Blob 第一：可以用來儲存二進位資料，但是,這樣做甚麼?難道不能用檔案來儲存? 答案是,這是一個URL,也就是,可以再讓其他遠端拿取。這是和File不一樣的地方了。 第二:File繼承自Blob.
+graph TD;A(Blob)--B(File) 使用方式 blob的使用方式和File一樣。但是,到底是在記憶體中還是硬碟中,要看瀏覽器和大小而定。因此實際上,他並不是一個檔案。
+blob的內容可以讀取成 ArrayBuffer 因此用來放2進位資料很方便。
+建立Blob 第一個參數,必須是[]第二個參數則是MIME型態。
+var myBlob = new Blob([&amp;quot;This is my blob content&amp;quot;], {type : &amp;quot;text/plain&amp;quot;}); 因為Blob的兩個特徵,因此使用方法也是大概分兩類,當成檔案讀取,當成URL讀取:
+當成檔案讀取: //first arguement must be an regular array. The array can be of any javascript objects. Array can contain array to make it multi dimensional //second parameter must be a BlogPropertyBag object containing MIME propertyvar myBlob = new Blob([&amp;quot;This is my blob content&amp;quot;], {type : &amp;quot;text/plain&amp;quot;});var myReader = new FileReader();//handler executed once reading(blob content referenced to a variable) from blob is finished.</description>
+    </item>
+    
+    <item>
+      <title>blob</title>
+      <link>https://airbone4.github.io/classweb/javascript/part6file/blob_xhr_note.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part6file/blob_xhr_note.html</guid>
+      <description>先看blob介紹
+附件 demo 原始碼:html  js 展開 ​ HTMLJS&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt;Create an image/png blob, then fetch it with XHR&amp;lt;/h1&amp;gt;&amp;lt;pre id=&amp;#34;display&amp;#34;&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;script src=&amp;#34;blob_xhr_1.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;(function () {&amp;#39;use strict&amp;#39;;// From http://stackoverflow.com/questions/14967647/ (continues on next line)// encode-decode-image-with-base64-breaks-image (2013-04-21)function fixBinary(bin) {var length = bin.length;var buf = new ArrayBuffer(length);var arr = new Uint8Array(buf);for (var i = 0; i &amp;lt; length; i&amp;#43;&amp;#43;) {arr[i] = bin.</description>
+    </item>
+    
+    <item>
+      <title>Asynchronous JavaScript and XML(AJAX)</title>
+      <link>https://airbone4.github.io/classweb/javascript/part6file/ajax.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part6file/ajax.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

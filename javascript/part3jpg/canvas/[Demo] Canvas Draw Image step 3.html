@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ canvas{
+  border: solid red;
+
+ }
+ img{
+  border:solid green;
+ }
+</style>
+<script>
+
+function imgDetail(){
+  detail.innerHTML="寬度 " +img.naturalWidth + " 高度 " + img.naturalHeight;
+}
+function downloadURI(uri, name) {
+//demo:
+//downloadURI("data:text/html,HelloWorld!", "helloWorld.txt");
+
+  var link = document.createElement("a");
+  link.download = name;
+  link.href = uri;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  delete link;
+}
+
+function downIcon(){
+  var alist=document.getElementsByTagName('canvas');
+  var names=[  'drawable-ldpi-icon', 'drawable-mdpi-icon',  'drawable-hdpi-icon',  'drawable-xhdpi-icon', 'drawable-xxhdpi-icon.png',  'drawable-xxxhdpi-icon.png']
+
+  var durl;
+  
+  for (i=0;i<alist.length;i++){
+    durl=alist[i].toDataURL("image/png");
+	downloadURI(durl,names[i]);
+  }
+   
+   
+}
+ 
+ function draw2Canvas(aCanvas,width,height) { 
+   var context = aCanvas.getContext('2d');
+   aCanvas.width = width;  //注意：利用css 分別Width,Height為400px,300px 會無法正確縮放。
+   aCanvas.height = height; 
+   
+	context.drawImage(img,0,0,width,height);
+}
+function toIcon(){
+  var alist=document.getElementsByTagName('canvas');
+  var rects=[[36,36],[48,48],[72,72],[96,96],[144,144],[192,192]];
+  var ctx;
+  for (i=0;i<alist.length;i++){
+    
+	draw2Canvas(alist[i],rects[i][0],rects[i][1]);
+  }
+   
+   
+
+}
+ 
+</script>
+</head>
+<body>
+<input type="file" id="browse" > 
+<br>
+<img id="img" Width="200px" Height="100px" onload="imgDetail()">
+<div id="detail"></div>
+<hr>
+<br>
+<canvas></canvas>
+<canvas></canvas>
+<canvas></canvas>
+<canvas></canvas>
+<canvas></canvas>
+<canvas></canvas>
+ <br>
+ <input type="button" value="轉換" onclick="toIcon()">
+ <br>
+  <input type="button" value="下載" onclick="downIcon()">
+<br>
+ 
+
+
+ <script>
+ var reader = new FileReader();
+ reader.onload = function(e) {  
+  // e: progressEvent
+  // e.target: FileReader Object
+  // e.target.result就是圖片的base64位址資訊(result of readAsDataURL)
+  
+  img.src = e.target.result;
+  //draw2Canvas(); //放在這裡，由於非同步問題，有時候沒有圖形，另外放在按鈕(label:draw2Canvas)。
+};
+browse.addEventListener('change', function (event) {
+    reader.readAsDataURL(event.target.files[0]);
+});
+
+ </script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<html>
+<head>
+<style>
+input.button{
+ width:40px;
+ height:40px;
+ box-shadow: inset 0 0 12px black;
+}
+input.special{
+ width:40px;
+ height:40px;
+ background-color: #92dc31;
+color: #e80c0c; 
+    box-shadow: inset 0 0 12px black;
+}
+
+input.screen{
+    width: 175px;
+    height: 40px;
+    background-color: #9E9E9E;
+    font-size: 200%;
+    font-weight: bold;
+	text-align:right;
+}
+</style>
+<script>
+ 
+  function getResult(){
+   scr.value = eval(scr.value);
+ }
+ function cls() {
+   scr.value="";
+ }
+ 
+ function c1(){
+   scr.value= scr.value+ b1.value;
+ }
+ function c2(){
+   scr.value= scr.value+ b2.value;
+ }
+ function c3(){
+   scr.value= scr.value+ b3.value;
+ }
+ function c4(){
+   scr.value= scr.value+ b4.value;
+ }
+ function c5(){
+   scr.value= scr.value+ b5.value;
+ }
+ function c6(){
+   scr.value= scr.value+ b6.value;
+ }
+ function c8(){
+   scr.value= scr.value+ b8.value;
+ }
+ function c9(){
+   scr.value= scr.value+ b9.value;
+ }
+ function c10(){
+   scr.value= scr.value+ b10.value;
+ }
+ function c11(){
+   scr.value= scr.value+ b11.value;
+ }
+ function c12(){
+   scr.value= scr.value+ b12.value;
+ }
+ function c13(){
+   scr.value= scr.value+ b13.value;
+ }
+ function c14(){
+   scr.value= scr.value+ b14.value;
+ }
+ function c15(){
+   scr.value= scr.value+ b15.value;
+ }
+ function c16(){
+   scr.value= scr.value+ b16.value;
+ }
+ function c17(){
+   scr.value= scr.value+ b17.value;
+ }
+ function c18(){
+   scr.value= scr.value+ b18.value;
+ }
+ function c19(){
+   scr.value= scr.value+ b19.value;
+ }
+ function c20(){
+   scr.value= scr.value+ b20.value;
+ }
+ function c21(){
+   scr.value= scr.value+ b21.value;
+ }
+ 
+ 
+</script>
+</head>
+<body>
+ <input class="screen" type="textarea" id="scr">
+<!--  <br>
+ <input class="buttonLong" type="button"  value="log()" onclick="cc()"> -->
+ <br>
+ <input class="special" type="button"  value="(" id="b1" onclick="c1()">
+ <input class="special" type="button"  value=")" id="b2" onclick="c2()"> 
+ <input class="special" type="button"  value="%" id="b3" onclick="c3()"> 
+ <input class="special" type="button"  value="C" id="b4" onclick="cls()"> 
+ <br>
+ 
+ <input class="button" type="button"  value="7" id="b5" onclick="c5()"> 
+ <input class="button" type="button"  value="8" id="b6" onclick="c6()"> 
+ <input class="button" type="button"  value="9" id="b8" onclick="c8()"> 
+ <input class="special" type="button"  value="/" id="b9" onclick="c9()"> 
+ <br>
+  <input class="button" type="button"  value="4" id="b10" onclick="c10()"> 
+ <input class="button" type="button"  value="5" id="b11" onclick="c11()"> 
+ <input class="button" type="button"  value="6" id="b12" onclick="c12()"> 
+ <input class="special" type="button"  value="*" id="b13" onclick="c13()"> 
+ <br>
+ <input class="button" type="button" value="1" id="b14" onclick="c14()">
+ <input class="button" type="button"  value="2" id="b15" onclick="c15()"> 
+ <input class="button" type="button"  value="3" id="b16" onclick="c16()"> 
+ <input class="special" type="button"  value="-" id="b17" onclick="c17()"> 
+ <br>
+ <input class="button" type="button"  value="0" id="b18" onclick="c18()"> 
+  <input class="button" type="button"  value="." id="b19" onclick="c19()"> 
+   <input class="button" type="button"  value="=" id="b20" onclick="getResult()"> 
+ <input class="special" type="button"  value="+" id="b21" onclick="c21()">    
+ 
+ <!-- 游標的位置
+ 
+ 游標之前的字串：scr.value.substr(0,scr.selectionStart) 
+ 游標之前的字串：scr.value.substr(scr.selectionStart,scr.value.length) 
+ 例如
+ 12I345
+ 之前：12
+ 之後：345
+ -->
+ 
+</body>
+</html>
+
+ 

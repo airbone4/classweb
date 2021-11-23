@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+  .choose {
+    border: solid;
+    border-color: yellowgreen;
+    background-color: #adff2f54;
+  }
+</style>
+<script>
+function choose(){
+  ranges=document.querySelectorAll(cssTxt.value)
+  for(i=0;i<ranges.length;i++){
+    ele=ranges[i];
+	ele.classList.toggle("choose")
+	
+  }
+}
+function reset(){
+  ranges=document.querySelectorAll(".choose")
+  for(i=0;i<ranges.length;i++){
+    ele=ranges[i];
+	ele.classList.toggle("choose")
+	
+  }
+
+}
+</script>
+</head>
+<body>
+
+<input value="ul" id="cssTxt" placeholder="ul">
+<button onclick="choose()">action</button>
+<button onclick="reset()">清除</button>
+
+<div class="top">
+<ul class="top-menu" id="ul1">
+<li class="top-menu-item" id="li1">tag=li, id = ul1.il1,class=top-menu</li>
+<div class="special top">
+<li class="bottom-menu-item" id="li2">tag=li, id = ul1.il2,class=bottom-menu-item</li>
+</div>
+</ul>
+
+<ul class="top-menu" id="ul2">
+<li class="top-menu-item" id="li1">tag=li, id = ul2.il1,class=top-menu</li>
+<div class="special top">
+<li class="bottom-menu-item" id="li2">tag=li, id = ul2.il2,class=bottom-menu-item</li>
+</div>
+</ul>
+
+</div>
+
+<content>
+<form action="mailto:me@nkust.edu.tw"
+method="POST"
+enctype="multipart/form-data"
+name="EmailTestForm">
+
+Name:<br/> 
+<input type="text" size="24″ name="VisitorName" placeholder="貴號">
+<br/><br/>
+Message:<br/> 
+<textarea name="VisitorComment" rows="4″ cols="20″ placeholder="不要寄出去">
+</textarea>
+<br/><br/> 
+<input type="submit" value="Submit"> 
+</form>
+</content>
+
+<hr>
+信件內容為：<br/>
+<pre class="demo">
+xxx
+下午1:18 (0 分鐘前)
+寄給 我
+
+VisitorComment=teddd
+</pre>
+
+
+
+</body></html>

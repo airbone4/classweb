@@ -1,0 +1,152 @@
+
+
+<html>
+<head>
+<script>
+var db;
+var monkeyKey=[];
+
+
+function Monkey () {
+    this.name="";
+    this.sex="";
+	this.img="";
+	this.weight=0;
+
+}
+var index=0;
+var monkeys=[];
+monkeys[0]= new Monkey();
+monkeys[0].name="小花"
+monkeys[0].sex="f"
+monkeys[0].weight=130;
+monkeys[1]=new Monkey();
+monkeys[1].name="小白"
+monkeys[1].sex="m"
+monkeys[1].weight=40;
+
+monkeys[2]=new Monkey();
+monkeys[2].name="小黑"
+monkeys[2].sex="m"
+monkeys[2].weight=190;
+ 
+ 
+function showMonkey(){
+ var monkeyCount;  
+ 
+  
+var transaction = db.transaction("Monkey", IDBTransaction.READ_WRITE);
+var objectStore = transaction.objectStore("Monkey");
+index=(index+1)%monkeyKey.length;
+
+var getRequest = objectStore.get(monkeyKey[index]);
+getRequest.onsuccess = function(evt) {  
+// 如果資料已經被刪除，仍然傳回成功，但是record 是null
+ var record= getRequest.result ;
+ mName.value=record.name;
+ mSex.value=record.sex;
+ mWeight.value=record.weight;
+ 
+ mNo.innerHTML= record.id;
+  
+};  
+}
+
+ 
+  
+ 
+function showFirst(){
+   
+ 
+}
+function initDb() {
+        var openRequest = indexedDB.open("Monkeys", 1);
+        openRequest.onsuccess = function(evt) {
+          db = openRequest.result;
+		   refreshmonkeyKey(); //必須放在這裡，不能放在initMonkey() 因為非同步，可能還沒有指派db
+        };
+        openRequest.onerror = function(evt) {
+          console.log("IndexedDB error: " + evt.target.errorCode);
+        };
+        openRequest.onupgradeneeded = function(evt) {
+		  //資料第一次建立，或是版本更新的回調函數。
+		  //evt.currentTarget.result=evt.target.result = db
+          var objectStore = evt.currentTarget.result.createObjectStore("Monkey", {
+            keyPath: "id",  //第一次建立時，就指定主關鍵欄位
+            autoIncrement: true
+          });
+		  //建立1個索引檔
+          objectStore.createIndex("name", "name", {
+            unique: false
+          });
+		  //資料插入
+          for (var i in monkeys) {
+            objectStore.add(monkeys[i]);
+          }
+        };
+}
+
+ 
+function initMonkey(){
+  initDb();
+ 
+}
+
+function newMonkey(){
+var transaction = db.transaction("Monkey", "readwrite");
+var objectStore = transaction.objectStore("Monkey");       
+
+var request = objectStore.add({ name: mName.value, sex: mSex.value, weight:mWeight.value });
+request.onsuccess = function (evt) {
+    // 資料儲存成功！                          
+};
+refreshmonkeyKey();
+
+} 
+//這裡的bug是，刪除以後，當按下一筆，因為資料庫還沒更新完畢，所已有時候會出錯。
+function delMonkey(){
+
+var transaction = db.transaction("Monkey", "readwrite");
+var objectStore = transaction.objectStore("Monkey");
+var deleteRequest = objectStore.delete(parseInt(mNo.innerHTML));//不是文字?因為設定autoIncrement
+deleteRequest.onsuccess = function(evt) {  
+  // ID =2 的資料已經被刪除
+  console.log('monkey deleted')
+};
+ refreshmonkeyKey();
+}  
+function refreshmonkeyKey(){
+
+var transaction = db.transaction("Monkey", "readwrite");
+var objectStore = transaction.objectStore("Monkey");
+var request = objectStore.getAllKeys();
+ request.onsuccess = function(evt){
+   monkeyKey=evt.target.result;
+ }
+}
+
+</script>
+</head>
+<body onload="initMonkey()">
+問題：我們有一堆猴子，想要利用網際網路管理我們的猴子。要怎樣設計需要的物件。
+<hr>
+<br>
+<p id="mNo"></p>
+ 
+<input type="textarea" id="mName">
+<br>
+<input type="textarea" id="mSex">
+<br>
+<input type="textarea" id="mWeight">
+<br>
+
+<hr>
+
+<input type="button" value="下一筆" onclick="showMonkey()"> 
+<input type="button" value="新增" onclick="newMonkey()"> 
+<input type="button" value="刪除" onclick="delMonkey()"> 
+<input type="button" value="text" onclick="getkey1()">
+ 
+</body>
+</html>
+

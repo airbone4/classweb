@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>測試區 on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80.html</link>
+    <description>Recent content in 測試區 on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testinner</title>
+      <link>https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80/testinner.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/web/%E6%B8%AC%E8%A9%A6%E5%8D%80/testinner.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

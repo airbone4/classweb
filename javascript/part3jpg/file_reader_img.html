@@ -1,0 +1,20 @@
+<head>
+<script>
+function loadImg(e){
+var f=new FileReader();
+f.onload=function(){
+  img.src=f.result;
+}
+f.readAsDataURL(e.files[0]);
+}
+</script>
+
+</head>
+<body>
+<input type="file" onchange="loadImg(this)">
+<img id="img">
+</body>language
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part Gif 動畫 on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/javascript/part9lib/gif.html</link>
+    <description>Recent content in Part Gif 動畫 on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/part9lib/gif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Note</title>
+      <link>https://airbone4.github.io/classweb/javascript/part9lib/gif/gif_note.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part9lib/gif/gif_note.html</guid>
+      <description>大綱 參考  w3 rain canvas 中 blog ImgData  註解 分解說明 函數 canvas 函數說明
+createLinearGradient(x0,y0,x1,y1)
+指定畫布上的開始位置,
+Parameter	Description
+ x0	The x-coordinate of the start point of the gradient y0	The y-coordinate of the start point of the gradient x1	The x-coordinate of the end point of the gradient y1	The y-coordinate of the end point of the gradient  fillRect(x,y,width,height)
+   參數 說明     x 左上   y 右下   width 寬, in pixels   height 高, in pixels    drawImage()</description>
+    </item>
+    
+  </channel>
+</rss>

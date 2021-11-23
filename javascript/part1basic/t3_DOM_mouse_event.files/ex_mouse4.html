@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <script>
+ document.addEventListener("click", function (event){
+   var x=event.clientX;
+   var y=event.clientY;
+   if(mark!=null){
+     mark.style.left=x.toString()+"px";
+	 mark.style.top=y.toString()+"px";
+   }
+    //   position.innerHTML="(X= "+x +")(Y= "+y+")";
+ });
+ </script>
+ <style>
+img {
+  opacity: 0.5;
+  width:36px;
+  height:36px;
+}  
+ #mark{
+   position:fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;   
+ }
+ </style>
+</head>
+<body >
+<div id="mark"><image src="hollow.jpg"></image></div>  
+<p>
+Phasellus volutpat sollicitudin felis, vel dignissim libero elementum et. Nunc a semper felis. Nunc pellentesque tortor quis arcu tempor, quis sagittis purus ornare. Nulla consectetur mi libero, eget euismod nisi consectetur ut. Nulla tincidunt faucibus erat, sit amet tempor risus bibendum sed. Quisque et dolor scelerisque, varius felis sed, porttitor sapien. Fusce egestas commodo tellus vel ullamcorper. Vestibulum tincidunt sagittis mauris, ac faucibus justo ultricies non. Duis eu convallis neque, a facilisis nisl. Nulla nisi urna, mollis id posuere vitae, dignissim quis dui. Curabitur sodales nulla non odio cursus, id ultrices risus scelerisque. Pellentesque interdum non nunc in consequat. Vivamus molestie eget odio eget consectetur.
+</p>
+
+<p>
+Curabitur pharetra magna vitae lectus maximus, quis blandit sapien aliquet. In hac habitasse platea dictumst. Aenean ultrices nunc non sapien tristique, ut fringilla nisl bibendum. Fusce dapibus leo non nisl egestas, ut dapibus metus euismod. Suspendisse iaculis nunc ut lectus feugiat vulputate. Integer in elementum urna. Donec nec justo sit amet lorem rhoncus dignissim sed sit amet sapien. Nam quis porta augue. Nunc turpis magna, fermentum ut ipsum vitae, venenatis laoreet sem. Vivamus tincidunt sed enim sit amet malesuada. Ut ullamcorper ullamcorper accumsan. Nulla porta sed augue molestie lacinia. Cras dapibus maximus blandit.
+</p>
+<p>
+Donec feugiat vel elit et laoreet. Ut malesuada lectus a faucibus blandit. Mauris fringilla suscipit augue sit amet feugiat. Phasellus commodo, urna id tristique rutrum, velit tortor facilisis augue, id convallis odio est non dolor. Curabitur risus neque, posuere non gravida et, porttitor et massa. Praesent luctus dolor vel massa maximus euismod. 
+</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam risus libero, tincidunt vel consectetur id, elementum eget risus. Nulla at convallis dolor. Nulla commodo tortor ac eleifend laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas bibendum ipsum eget nibh pharetra vehicula. Proin maximus magna dui, et congue nisl vestibulum eget.
+</p>
+
+<p>
+Integer eget porta metus. Vivamus ornare, felis maximus euismod suscipit, lorem urna laoreet libero, viverra ultricies urna velit quis augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus urna tortor, tincidunt quis mollis a, semper in dui. Proin et maximus erat. Vestibulum aliquet dictum mauris ac feugiat. Fusce cursus tellus tristique sagittis ornare. Phasellus ipsum neque, iaculis in efficitur eu, viverra sit amet nunc.
+</p>
+
+</body>
+</html>

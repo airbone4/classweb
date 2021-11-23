@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+
+function parseCSV(t) {
+    var foo = t.split('\n');
+    var j,k;
+    var ret = [];
+    var pat = /(([^'",]*)|('[^']*')|("[^"]*")),/g;
+    var patnum = /^\s*(([+-]?[0-9]+(\.[0-9]*)?(e[+-]?[0-9]+)?)|([+-]?[0-9]*(\.[0-9]+)?(e[+-]?[0-9]+)?))\s*$/;
+    var stripper = function(n) { return n.substr(0,n.length-1); }
+    var count = 0;
+    for(k=0;k<foo.length;k++) {
+      var bar = (foo[k]+",").match(pat),baz;
+      if(bar.length>0) {
+          ret[count] = [];
+          for(j=0;j<bar.length;j++) {
+              baz = stripper(bar[j]);
+              if(patnum.test(baz)) { ret[count][j] = parseFloat(baz); }
+              else ret[count][j] = baz;
+          }
+          count++;
+      }
+    }
+    return ret;
+}
+  
+function fileBrowse(readyFunc) {
+ var _browser;
+ var _wait=true;
+ 
+ var init= function () {
+   _browser=document.createElement('input');
+   _browser.style.display='none';
+   _browser.type='file';
+   _browser.name='__browser';
+   _browser.onchange=function(){_wait=false;};
+   document.body.appendChild(_browser);
+  }
+     var wait = function(condFunc, readyFunc, ckInterval) {
+            var ckFunc = function() {
+                if(condFunc()) {
+                    readyFunc.call(_browser.files[0]); 
+					document.body.removeChild(_browser);
+                }
+                else       {
+                    setTimeout(ckFunc, ckInterval);
+                }
+            };
+            ckFunc();
+        };  
+  var condFunc=function (){return !_wait};		
+  
+  
+  init();  
+  wait(condFunc,readyFunc,100)
+  _wait=true;
+  _browser.click();
+ 
+
+   
+  
+}
+var aFile;
+function doIt()
+{
+ fileBrowse(function(){aFile=this});
+}
+  var mtx;
+function readMtx()
+{
+
+  var f= new FileReader();
+  f.onload=function(){
+    txt=f.result;
+    mtx=parseCSV(txt);
+  }
+  f.readAsText(aFile);
+  
+}
+</script>
+</head>
+<body onload="">
+
+<a href="#" onclick="doIt()">test</a>
+<input type="button" value="readMtx" onclick="readMtx()">
+
+</body >
+</html>

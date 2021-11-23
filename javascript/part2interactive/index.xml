@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 2 Interactive on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/javascript/part2interactive.html</link>
+    <description>Recent content in Part 2 Interactive on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/part2interactive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>formElement</title>
+      <link>https://airbone4.github.io/classweb/javascript/part2interactive/formelement.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/formelement.html</guid>
+      <description>.hframe  .infobar{position: absolute;top: .3em;right: .2em;transition: opacity 0.3s ease-in-out;opacity: 0; }.hframe  .infobar button,.hframe  .infobar a{color: #bbb;font-size: .8em;padding: 0 .5em;background: rgba(224, 224, 224, 0.2);box-shadow: 0 2px 0 0 rgb(0 0 0 / 20%);border-radius: .5em;}.hframe{padding-top: 1.5rem;position: relative;box-shadow: 6px 4px 6px #9baccb;border: 2px solid #9baccb; }.hframe:hover  .infobar{opacity: 1;}.</description>
+    </item>
+    
+    <item>
+      <title>key event</title>
+      <link>https://airbone4.github.io/classweb/javascript/part2interactive/event_note.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/event_note.html</guid>
+      <description>KeyEvent_1.html @import &amp;quot;Event_Key_1.html&amp;quot; {code_block=true,class=&amp;quot;line-numbers&amp;quot;} 從圖中可以看出如下結論：
+  keydown事件發生時，輸入值並沒有發生變化，所以keydown可用於阻止某些輸入字符的顯示。
+  input事件發生時，無法獲取到keyCode值，並且緊隨在keydown事件之後。
+  keyup事件最後發生，一次鍵盤敲入事件徹底完成。
+  change事件只會發生在輸入完成後，也就是輸入框失去焦點之前。
+  輸入完成後觀察 當用戶完成所有的輸入時，這時候必定會發生blur事件，只有這時才會觸發change，所以可用blur與change監聽用戶輸入是否完成，輸入框的驗證多半發生在此時。
+  輸入事件流 輸入框發生的事件流程依次為focus、keydown、input、keyup、change與blur，見下圖所示。
+  </description>
+    </item>
+    
+    <item>
+      <title>key event example</title>
+      <link>https://airbone4.github.io/classweb/javascript/part2interactive/events_note.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/part2interactive/events_note.html</guid>
+      <description>modern
+&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;function dome(e){console.log(e.target.tagName)}&amp;lt;button onclick=&amp;quot;dome(this);&amp;quot;&amp;gt;click&amp;lt;/button&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; &amp;lt;button id=&amp;quot;elem&amp;quot; onclick=&amp;quot;alert(&#39;Click!&#39;);&amp;quot;&amp;gt;Autoclick&amp;lt;/button&amp;gt;&amp;lt;script&amp;gt;let event = new Event(&amp;quot;click&amp;quot;);elem.dispatchEvent(event);&amp;lt;/script&amp;gt; &amp;lt;!DOCTYPE HTML&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;button id=&amp;quot;elem&amp;quot; onclick=&amp;quot;alert(&#39;Click!&#39;);&amp;quot;&amp;gt;Autoclick&amp;lt;/button&amp;gt;&amp;lt;script&amp;gt;function xx(){let event = new Event(&amp;quot;click&amp;quot;);elem.dispatchEvent(event);}setTimeout(xx,1000)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; where you click?
+&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script&amp;gt;document.onclick=function(e){console.log(e.clientX)}&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 職場考場問題 on Learn Javascript</title>
+    <link>https://airbone4.github.io/classweb/javascript/partask.html</link>
+    <description>Recent content in Part 職場考場問題 on Learn Javascript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://airbone4.github.io/classweb/javascript/partask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>題型參考</title>
+      <link>https://airbone4.github.io/classweb/javascript/partask/p1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airbone4.github.io/classweb/javascript/partask/p1.html</guid>
+      <description>題型參考 🔢
+var x=9/100*9console.log(x) ❓ 結果是甚麼?為甚麼?怎樣修正? 💯 利用: precision (9/100*9).toPrecision(15) excel 的設定是15 🔢
+function x1(){this.d=true;}function x2(){d: true;}x3={d:true}var o1=new x1; ❓ 問： typeof x1 typeof x2 typeof x3 typeof o1
+分別給出什麼答案？
+🉑提示 typeof x1 ==&amp;gt; &amp;quot;function&amp;quot; typeof x2 ==&amp;gt; &amp;quot;function&amp;quot; typeof x3 = &amp;quot;object&amp;quot; typeof o1 ==&amp;gt; &amp;quot;object&amp;quot;
+❓ 問：x2的 的錯誤在哪裡,如何更正使用方式有什麼問題？ 🔑 關鍵字： object 👍 👍 這個問題的精神是 在Javascript中,物件是怎麼定義。
+ 🔢
+What will the following code output and why?</description>
+    </item>
+    
+  </channel>
+</rss>

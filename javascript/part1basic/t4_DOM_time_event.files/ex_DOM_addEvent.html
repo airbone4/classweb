@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<body >
+ <p id="element">xx</p>
+ <p onclick="f1(this)">yy</p>
+ <script>
+ function f1(e){
+   console.log(e.target);
+   console.log(event.name);
+ }
+var element = document.getElementById('element');
+
+var user = {
+ firstname: 'Wilson',
+ greeting: function(){
+   alert('My name is ' + this.firstname);
+ }
+};
+
+element.addEventListener('click', user.greeting);
+
+ </script>
+</body>
+</html>
