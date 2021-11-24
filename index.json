@@ -162,7 +162,7 @@
 {"uri": "https://airbone4.github.io/classweb/git/tutorial.html","title": "tutorial",
 	"tags": [],
 	"description": "tutorial",
-	"content": "desktop more\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\rdiv.galleryimgs+a{\rdisplay:block;\r}\r\r\r$(document).ready(function(){\r$('.gallery-9756778cd937847a59c16dbbc0ec46fb').featherlightGallery({\rgallery: {\rnext: ''\r}\r});\r});\r "},
+	"content": "desktop\n "},
 {"uri": "https://airbone4.github.io/classweb/tools/hugo/tutorial.html","title": "Tutorial",
 	"tags": [],
 	"description": "Tutorial",
