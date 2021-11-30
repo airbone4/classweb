@@ -8,19 +8,19 @@
       
     <link rel="stylesheet" href="/classweb/css/atom-one-dark-reasonable.css">
     
-    <link href="/classweb/css/syntax.css?1637729803" rel="stylesheet">
-    <script src="/classweb/js/jquery-3.3.1.min.js?1637729803"></script>
+    <link href="/classweb/css/syntax.css?1638244794" rel="stylesheet">
+    <script src="/classweb/js/jquery-3.3.1.min.js?1638244794"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     
     <script src='/classweb/js/datatables.min.js'></script>    
     <link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet">    
     
-    <link href="/classweb/css/fontawesome-all.min.css?1637729803" rel="stylesheet">
+    <link href="/classweb/css/fontawesome-all.min.css?1638244794" rel="stylesheet">
     
-    <link href="/classweb/css/theme-mine.css?1637729803" rel="stylesheet">
+    <link href="/classweb/css/theme-mine.css?1638244794" rel="stylesheet">
     
-    <link href="/classweb/css/theme.css?1637729803" rel="stylesheet">
+    <link href="/classweb/css/theme.css?1638244794" rel="stylesheet">
     
     
     <link rel="stylesheet" href="https://airbone4.github.io/classweb/scss/notice.7158afc7a24ea3d0073077b3699dbfad7f3df2be8d4e19956e934587413013ee.css" integrity="sha256-cVivx6JOo9AHMHezaZ2/rX898r6NThmVbpNFh0EwE&#43;4=">
@@ -39,6 +39,7 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#準備">準備</a></li>
+    <li><a href="#複雜的theme">複雜的theme</a></li>
     <li><a href="#建立自己的主題">建立自己的主題</a></li>
   </ul>
 </nav>
@@ -48,7 +49,7 @@
 </div>
 </span>
 <span class="fs-5 accessory" data-bs-toggle="tooltip" data-bs-placement="bottom" 
-      title='最後修改November 23, 2021'>Tutorial</span>
+      title='最後修改November 30, 2021'>Tutorial</span>
         
     
 
@@ -976,9 +977,6 @@
    
     
         <li class="nav-item active"><a class="nav-link" href="/classweb/tools/hugo/tutorial.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">Tutorial</a></li>
-     
-   
-        <li class="nav-item"><a class="nav-link" href="/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">短碼local_file_list.html</a></li>
     </ul>
 </li>
      
@@ -1088,7 +1086,7 @@
     
     <hr/>
     <section id="footer">
-      最近3篇<br/><ul><li><a href="https://airbone4.github.io/classweb/git/tutorial.html"> <i class="far fa-clock" ></i>tutorial[2021-11-24 AM 11:02]</a></li><li><a href="https://airbone4.github.io/classweb/tools/hugo/tutorial.html"> <i class="far fa-clock" ></i>Tutorial[2021-11-23 PM 01:17]</a></li><li><a href="https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html"> <i class="far fa-clock" ></i>4. flex[2021-11-16 PM 01:16]</a></li></ul>
+      最近3篇<br/><ul><li><a href="https://airbone4.github.io/classweb/tools/hugo/tutorial.html"> <i class="far fa-clock" ></i>Tutorial[2021-11-30 AM 11:57]</a></li><li><a href="https://airbone4.github.io/classweb/git/tutorial.html"> <i class="far fa-clock" ></i>tutorial[2021-11-24 AM 11:02]</a></li><li><a href="https://airbone4.github.io/classweb/html_css/css/layout/4_flex.html"> <i class="far fa-clock" ></i>4. flex[2021-11-16 PM 01:16]</a></li></ul>
     </section>
   
 </nav><article class="article mx-2 mt-3" id="body-inner">
@@ -1097,8 +1095,36 @@
 </ul>
 <h2 id="準備">準備</h2>
 <ol>
-<li>看看有沒有裝hugo</li>
-<li>設定執行環境
+<li>看看有沒有裝hugo <a href="https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_extended_0.89.4_Windows-64bit.zip">下載</a>,安裝則看下圖
+<div class="row">
+    </div><div class="row">
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%871.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%871.PNG"/>more</a></div>
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" style="display:none" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%872.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%872.PNG"/></a></div>
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" style="display:none" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%873.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%873.PNG"/></a></div>
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" style="display:none" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%874.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%874.PNG"/></a></div>
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" style="display:none" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%875.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%875.PNG"/></a></div>
+    <div class="col-5 galleryimgs" ><a class="gallery-19894caf9bc8e9ce3e433aabb68a754b p0" style="display:none" href="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%876.PNG"><img class="galleryimg" src="Tutorial.files/images/hugo%20part1/%e6%8a%95%e5%bd%b1%e7%89%876.PNG"/></a></div>
+</div>
+<style>
+    div.galleryimgs+a{
+        display:block;
+    }
+</style>
+
+<script>
+    $(document).ready(function(){
+        $('.gallery-19894caf9bc8e9ce3e433aabb68a754b').featherlightGallery({
+					gallery: {
+						next: '<<',
+						previous: '>>'
+					}
+					
+				});
+    });
+</script>        
+
+ </li>
+<li>設定執行環境(在電腦教室直接解壓縮,我們只需要hugo.exe放在子目錄)
 <div class="row">
     <div class="col-5 galleryimgs" ><a class="gallery-58e703bd34da085016d67294f16302ef p0" href="images/pathsetup/%e6%8a%95%e5%bd%b1%e7%89%8701.PNG"><img class="galleryimg" src="images/pathsetup/%e6%8a%95%e5%bd%b1%e7%89%8701.PNG"/>more</a></div>
     <div class="col-5 galleryimgs" ><a class="gallery-58e703bd34da085016d67294f16302ef p0" style="display:none" href="images/pathsetup/%e6%8a%95%e5%bd%b1%e7%89%8702.PNG"><img class="galleryimg" src="images/pathsetup/%e6%8a%95%e5%bd%b1%e7%89%8702.PNG"/></a></div>
@@ -1126,16 +1152,119 @@
  </li>
 <li><a href="https://gohugo.io/getting-started/quick-start/">參考</a>步驟節錄</li>
 </ol>
-<pre><code>hugo new site hugo-website
-cd hugo-website
+<pre><code class="language-cmd">hugo new site myweb #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="建立預設的HUGO骨架網站">🏷️</span><!--/html_preserve-->
+cd myweb 
+#git submodule add  https://github.com/gcushen/hugo-academic.git themes/academic
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="簡單">🏷️</span><!--/html_preserve-->
 
-
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-
-echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+echo 'theme = ananke' &gt;&gt; config.toml
 
 hugo new posts/my-first-post.md
 </code></pre>
+<h2 id="複雜的theme">複雜的theme</h2>
+<ol>
+<li>建立空的git repo(這裡https://github.com/airbone5/myweb.git)</li>
+<li>建立根目錄和複製現有的theme
+<pre><code>cd mytest
+hugo new site myweb
+cd myweb
+cd themes
+git clone https://github.com/matcornic/hugo-theme-learn.git
+
+</code></pre>
+<!--html_preserve--><div class="message">
+<button class='expand btn-primary p-1 collapsed' data-bs-toggle="collapse" data-bs-target="#n917634258"></button>目前的目錄結構<div  id="n917634258" class="collapse" style="overflow-x:visible"><!--/html_preserve--><pre><code>```
+C:.
+└─myweb
+    ├─archetypes
+    ├─content
+    ├─data
+    ├─layouts
+    ├─static
+    └─themes
+        └─hugo-theme-learn
+            ├─archetypes
+            ├─exampleSite
+            │  ├─content
+            │  │  ├─basics
+            │  │  │  ├─configuration
+            │  │  │  │  └─images
+            │  │  │  ├─installation
+            │  │  │  │  └─images
+            │  │  │  ├─requirements
+            │  │  │  │  └─images
+            │  │  │  └─style-customization
+            │  │  │      └─images
+            │  │  ├─cont
+            │  │  │  ├─i18n
+            │  │  │  │  └─images
+            │  │  │  └─pages
+            │  │  │      └─images
+            │  │  └─shortcodes
+            │  │      ├─attachments.en.files
+            │  │      ├─attachments.fr.files
+            │  │      └─children
+            │  │          ├─children-1
+            │  │          │  └─children-1-1
+            │  │          │      └─children-1-1-1
+            │  │          │          └─children-1-1-1-1
+            │  │          │              └─children-1-1-1-1-1
+            │  │          ├─children-2
+            │  │          ├─children-3
+            │  │          └─children-4
+            │  ├─layouts
+            │  │  ├─partials
+            │  │  └─shortcodes
+            │  └─static
+            │      ├─css
+            │      ├─fonts
+            │      └─images
+            │          └─showcase
+            ├─i18n
+            ├─images
+            ├─layouts
+            │  ├─partials
+            │  ├─shortcodes
+            │  └─_default
+            └─static
+                ├─css
+                ├─fonts
+                ├─images
+                ├─js
+                ├─mermaid
+                └─webfonts
+```
+</code></pre>
+<!--html_preserve--></div></div><!--/html_preserve-->
+</li>
+<li>設定config.toml
+<pre><code>baseURL = 'https://airbone5.github.io/myweb/' # <!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="參考後面的步驟">🏷️</span><!--/html_preserve-->
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = &quot;hugo-theme-learn&quot; #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="可以是其他的theme">🏷️</span><!--/html_preserve-->
+publishDir = &quot;docs&quot; #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="內定是public,但是我們要發到github,github 的內定是docs">🏷️</span><!--/html_preserve-->
+
+</code></pre>
+</li>
+<li>測試
+<pre><code>..\hugo server #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="注意反斜線">🏷️</span><!--/html_preserve-->
+</code></pre>
+</li>
+<li>推到自己的git repo
+<pre><code>git init .
+git add . #<!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="這裡會有問題,要刪除子目錄裡面的.git">❌😒</span><!--/html_preserve-->
+git add . # <!--html_preserve--><span  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" title="重作">🏷️</span><!--/html_preserve-->
+git push
+</code></pre>
+</li>
+<li>但是這時候,還沒有網頁,只有原始檔案,因此到github setting裡面 設定網頁指向。(見課堂)</li>
+<li>產生網頁
+<pre><code>..\hugo
+</code></pre>
+</li>
+<li>推到git repo</li>
+<li>done.</li>
+</ol>
 <h2 id="建立自己的主題">建立自己的主題</h2>
 <p>關鍵字: build hugo theme
 <img src="Tutorial.files/images/pathsetup/%E6%8A%95%E5%BD%B1%E7%89%8703.png" alt="">
@@ -1167,21 +1296,12 @@ hugo new posts/my-first-post.md
     </div>
 </div>
 
-<link href="/classweb/css/quicknote.css?1637729803" rel="stylesheet">
-<script src="/classweb/js/quicknote.js?1637729803"></script>
+<link href="/classweb/css/quicknote.css?1638244794" rel="stylesheet">
+<script src="/classweb/js/quicknote.js?1638244794"></script>
 <div id="page-guide" class="bg-dark">  
   
-    
-                   
-          
-            <a href="/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html" 
-               class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="left" 
-               title=短碼local_file_list.html>後</a>            
-          
-          
-
   
-<script src="/classweb/js/packhtml.js?1637729803"></script>    
+<script src="/classweb/js/packhtml.js?1638244794"></script>    
 <button class="btn btn-primary " onclick="packthis(this)"
 data-bs-toggle="tooltip" data-bs-placement="left" title="打包成單一檔案">包</button>
 <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="div#qnote-list">
@@ -1191,24 +1311,24 @@ data-bs-toggle="tooltip" data-bs-placement="left" title="打包成單一檔案">
   </div>
 
 
-  <script src="/classweb/js/featherlight.min.js?1637729803"></script>
-  <script src="/classweb/js/featherlight.gallery.min.js?1637729803"></script>
-  <link href="/classweb/css/featherlight.min.css?1637729803" rel="stylesheet">
-  <link href="/classweb/css/featherlight.gallery.min.css?1637729803" rel="stylesheet">
+  <script src="/classweb/js/featherlight.min.js?1638244794"></script>
+  <script src="/classweb/js/featherlight.gallery.min.js?1638244794"></script>
+  <link href="/classweb/css/featherlight.min.css?1638244794" rel="stylesheet">
+  <link href="/classweb/css/featherlight.gallery.min.css?1638244794" rel="stylesheet">
   
   <script src="/classweb/js/highlight.min.js"></script>
   
-  <script src="/classweb/js/hugohelper.js?1637729803"></script>
+  <script src="/classweb/js/hugohelper.js?1638244794"></script>
   
-  <link href="/classweb/css/mystyle.css?1637729803" rel="stylesheet">    
-  <script src='/classweb/js/variant.js?1637729803'></script>
+  <link href="/classweb/css/mystyle.css?1638244794" rel="stylesheet">    
+  <script src='/classweb/js/variant.js?1638244794'></script>
 
 <script>
   
    let idxfile = "\/classweb\/index.json"  
   
 </script>
-<script src='/classweb/js/localsearch.js?1637729803'></script>
+<script src='/classweb/js/localsearch.js?1638244794'></script>
   
       
           <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>

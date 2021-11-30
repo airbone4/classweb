@@ -15,16 +15,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>短碼local_file_list.html</title>
-      <link>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/tools/hugo/%E7%9F%AD%E7%A2%BCfile_list.html</guid>
-      <description>背景 問題 ⁉到底怎樣讀取static 目錄中的檔案
- 方法1 在HTML &amp;lt;head&amp;gt; 中,設定&amp;lt;base&amp;gt;,例如 &amp;lt;base href=&amp;quot;{{ .Site.BaseURL }}&amp;quot;&amp;gt; 然後,就可以使用md ) 方法2: 以下章節討論的方法    .Page.File.Dir =&amp;gt; theme path  local_file_list.html 檔案variant-learn/layouts/shortcodes/local_file_list.html:內容
-{{ $themePath := default .Page.File.Dir (.Get &amp;amp;#34;path&amp;amp;#34;) }} {{ $isdeep := default true (.Get &amp;amp;#34;isdeep&amp;amp;#34; )}} {{ $root := default &amp;amp;#34;content&amp;amp;#34; (.Get &amp;amp;#34;root&amp;amp;#34;) }} {{ $issearch := default false (.Get &amp;amp;#34;issearch&amp;amp;#34;) }} {{ define &amp;amp;#34;read-local-dir&amp;amp;#34; }} {{ $root := .root }} {{ $themePath := .</description>
-    </item>
-    
   </channel>
 </rss>
