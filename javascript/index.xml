@@ -35,14 +35,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>顯示程式碼</title>
-      <link>https://airbone4.github.io/classweb/javascript/dom%E7%89%A9%E4%BB%B6%E5%88%B0canvas.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://airbone4.github.io/classweb/javascript/dom%E7%89%A9%E4%BB%B6%E5%88%B0canvas.html</guid>
-      <description>function packHtml(ahtml){var doc = document.implementation.createHTMLDocument(&#39;&#39;);doc.write(ahtml);// You must manually set the xmlns if you intend to immediately serialize // the HTML document to a string as opposed to appending it to a //  in the DOMdoc.documentElement.setAttribute(&#39;xmlns&#39;, doc.documentElement.namespaceURI);// Get well-formed markupahtml = (new XMLSerializer()).serializeToString(doc);return ahtml;}function doClassStuff(){document.addEventListener(&#39;click&#39;, function(e) {e = e || window.event;var target = e.target || e.</description>
-    </item>
-    
   </channel>
 </rss>
